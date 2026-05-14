@@ -1,0 +1,2661 @@
+[
+    {
+        "name": "Lance",
+        "id": 1010001,
+        "baseData": {
+            "rarity": 5,
+            "type": "Rifted Technology",
+            "faction": "Strength",
+            "relicType": "Melee",
+            "version": "1.0Alpha"
+        },
+        "baseStats": {
+            "atk": 200,
+            "pwr": 0,
+            "def": 30,
+            "hp": 2100
+        },
+        "typeStats": {
+            "fluxCapacity": 3,
+            "surgeCapacity": 60,
+            "echoMemoryCapacity": 0,
+            "maxEnergy": 0
+        },
+        "subStat": {
+            "type": "Physical ATK",
+            "value": 24.2
+        },
+        "talents": {
+            "coreTalent": {
+                "name": "Charging",
+                "desc": "If Lance isn't interrupted by opponent attacks, his Physical ATK is increased by 15%, max 2 stacks."
+            },
+            "riftedTalent": {
+                "name": "Rifted Technology",
+                "desc": "Lance's Normal and Charged Attacks generate 1 Flux."
+            }
+        },
+        "abilities": {
+            "normalAttack": {
+                "name": "Sword Strike",
+                "desc": "Lance deals [$_1, 0.4]% Physical ATK as Physical DMG to the opponent.",
+                "multipliers": [
+                    0.110284
+                ]
+            },
+            "chargedAttack": {
+                "name": "Piercing",
+                "cost": 30,
+                "desc": "Lance deals [$_1, 0.6]% Physical ATK as Physical DMG to the opponent while reducing opponent's DEF by [$_2, 0.2]% for 1 Cycle. This effect cannot stack.",
+                "multipliers": [
+                    0.147295,
+                    0.02
+                ]
+            },
+            "normalSkill": {
+                "name": "Slash",
+                "fluxCost": 2,
+                "memoryNodes": {},
+                "desc": "Lance slashes the opponent dealing [$_1, 122] (+[$_2, 0.67]% Physical ATK) as Physical DMG.",
+                "multipliers": [
+                    44,
+                    0.197471
+                ]
+            },
+            "riftedSkill": {
+                "name": "Lion's Claw",
+                "surgeCost": 60,
+                "energyCost": 0,
+                "desc": "Lance summons Lion's Claw and slashes the opponent dealing [$_1, 214] (+[$_2, 0.43]% Physical ATK) (+[$_3, 0.22]% Opponent Lost HP) as True DMG.",
+                "multipliers": [
+                    91,
+                    0.239102,
+                    0.017291
+                ]
+            }
+        },
+        "fragments": [
+            {
+                "name": "Nourishing Energy",
+                "desc": "Casting Normal Skill \"Slash\" increases Lance's Physical ATK and DEF by 20% for 2 Cycles."
+            },
+            {
+                "name": "Swiftness",
+                "desc": "Casting Normal Skill \"Slash\" has 50% chance to generate 1 Flux, 10% chance to generate an extra Flux."
+            },
+            {
+                "name": "Recharge",
+                "desc": "\"Slash\" level is increased by 3."
+            },
+            {
+                "name": "Vengeance",
+                "desc": "If Lance has 2 Charging stacks, wraps himself inside a Vengeance shield. During this period, 8% of all incoming DMG will be inflicted back to the DMG dealer as Magic DMG."
+            },
+            {
+                "name": "Dire Cutout",
+                "desc": "\"Lion's Claw\" level is increased by 3."
+            },
+            {
+                "name": "Unstoppable Dragonlord",
+                "desc": "Lance will recover 14 (+63% Physical ATK) HP each Cycle. If Lance has 2 Charging stacks, every members' attacks will cast a follow-up attack \"Fury Spear\" that strikes down the opponent daling 143 (+77% Physical ATK) as Physical DMG."
+            }
+        ],
+        "log": [
+            {
+                "version": "1.0Alpha [2025-04-18]",
+                "description": "Release"
+            },
+            {
+                "version": "1.3Alpha [2025-04-30]",
+                "description": "Lance (former Knight) (↓): Lance (former Knight) is extremely powerful since release with his burst potential from his skills. So, we decide to reduce the damage of his Normal Skill and Rifted Skill.\n\n[Normal Skill: Slash] (↓)\n\tSlash DMG: 300 (+40% Physical ATK) >> 100 (+60% Physical ATK)\n\n[Rifted Skill: Lion's Claw] (↓)\n\tLion's Claw DMG: 300 (+60% Physical ATK) (+20% Opponent Lost HP) >> 200 (+60% Physical ATK) (+10% of Opponent Lost HP)"
+            },
+            {
+                "version": "1.4Alpha [2025-05-18]",
+                "description": "Lance (former Knight) (↑): Implementation of Charged Attack and Stat changes.\n[New Attack] Charged Attack (Energy:20): Piercing - Lance (former Knight) deals 60% Physical ATK as Physical DMG to the opponent while reducing opponent's DEF by 20% for 1 Cycle.\n\tPhysical ATK: 0 >> 200\n\tDEF: 0 >> 50\n\tDEF: 0 >> 30\n\nName Changes: Knight >> Lance"
+            },
+            {
+                "version": "1.0Beta [Unknown]",
+                "description": "Lance (↑): Lance become weaker against newer characters and his simple skill set. We slightly increased his Normal and Rifted Skill DMG scaling.\n\tDEF: 50 >> 30\n\tFlux Capacity: 0 >> 3\n\t\"Slash\" Flux Cost: 0 >> 2\n\t\"Lion's Claw\" Surge Cost: 0 >> 60\n\n[Talent: Charging] (↑)\n[New Effect] Lance's Normal and Charged Attacks generate 1 Flux.\n\n[Charged Attack: Piercing] (↓)\n\tCharge Cost: 20 >> 30\n\n[Normal Skill: Slash] (↑)\n\tSlash DMG: 100 (+60% Physical ATK) >> 122 (+67% Physical ATK)\n\n[Rifted Skill: Lion's Claw] (↑)\n\tLion's Claw DMG: 200 (+60% Physical ATK) (+10% Opponent Lost HP) >> 214 (+43% Physical ATK) (+22% Opponent Lost HP)"
+            }
+        ]
+    },
+    {
+        "name": "Bob",
+        "id": 1010002,
+        "baseData": {
+            "rarity": 5,
+            "type": "Rifted Technology",
+            "faction": "Strength",
+            "relicType": "Power",
+            "version": "1.0Alpha"
+        },
+        "baseStats": {
+            "atk": 180,
+            "pwr": 180,
+            "def": 30,
+            "hp": 1700
+        },
+        "typeStats": {
+            "fluxCapacity": 3,
+            "surgeCapacity": 60,
+            "echoMemoryCapacity": 0,
+            "maxEnergy": 0
+        },
+        "subStat": {
+            "type": "Magic PWR",
+            "value": 24.2
+        },
+        "talents": {
+            "coreTalent": {
+                "name": "Poison Dart",
+                "desc": "Every 4th attacks, infuses the next attack attack with Poison effect."
+            },
+            "riftedTalent": {
+                "name": "Rifted Technology",
+                "desc": "Bob's Normal and Charged Attacks generate 1 Flux. Triggering Poison Dart generates 1 extra Flux."
+            }
+        },
+        "abilities": {
+            "normalAttack": {
+                "name": "Dart",
+                "desc": "Bob deals [$_1, 0.4]% Physical ATK as Physical DMG to the opponent.",
+                "multipliers": [
+                    0.110284
+                ]
+            },
+            "chargedAttack": {
+                "name": "Darter",
+                "cost": 20,
+                "desc": "Bob deals [$_1, 0.6]% Physical ATK as Physical DMG to the opponent.",
+                "multipliers": [
+                    0.147295
+                ]
+            },
+            "normalSkill": {
+                "name": "Large Dart",
+                "fluxCost": 1,
+                "memoryNodes": {},
+                "desc": "Bob throws a Large Dart towards the opponent dealing [$_1, 200] (+[$_2, 0.3]% Physical ATK) as Physical DMG.",
+                "multipliers": [
+                    33,
+                    0.159921
+                ]
+            },
+            "riftedSkill": {
+                "name": "Poison Fumes",
+                "surgeCost": 60,
+                "energyCost": 0,
+                "desc": "Bob gas out Poison Fumes applying Poison to all opponents while continuously healing himself by [$_1, 42] (+[$_2, 0.08]% Physical ATK) (+[$_3, 0.16]% Magic PWR) HP each Cycle. The Poison Fumes last 3 Cycles.\n\nPoison: Continuously deals [$_4, 38] (+[$_5, 0.22]% Magic PWR) as Magic DMG to the opponent for 6 Turns.",
+                "multipliers": [
+                    81,
+                    0.038829,
+                    0.079281,
+                    13,
+                    0.043819
+                ]
+            }
+        },
+        "fragments": [
+            {
+                "name": "Heavy Load",
+                "desc": "Magic PWR is increased by 80% Physical ATK."
+            },
+            {
+                "name": "Supercharged Infusions",
+                "desc": "The amount of attacks required to trigger \"Poison Dart\" is reduced by 1."
+            },
+            {
+                "name": "Mist Thickens",
+                "desc": "\"Poison Fumes\" level is increased by 3."
+            },
+            {
+                "name": "Very Special Potion",
+                "desc": "Every instance of \"Poison Dart\" will trigger a Critical hit. At this moment, Crit DMG is increased by 150% for the same instance."
+            },
+            {
+                "name": "Not Too Small",
+                "desc": "\"Large Dart\" level is increased by 3."
+            },
+            {
+                "name": "Suffocation",
+                "desc": "\"Poison Fumes\" duration is increased by 1. During the \"Poison Fumes\", Bob gains 20% Physical RES and Magical RES.\nDealing Magic DMG to an opponent will mark them with Poison Mark. Poison Mark: deals 322 (+40% Magic PWR) as True DMG at 6th hit to the marked opponent."
+            }
+        ],
+        "log": [
+            {
+                "version": "1.0Alpha [2025-04-18]",
+                "description": "Release"
+            },
+            {
+                "version": "1.1Alpha [2025-04-24]",
+                "description": "Bob (former Goblin) (↑): Bob (former Goblin)’s attacks are too weak against other characters, so we slightly increase the scalable damage of his poison.\n[Talent: Poison Dart] (↑)\n\tPoison DMG: 40 (+15% Base ATK) >> 40 (+20% Base ATK)"
+            },
+            {
+                "version": "1.4Alpha [2025-05-18]",
+                "description": "Bob (former Goblin) (↑): We want Bob to shine in the battle and make him unique. Therefore, we decided to implement him to use both Physical ATK and Magic PWR. Implementation of Charged Attack and Stat changes.\n[New Attack] Charged Attack (Energy:20): Darter - Bob (former Goblin) deals 60% Physical ATK as Physical DMG to the opponent.\n\tPhysical ATK: 0 >> 180\n\tMagic PWR: 0 >> 180\n\tDEF: 0 >> 30\n\tDEF: 0 >> 30\n\n[Talent: Poison Dart] (↑)\n\tPoison DMG: 40 (+20% Base ATK) Physical DMG >> 40 (+20% Magic PWR) Magic DMG\n\n[Rifted Skill: Poison Fumes] (↑)\n\tHP Recovery: 75 (+20% Base ATK) >> 50 (+20% Physical ATK) (+20% Magic PWR)\n\nName Changes: Goblin >> Bob"
+            },
+            {
+                "version": "1.0Beta [Unknown]",
+                "description": "Bob (~): We want Bob to be better DoT DPS, so we decided to increase his DPS output and reduce his sustain.\n\tFlux Capacity: 0 >> 3\n\t\"Large Dart\" Flux Cost: 0 >> 1\n\t\"Poison Fumes\" Surge Cost: 0 >> 60\n\n[Talent: Poison Dart] (↑)\n[New Effect] Bob's Normal and Charged Attacks generate 1 Flux. Triggering Poison Dart generates 1 extra Flux.\n\tPoison DMG: 40 (+20% Magic PWR) >> 38 (+22% Magic PWR)\n\n[Normal Skill: Large Dart] (~)\n\tLarge Dart DMG: 200 (+30% Physical ATK) >> 188 (+48% Physical ATK)\n\n[Rifted Skill: Poison Fumes] (↓)\n\tHP Recovery: 50 (+20% Physical ATK) (+20% Magic PWR) >> 42 (+8% Physical ATK) (+16% Magic PWR)"
+            }
+        ]
+    },
+    {
+        "name": "Elsa",
+        "id": 1010003,
+        "baseData": {
+            "rarity": 5,
+            "type": "Rifted Disorder",
+            "faction": "Volte",
+            "relicType": "Magical",
+            "version": "1.0Alpha"
+        },
+        "baseStats": {
+            "atk": 0,
+            "pwr": 200,
+            "def": 30,
+            "hp": 1600
+        },
+        "typeStats": {
+            "fluxCapacity": 0,
+            "surgeCapacity": 0,
+            "echoMemoryCapacity": 6,
+            "maxEnergy": 80
+        },
+        "subStat": {
+            "type": "Magic PWR",
+            "value": 24.2
+        },
+        "talents": {
+            "coreTalent": {
+                "name": "Aftershock",
+                "desc": "Elsa's attacks have 60% chance to trigger a Follow-Up attack that deals 40% of the original DMG."
+            },
+            "riftedTalent": {
+                "name": "Rifted Disorder",
+                "desc": "Elsa's Normal and Charged Attacks accumulate 1 Echo Memory and 5 Energy. Dealing Disorder DMG accumulates 10 Energy."
+            }
+        },
+        "abilities": {
+            "normalAttack": {
+                "name": "Sparkle",
+                "desc": "Elsa deals 40% Magic PWR as Magic DMG to the opponent.",
+                "multipliers": []
+            },
+            "chargedAttack": {
+                "name": "Electricution",
+                "cost": 20,
+                "desc": "Elsa deals 60% Magic PWR as Magic DMG to the opponent.",
+                "multipliers": []
+            },
+            "normalSkill": {
+                "name": "Temporial Shock",
+                "fluxCost": 0,
+                "memoryNodes": {
+                    "node1": "2EM",
+                    "node2": "4EM",
+                    "node3": "6EM"
+                },
+                "desc": "[2EM] Elsa shock the opponent with Temporial Shock dealing 94 (+28% Magic PWR) as Magic DMG.\n[4EM] Elsa shock the opponent with Temporial Shock dealing 163 (+44% Magic PWR) as Volte DMG. If this attack hits a target, Elsa gains 1 stack of Serpent Lightning.\n[6EM] Elsa shock the opponent with Temporial Shock dealing 244 (+68% Magic PWR) as Volte DMG. If this attack hits a target, Elsa gains 2 stacks of Serpent Lightning.",
+                "multipliers": []
+            },
+            "riftedSkill": {
+                "name": "Serpent's Strike",
+                "surgeCost": 0,
+                "energyCost": 80,
+                "desc": "Elsa strikes the opponent with Serpent's Strke dealing 292 (+68% Magic PWR) as Volte DMG. An extra stack of Serpent Lightning increases Serpent's Strike DMG by 15%, max 15 stacks.",
+                "multipliers": []
+            }
+        },
+        "fragments": [
+            {
+                "name": "Serpent's Blessing",
+                "desc": "If Elsa's attacks failed to trigger an Aftershock, the chance of triggering it is increased by 5%. This effect will reset when the Aftershock is triggered."
+            },
+            {
+                "name": "Enhancing Echoes",
+                "desc": "Elsa will always have 2 Echo Memories. Elsa Memory Capacity is increased by 2 and an additional Memory Node is added to her Normal Skill.\n[8EM] Elsa shock the opponent with Temporial Shock dealing 312 (+82% Magic PWR) as Volte DMG. If this attack hits a target, Elsa gains 3 stacks of Serpent Lightning."
+            },
+            {
+                "name": "The Last Sea",
+                "desc": "\"Temporial Shock\" level is increased by 3."
+            },
+            {
+                "name": "Supercharged",
+                "desc": "Aftershock applies Supercharged to oponent for 2 Cycles, decreasing their Volte RES by 40%."
+            },
+            {
+                "name": "Power of The Stroms",
+                "desc": "\"Serpent's Strike\" level is increased by 3."
+            },
+            {
+                "name": "The Final Execution",
+                "desc": "After casting Serpent's Strike, all accumulated Serpent Lightning stacks will deal additional 332 (+58% Magic PWR) as Volte Follow-Up DMG per stack."
+            }
+        ],
+        "log": [
+            {
+                "version": "1.0Alpha [2025-04-18]",
+                "description": "Release"
+            },
+            {
+                "version": "1.1Alpha [2025-04-24]",
+                "description": "Elsa (↓): Elsa is performing too well with her quick Serpent Lightning stacks, so we decided to increase the cooldown of her Normal Skill and slightly decrease the scalable damage of her Rifted Skill.\n[Normal Skill: Temporial Shock] (↓)\n\tCooldown: 3 >> 4\n\n[Rifted Skill: Serpent's Strike] (↓)\n\tSerpent's Strike DMG: 300 (+80% Base ATK) >> 300 (+70% Base ATK)"
+            },
+            {
+                "version": "1.4Alpha [2025-05-18]",
+                "description": "Elsa (~): Since Elsa is a mage type character, all of her attack will be converted to Magic DMG. Implementation of Charged Attack and Stat changes.\n[New Attack] Charged Attack (Energy:20): Electricution - Elsa deals 60% Magic PWR as Magic DMG to the opponent.\n\tMagic PWR: 0 >> 200\n\tDEF: 0 >> 30\n\tDEF: 0 >> 30\n\n[Revamped Stats]\n\tPhysical DMG (Base ATK) >> Magic DMG (Magic PWR)"
+            },
+            {
+                "version": "1.0Beta [Unknown]",
+                "description": "Elsa (↑): To fully utilize her Echo Memory mechanic, her skills will be revamped.\n\tEcho Memory Capacity: 0 >> 6\n\t\"Serpent's Strike\" Energy Cost: 0 >> 80\n\n[Talent: Aftershock] (↑)\n[New Effect] Elsa's Normal and Charged Attacks accumulate 1 Echo Memroy and 5 Energy. Dealing Disorder DMG accumulates 10 Energy.\n\n[Revamped Normal Skill: Temporial Shock]\n[2EM] Elsa shock the opponent with Temporial Shock dealing 94 (+28% Magic PWR) as Magic DMG.\n[4EM] Elsa shock the opponent with Temporial Shock dealing 163 (+44% Magic PWR) as Volte DMG. If this attack hits a target, Elsa gains 1 stack of Serpent Lightning.\n[6EM] Elsa shock the opponent with Temporial Shock dealing 244 (+68% Magic PWR) as Volte DMG. If this attack hits a target, Elsa gains 2 stacks of Serpent Lightning.\n\n[Rifted Skill: Serpent's Strike] (~)\n\tSerpent's Strike DMG: 300 (+70% Magic PWR) as Magic DMG >> 292 (+68% Magic PWR) as Volte DMG"
+            }
+        ]
+    },
+    {
+        "name": "Rider",
+        "id": 1010004,
+        "baseData": {
+            "rarity": 5,
+            "type": "Rifted Technology",
+            "faction": "Strength",
+            "relicType": "Melee",
+            "version": "1.0Alpha"
+        },
+        "baseStats": {
+            "atk": 200,
+            "pwr": 0,
+            "def": 30,
+            "hp": 2000
+        },
+        "typeStats": {
+            "fluxCapacity": 5,
+            "surgeCapacity": 80,
+            "echoMemoryCapacity": 0,
+            "maxEnergy": 0
+        },
+        "subStat": {
+            "type": "CRIT Rate",
+            "value": 12.2
+        },
+        "talents": {
+            "coreTalent": {
+                "name": "Penetrable Boundary",
+                "desc": "Rider gains 20% Physical PEN and 15% CRIT Rate at the start of the battle."
+            },
+            "riftedTalent": {
+                "name": "Rifted Technology",
+                "desc": "Rider's Normal and Charged Attacks generate 1 Flux."
+            }
+        },
+        "abilities": {
+            "normalAttack": {
+                "name": "Swirling Rage",
+                "desc": "Rider deals 40% Physical ATK as Physical DMG to the opponent.",
+                "multipliers": []
+            },
+            "chargedAttack": {
+                "name": "Outsmart",
+                "cost": 20,
+                "desc": "Rider deals 60% Physical ATK as Physical DMG to the opponent.",
+                "multipliers": []
+            },
+            "normalSkill": {
+                "name": "Spear Strike",
+                "fluxCost": 3,
+                "memoryNodes": {},
+                "desc": "Rider strikes the opponent with Spear dealing 200 (+45% Physical ATK) as Physical DMG and reducing their DEF by 20% for 2 Cycles.",
+                "multipliers": []
+            },
+            "riftedSkill": {
+                "name": "Call of The Dragon's Fury",
+                "surgeCost": 80,
+                "energyCost": 0,
+                "desc": "Rider transforms into Fury state consuming 6 (+12% Current HP) (+28% Physical ATK) HP each round. In Fury state, his Normal Attacks become enhanced dealing 40% extra DMG and deal 60% of Normal Attack DMG as Follow-Up Attack. This state lasts 5 rounds. After the Fury state ends, Riider will recover 70% of his Lost HP from all DMG taken during the Fury state. The Fury state will end early if Rider has less than 30% HP. Fury state ending early will not trigger the HP Regen effect.\nWhile in Fury state, Rider's Normal and Charged Attacks generate 1 extra Flux.",
+                "multipliers": []
+            }
+        },
+        "fragments": [
+            {
+                "name": "Judgement from Beyond",
+                "desc": "Rifted Skill \"Call of The Dragon's Fury\" HP Regen effect will trigger even if the Fury state is ended early."
+            },
+            {
+                "name": "Boundless Buddies",
+                "desc": "In Fury state, all oppponents' Physical RES is decreased by 20%. When the entire team is composed of Strength members, Physical RES is further decreased by 40% and Rider gains 40% Normal Attack DMG Bonus."
+            },
+            {
+                "name": "Neverending Strength",
+                "desc": "\"Call of The Dragon's Fury\" level is increased by 3."
+            },
+            {
+                "name": "Exiled Wishes",
+                "desc": "Rider gains 20% CRIT Rate and 40% CRIT DMG during Fury state."
+            },
+            {
+                "name": "Spear of The Seventh Flame",
+                "desc": "\"Spear Strike\" level is increased by 3."
+            },
+            {
+                "name": "\"My Lord's Light Bestowed Upon All\"",
+                "desc": "When casting Normal Attacks duing Fury state, the shade of \"The Seventh Dragonlord of Flames\" will be summoned, dealing 214 (+46% Physical ATK) as Physical DMG 4 times consecutively and finally dealing 368 (+277% Physical ATK) as Physical DMG."
+            }
+        ],
+        "log": [
+            {
+                "version": "1.0Alpha [2025-04-18]",
+                "description": "Release"
+            },
+            {
+                "version": "1.2Alpha [2025-04-25]",
+                "description": "Rider (↑): Rider can be defeated very easily while he is in Fury state. So, we decided to slightly reduce the percentage of HP consumed and increased his Base HP.\n\tBase HP: 1,800 >> 2,000\n\n[Rifted Skill: Call of The Dragon's Fury] (↑)\n\tFury state HP Comsumption: 20% Current HP >> 15% Current HP"
+            },
+            {
+                "version": "1.3Alpha [2025-04-30]",
+                "description": "Rider (↑): Rider HP recovery after Fury state is based on his HP lost from Fury state. Since previous adjustment reduced his hp lost, his HP gain is also reduced. So we decided his hp gain to scale off from all damages he received.\n\n[Rifted Skill: Call of The Dragon's Fury] (↑)\n\tHP Recovery: 80% HP Lost from Self Sacrifice >> 70% HP Lost from all DMG"
+            },
+            {
+                "version": "1.4Alpha [2025-05-18]",
+                "description": "Rider (↑): Implementation of Charged Attack and Stat changes.\n[New Attack] Charged Attack (Energy:20): Outsmart - Rider deals 60% Physical ATK as Physical DMG to the opponent.\n\tPhysical ATK: 0 >> 200\n\tDEF: 0 >> 30\n\tDEF: 0 >> 30"
+            },
+            {
+                "version": "1.0Beta [Unknown]",
+                "description": "Rider (↑): Rider survivability is too low when facing opponent with burst DMG, he can be defeated very early. We added a limit on Rider's Fury state to prevent very low HP drops.\n\tFlux Capacity: 0 >> 5\n\t\"Spear Strike\" Flux Cost: 0 >> 3\n\t\"Call of The Dragon's Fury\" Surge Cost: 0 >> 80\n\n[Talent: Penetrable Boundary] (↑)\n\t[New Effect] Rider's Normal and Charged Attacks generate 1 Flux.\n\n[Rifted Skill: Call of The Dragon's Fury] (~)\n\tHP Recovery: 15% Current HP >> 6 (+12% Current HP) (+28% Physical ATK) HP\n\t[New Effect] The Fury state will end early if Rider has less than 30% HP. Fury state ending early will not trigger the HP Regen effect.\n\t[New Effect] While in Fury state, Rider Normal and Charged Attacks generate 1 extra Flux."
+            }
+        ]
+    },
+    {
+        "name": "Renova",
+        "id": 1010005,
+        "baseData": {
+            "rarity": 5,
+            "type": "Rifted Technology",
+            "faction": "Fusion (Volte)",
+            "relicType": "Projectile",
+            "version": "1.0Alpha"
+        },
+        "baseStats": {
+            "atk": 220,
+            "pwr": 0,
+            "def": 30,
+            "hp": 1600
+        },
+        "typeStats": {
+            "fluxCapacity": 5,
+            "surgeCapacity": 80,
+            "echoMemoryCapacity": 0,
+            "maxEnergy": 0
+        },
+        "subStat": {
+            "type": "CRIT Rate",
+            "value": 12.2
+        },
+        "talents": {
+            "coreTalent": {
+                "name": "Lethal Bullet",
+                "desc": "When Renova casts Normal or Rifted Skill, her Normal and Charged Attacks become enhanced gaining 144% DMG Bonus and are converted into Volte-Fused DMG. All team members gains 1% CRIT Rate per 8% Renova's CRIT DMG."
+            },
+            "riftedTalent": {
+                "name": "Rifted Technology",
+                "desc": "Renova's Normal and Charged Attacks generate 1 Flux. If they're enhanced, generate 1 extra Flux."
+            }
+        },
+        "abilities": {
+            "normalAttack": {
+                "name": "Precise Calculation",
+                "desc": "Renova deals 40% Physical ATK as Physical DMG to the opponent.",
+                "multipliers": []
+            },
+            "chargedAttack": {
+                "name": "Annihilation",
+                "cost": 30,
+                "desc": "Renova deals 60% Physical ATK as Physical DMG to the opponent.",
+                "multipliers": []
+            },
+            "normalSkill": {
+                "name": "Camouflage",
+                "fluxCost": 3,
+                "memoryNodes": {},
+                "desc": "Renova enters the Camouflage state for 2 Cycles.\nCaomuflage: The opponents' attacks have 40% chance to miss Renova. This state will end if she takes an action or takes DMG from an opponent.",
+                "multipliers": []
+            },
+            "riftedSkill": {
+                "name": "Sniper Mode",
+                "surgeCost": 80,
+                "energyCost": 0,
+                "desc": "Renova charges her Rifle and fires Heavy Bullets to all opponents each dealing 211 (+43% Physical ATK) as Volte-Fused DMG while increasing all team members' CRIT Rate by 10% and CRIT DMG by 20% for 3 Cycles.",
+                "multipliers": []
+            }
+        },
+        "fragments": [
+            {
+                "name": "\"A Gift Far From Home\"",
+                "desc": "Renova's Charged Attack \"Annihilation\" generates 1 extra Flux."
+            },
+            {
+                "name": "Access Denied",
+                "desc": "Renova's actions will no longer end Camouflage state. In Camouflage state, opponents' attacks have 70% chance to miss Renova. If the opponent missed Renova, Camouflage state will reset its duration. This effect has 5 Cycles Cooldown."
+            },
+            {
+                "name": "Sequence of Series",
+                "desc": "\"Sniper Mode\" level is increased by 3."
+            },
+            {
+                "name": "Sequence of Unwanted Memories",
+                "desc": "If Renova is in team, all party members Normal and Charged Attack DMG is increased by 60%."
+            },
+            {
+                "name": "Sequence of Happy Memories",
+                "desc": "\"Camouflage\" level is increased by 3."
+            },
+            {
+                "name": "Precision Mechanism",
+                "desc": "If Renova is in team, all party members gains 10% CRIT Rate. Every 5 Critical Hits triggered by any team member except Renova, Renova will fires an Enhanced Bullet at the target opponent dealing 222 (+68% Physical ATK) as Volte-Fused Follow-Up DMG."
+            }
+        ],
+        "log": [
+            {
+                "version": "1.0Alpha [2025-04-18]",
+                "description": "Release"
+            },
+            {
+                "version": "1.1Alpha [2025-04-24]",
+                "description": "Renova (↓): Renova’s passive performs very well, and Renova is overpowered by her Camouflage effect, making her almost impossible to hit. So, we’ve decided to slightly reduce the scalable damage of her passive and moderately reduce the chance of missing Renova while keeping her Cooldowns the same.\n\n[Talent: Lethal Bullet] (↓)\n\tLethal Bullet DMG: 200 (+40% Base ATK) >> 200 (+30% Base ATK)\n\n[Normal Skill: Camouflage] (↓)\n\tCamouflage Miss Chance: 70% >> 40%"
+            },
+            {
+                "version": "1.2Alpha [2025-04-25]",
+                "description": "Renova (↓): Renova's camouflage cannot be counter by freeze making her to survive more and deal more damage.\n[Normal Skill: Camouflage] (↓)\n\t[New Effect] Renova's camouflage can now be interrupted by freeze."
+            },
+            {
+                "version": "1.4Alpha [2025-05-18]",
+                "description": "Renova (↑): Implementation of Charged Attack and Stat changes.\n[New Attack] Charged Attack (Energy:30): Annihilation - Renova deals 60% Physical ATK as Physical DMG to the opponent. If the attack is enhanced, deals 200 (+60% Physical ATK) as True DMG.\n\tPhysical ATK: 0 >> 220\n\tDEF: 0 >> 50\n\tDEF: 0 >> 30"
+            },
+            {
+                "version": "1.0Beta [Unknown]",
+                "description": "Renova (↑): As team battles are implemented, we want Renova as a DPS Supporter instead of pure burst DPS.\n\tFlux Capacity: 0 >> 5\n\t\"Camouflage\" Flux Cost: 0 >> 3\n\t\"Sniper Mode\" Surge Cost: 0 >> 80\n\n[Talent: Lethal Bullet] (~)\n\t[Removed] Removed CRIT Rate boost.\n\t[New Effect] Renova's Normal and Charged Attacks generate 1 Flux.\n\t[New Effect] All team members gains 1% CRIT Rate per 8% Renova's CRIT DMG.\n\tDMG Bonus: 200 (+30% Physical ATK) as True DMG >> 144% DMG Bonus and are converted into Volte-Fused DMG.\n\n[Normal Skill: Camouflage] (↓)\n\t[New Effect] If Renova takes an action or takes DMG from an opponent, her Camouflage state will end early.\n\n[Revamped Rifted Skill: Sniper Mode]\nRenova charges her Rifle and fires Heavy Bullets to all opponents, each dealing 211 (+43% Physical ATK) as Volte-Fused DMG while increasing all team members' CRIT Rate by 10% and CRIT DMG by 20% for 3 Cycles."
+            }
+        ]
+    },
+    {
+        "name": "Aurora",
+        "id": 1010006,
+        "baseData": {
+            "rarity": 5,
+            "type": "Rifted Disorder",
+            "faction": "Frost",
+            "relicType": "Magical",
+            "version": "1.1Alpha"
+        },
+        "baseStats": {
+            "atk": 0,
+            "pwr": 200,
+            "def": 30,
+            "hp": 1700
+        },
+        "typeStats": {
+            "fluxCapacity": 0,
+            "surgeCapacity": 0,
+            "echoMemoryCapacity": 8,
+            "maxEnergy": 80
+        },
+        "subStat": {
+            "type": "Energy Efficiency",
+            "value": 4.2
+        },
+        "talents": {
+            "coreTalent": {
+                "name": "Icy Throne",
+                "desc": "If Aurora takes lethal DMG, she will instantly gain 30% Max HP while gaining DMG Immunity for the next Cycle. This effect has 16-Cycle Cooldown."
+            },
+            "riftedTalent": {
+                "name": "Rifted Disorder",
+                "desc": "Aurora's Normal and Charged Attacks accumulate 1 Echo Memory and 5 Energy, max 6 Echo Memory Cells. Dealing Disorder DMG accumulates 10 Energy. Aurora has 2 Special Echo Memory Cells that cannot be obtained by the aforementioned means."
+            }
+        },
+        "abilities": {
+            "normalAttack": {
+                "name": "Ice Spike",
+                "desc": "Aurora deals 40% Magic PWR as Magic DMG to the opponent.",
+                "multipliers": []
+            },
+            "chargedAttack": {
+                "name": "Shattering Ice",
+                "cost": 20,
+                "desc": "Elsa deals 60% Magic PWR as Magic DMG to the opponent.",
+                "multipliers": []
+            },
+            "normalSkill": {
+                "name": "Orb of Gentle Breeze",
+                "fluxCost": 0,
+                "memoryNodes": {
+                    "node1": "6EM",
+                    "node2": "8EM"
+                },
+                "desc": "Aurora launches an Orb of Gentle Breeze, dealing 44 (+0% Magic PWR) as Magic DMG. Each Echo Memory will increases this skill's Magic PWR by 15%, max 75%.\n[6EM] Aurora launches an Orb of Gentle Breeze, dealing 114 (+82% Magic PWR) as Frost DMG. If Aurora has 8 Echo Memories [8EM], Mountains' Anchor will strike the opponent, dealing 177 (+188% Magic PWR) as Frost DMG. Mountains' Anchor can trigger Shattered effect if the opponent is Frozen. This DMG is considered Follow-Up DMG.",
+                "multipliers": []
+            },
+            "riftedSkill": {
+                "name": "Eternal Breeze",
+                "surgeCost": 0,
+                "energyCost": 80,
+                "desc": "Aurora blows an Eternal Breeze, dealing 22 (+43% Magic PWR) as Frost DMG to all opponents, freezing them by 1 Cycle. This skill generates 8 Echo Memories.",
+                "multipliers": []
+            }
+        },
+        "fragments": [
+            {
+                "name": "Perfect Timing",
+                "desc": "If Aurora is in the team, if one of the team members triggered Freeze Reaction, Mountains' Anchor will strikes the targeted opponent dealing Frost Follow-Up DMG."
+            },
+            {
+                "name": "Frozen Moon",
+                "desc": "If Aurora is in the team, Frozen opponents have their Physical RES reduced by 20% and Shattered DMG is increased by 40%."
+            },
+            {
+                "name": "Freezing Technique",
+                "desc": "\"Orb of Gentle Breeze\" level is increased by 3."
+            },
+            {
+                "name": "Lost in The Snow",
+                "desc": "Aurora Mountains' Anchor deals 100% increased DMG to Frozen opponents."
+            },
+            {
+                "name": "\"Stopping\" Rivers",
+                "desc": "\"Eternal Breeze\" level is increased by 3."
+            },
+            {
+                "name": "Sub Zero",
+                "desc": "Casting Eternal Breeze will generate a Heavy Snow Mist for 4 Cycles.\nHeavy Snow Mist: Energy Efficiency of the opponents inside the Mist is decreased by 20%. All team members of PROJECTILE, MELEE, and AGILE Factions gains 40% Frost DMG Bonus and their Normal and Charged Attacks become infused with Frost."
+            }
+        ],
+        "log": [
+            {
+                "version": "1.1Alpha [2025-04-24]",
+                "description": "Release"
+            },
+            {
+                "version": "1.4Alpha [2025-05-18]",
+                "description": "Aurora (~): Since Aurora is a mage type character, all of her attack will be converted to Magic DMG. Implementation of Charged Attack and Stat changes.\n[New Attack] Charged Attack (Energy:20): Shattering Ice - Aurora deals 60% Magic PWR as Magic DMG to the opponent.\n\tMagic PWR: 0 >> 200\n\tDEF: 0 >> 30\n\tDEF: 0 >> 30\n\n[Revamped Stats]\n\tPhysical DMG (Base ATK) >> Magic DMG (Magic PWR)"
+            },
+            {
+                "version": "1.0Beta [Unknown]",
+                "description": "Aurora (↑): To fully utilize her Echo Memory mechanic, her skills will be revamped.\n\tEcho Memory Capacity: 0 >> 8\n\t\"Eternal Breeze\" Energy Cost: 0 >> 80\n\n[Talent: Icy Throne] (↑)\n\t[New Effect] Aurora's Normal and Charged Attacks accumulate 1 Echo Memory and 5 Energy, max 6 Echo Memory Cells. Dealing Disorder DMG accumulates 10 Energy. Aurora has 2 Special Echo Memory Cells that cannot be obtained by the aforementioned means.\n\tCooldown: 22 Cycles >> 16 Cycles\n\n[Revamped Normal Skill: Orb of Gentle Breeze]\nAurora launches an Orb of Gentle Breeze, dealing 44 (+0% Magic PWR) as Magic DMG. Each Echo Memory will increases this skill's Magic PWR by 15%, max 75%.\n[6EM] Aurora launches an Orb of Gentle Breeze, dealing 114 (+82% Magic PWR) as Frost DMG. If Aurora has 8 Echo Memories [8EM], Mountains' Anchor will strike the opponent, dealing 177 (+188% Magic PWR) as Frost DMG. Mountains' Anchor can trigger Shattered effect if the opponent is Frozen.\n\n[Rifted Skill: Eternal Breeze] (~)\n\tEternal Breeze DMG: 80 (+60% Magic PWR) >> 22 (+43% Magic PWR)\n\tAbility: reset the Orb of Gentle Breeze's cooldown >> gains 8 Echo Memories"
+            }
+        ]
+    },
+    {
+        "name": "Vyrka",
+        "id": 1010007,
+        "baseData": {
+            "rarity": 5,
+            "type": "Rifted Technology",
+            "faction": "Destruction",
+            "relicType": "Power",
+            "version": "1.3Alpha"
+        },
+        "baseStats": {
+            "atk": 200,
+            "pwr": 0,
+            "def": 30,
+            "hp": 800
+        },
+        "typeStats": {
+            "fluxCapacity": 5,
+            "surgeCapacity": 60,
+            "echoMemoryCapacity": 0,
+            "maxEnergy": 0
+        },
+        "subStat": {
+            "type": "HP",
+            "value": 22.4
+        },
+        "talents": {
+            "coreTalent": {
+                "name": "Bloodforged Heart",
+                "desc": "Vyrka has 3 HP bars at the beginning of the battle. When she loses 1 HP bar, she gains 36% DMG Bonus. When Vyrka deals DMG to the opponent, she will recover 40% of that DMG as HP. When dealing DMG greater than 30% of her Max HP, she will gain 1 stack of Fury Shard.\n\nSpecial Active Skill: When Vyrka has 3 Fury Shards, she can recover 1 of her HP bars."
+            },
+            "riftedTalent": {
+                "name": "Rifted Technology",
+                "desc": "Vyrka's Normal and Charged Attacks generate 1 Flux."
+            }
+        },
+        "abilities": {
+            "normalAttack": {
+                "name": "Iron Claws",
+                "desc": "Vyrka deals 40% Physical ATK as Physical DMG to the opponent.",
+                "multipliers": []
+            },
+            "chargedAttack": {
+                "name": "Bleeding Fangs",
+                "cost": 20,
+                "desc": "Vyrka deals 60% Physical ATK as Physical DMG to the opponent.",
+                "multipliers": []
+            },
+            "normalSkill": {
+                "name": "Sanguine Cleave",
+                "fluxCost": 3,
+                "memoryNodes": {},
+                "desc": "Vyrka consumes 16% of her Max HP and cleaves through the opponent, dealing 198 (+33% Physical ATK) (+18% Current HP) as Destruction DMG.",
+                "multipliers": []
+            },
+            "riftedSkill": {
+                "name": "Crimson Cataclysm",
+                "surgeCost": 60,
+                "energyCost": 0,
+                "desc": "Vyrka consumes an entier HP bar and erupts with a devastating strike, dealing 144 (+27% Physical ATK) (+46% Consumed HP Bar) as True DMG.",
+                "multipliers": []
+            }
+        },
+        "fragments": [
+            {
+                "name": "Last Stand",
+                "desc": "When Vyrka has only 1 HP bar left, her Physical, Magical and Reaction RES are increased by 36%."
+            },
+            {
+                "name": "Commitment",
+                "desc": "Vyrka's Normal Attacks increases her Max HP by 16% for 2 Cycles, max 32%."
+            },
+            {
+                "name": "Death's Wishes",
+                "desc": "\"Sanguine Cleave\" level is increased by 3."
+            },
+            {
+                "name": "Lady of The Valley",
+                "desc": "If Vyrka's HP increases or decreases, her CRIT Rate is increased by 12%. The HP effects will ignore the incoming DMG."
+            },
+            {
+                "name": "Shattered Past",
+                "desc": "\"Crimson Cataclysm\" level is increased by 3."
+            },
+            {
+                "name": "Almighty Fury",
+                "desc": "Max HP is increased by 20%. Fury Shards can be stacked up to 5 times. When casting her Special Active Skill, the excess amount of Fury Shards will be absorbed into a Shield equals to 200% Vyrka's Physical ATK. The absorbed Fury Shards will explode, each dealing 40% Vyrka's Physical ATK multiplied by 2% Current HP as Destruction DMG."
+            }
+        ],
+        "log": [
+            {
+                "version": "1.3Alpha [2025-04-30]",
+                "description": "Release"
+            },
+            {
+                "version": "1.4Alpha [2025-05-18]",
+                "description": "Vyrka (↑): Implementation of Charged Attack and Stat changes.\n[New Attack] Charged Attack (Energy:20): Bleeding Fangs - Vyrka deals 60% Physical ATK as Physical DMG to the opponent.\n\tPhysical ATK: 0 >> 200\n\tDEF: 0 >> 30\n\tDEF: 0 >> 30"
+            },
+            {
+                "version": "1.0Beta [Unknown]",
+                "description": "Vyrka (↑): We want Vyrka to perform better in battlefields and utilize her special HP mechnic more often.\n\tFlux Capacity: 0 >> 5\n\t\"Sanguine Cleave\" Flux Cost: 0 >> 3\n\t\"Crimson Cataclysm\" Surge Cost: 0 >> 60\n\n[Ta;emt: Bloodforged Heart] (↑)\n[New Effect] Vyrka's Normal and Charged Attacks generate 1 Flux.\n\tDMG Bonus after losing HP bar: 30% >> 36%\n\n[Normal Skill: Sanguine Cleave] (↑)\n\tHP consumed: 30% >> 16%\n\tSanguine Cleave's DMG: 200 (+40% Physical ATK) (+6% Current HP) as Physical DMG >> 198 (+33% Physical ATK) (+18% Current HP) as Destruction DMG\n\n[Rifted Skill: Crimson Cataclysm] (~)\n\tCrimson Cataclysm DMG: 150 (+40% Physical ATK) (+30% Consumed HP Bar) >> 144 (+27% Physical ATK) (+46% Consumed HP Bar)"
+            }
+        ]
+    },
+    {
+        "name": "Clyde",
+        "id": 1010008,
+        "baseData": {
+            "rarity": 5,
+            "type": "Rifted Technology",
+            "faction": "Quantum",
+            "relicType": "Projectile",
+            "version": "1.4Alpha"
+        },
+        "baseStats": {
+            "atk": 220,
+            "pwr": 0,
+            "def": 30,
+            "hp": 1600
+        },
+        "typeStats": {
+            "fluxCapacity": 5,
+            "surgeCapacity": 60,
+            "echoMemoryCapacity": 0,
+            "maxEnergy": 0
+        },
+        "subStat": {
+            "type": "CRIT DMG",
+            "value": 28.8
+        },
+        "talents": {
+            "coreTalent": {
+                "name": "Quantum Drive",
+                "desc": "Clyde can fully utilize Hyperion Energy. When Clyde has Hyperion Energy, he will transform into Overclocked state. During the Overclocked state. Clyde's Normal and Charged Attacks will be converted into Quantum DMG and deal additional DMG based on 8% of his Hyperion Energy. During Overclocked state, if Hyperion Energy is less than 100% of Clyde's Max HP, his Normal Attack \"Eclipser\" will gains Eclipsed Kingdom effect. When Normal Skill \"Graviton Mark Protocol\" is casted during this state, it will gains Voidpiercer effect."
+            },
+            "riftedTalent": {
+                "name": "Rifted Technology",
+                "desc": "Clyde's Normal and Charged Attacks generate 1 Flux."
+            },
+            "others": [
+                {
+                    "name": "■■■■■■■■'s Decendent",
+                    "desc": "Being the decendent of ■■■■■■■■, Clyde gains 40% Quantum DMG Bonus."
+                },
+                {
+                    "name": "Hyperion Energy",
+                    "desc": "Hyperion Energy can be accumulated up to 200% of the Character's Max HP. Hyperion Energy can impact the affected character in various way."
+                },
+                {
+                    "name": "Hyperion Energy: Rejection",
+                    "desc": "When a character is affected by Hyperion Energy, they are immune to healing from allies or external effects and can only heal themselves. If another source attempts to heal them, the healing is nullified, and the Hyperion Energy is reduced by an amount equal to the HP that would have been healed. Additionally, if the affected character cannot utilize Hyperion Energy, their Crit Rate is reduced by 24% and Disorder DMG is reduced by 40%."
+                }
+            ]
+        },
+        "abilities": {
+            "normalAttack": {
+                "name": "Eclipser",
+                "desc": "Clyde deals 40% Physical ATK as Physical DMG to the opponent.\nEclipsed Kingdom: Eclipser will fire 1 extra shot, increasing his Hyperion Energy by 80% of the DMG dealt.",
+                "multipliers": []
+            },
+            "chargedAttack": {
+                "name": "Graviton Absorption",
+                "cost": 20,
+                "desc": "Clyde deals 60% Physical ATK as Physical DMG to the opponent and absorbs all Graviton Marks from the opponents. If the Graviton Mark is in Temporal Latch, it absorbs 12 (+38% Opponent's Current HP) as Hyperion Energy, if the Graviton Mark is in Entropy Core, it absorbs 218 (+8% Opponent's Max HP) multiplied by the duration of Graviton Mark as Hyperion Energy.",
+                "multipliers": []
+            },
+            "normalSkill": {
+                "name": "Graviton Mark Protocol",
+                "fluxCost": 3,
+                "memoryNodes": {},
+                "desc": "Clyde strikes nearby opponents using Eclipser, dealing 112 (+48% Physical ATK) as Quantum DMG and applying Graviton Mark: Temporal Latch to opponents hit for 8 Cycles. Temporal Latch: Gradually deals 12 (+18% Physical ATK) as Physical DMG each Cycle. Entropy Core: After an opponent is affected by Temporal Latch for 2 Cycles, it will transform into Entropy Core dealing 98 (+51% Physical ATK) as Quantum DMG each Cycle. This effect carries over the duration from Temporal Latch.\nVoidpiercer: Clyde uses Voidpiercer and launches a Chrono Shard, dealing 68 (+11% Hyperion Energy) as Physical DMG. If Hyperion Energy is greater than 100% of Clyde's Max HP, Chrono Shard will deal 211 + (21% Hyperion Energy) as Quantum DMG, consuming all Hyperion Energy, healing himself by 40% of his consumed Hyperion Energy and exiting the Overclocked state. This skill can be cased independently without the use of Flux during the Overclocked State.",
+                "multipliers": []
+            },
+            "riftedSkill": {
+                "name": "Collapse Singularity",
+                "surgeCost": 80,
+                "energyCost": 0,
+                "desc": "Clyde absorbs all Graviton Mark from the opponent and unleashes a Rfit Collapse using Voidpiercer, dealing 214 (+112% Physical ATK) (+26% Hyperion Energy) as Quantum DMG, consuming his Hyperion Energy and exiting from Overclocked state, and healing himself by 60% of consumed Hyperion Energy.",
+                "multipliers": []
+            }
+        },
+        "fragments": [
+            {
+                "name": "Corruption",
+                "desc": "Clyde will gain 40% extra Hyperion Energy while absorbing Graviton Marks."
+            },
+            {
+                "name": "Confusion Matrix",
+                "desc": "\"Graviton Mark Protocol\" will directly apply Graviton Mark: Entropy Core to opponents."
+            },
+            {
+                "name": "Beyond The Universe",
+                "desc": "\"Graviton Mark Protocol\" level is increased by 3."
+            },
+            {
+                "name": "Witness",
+                "desc": "Dealing Quantum DMG generates 25 Surges. This effect can occour once every 3 Cycles."
+            },
+            {
+                "name": "Collapsing Black Hole",
+                "desc": "\"Collapse Singularity\" level is increased by 3."
+            },
+            {
+                "name": "Conqueor of Universes",
+                "desc": "Quantum DMG Bonus is increased by 20%. The DMG of Collapse Singularity is increased by Clyde's ATK multiplied by 700% of Clyde's current Hyperion Energy percentage. For 3 Cycles after Clyde uses Graviton Mark Protocol, Clyde gains 10% CRIT Rate and 80% CRIT DMG. This effect can triggered once every 8 Cycles."
+            }
+        ],
+        "log": [
+            {
+                "version": "1.4Alpha [2025-05-18]",
+                "description": "Release"
+            },
+            {
+                "version": "1.0Beta [Unknown]",
+                "description": "Clyde (↓): Clyde has an insane DMG output making other characters fall back behind the meta.\n\tFlux Capacity: 0 >> 5\n\t\"Graviton Mark Protocol\" Flux Cost: 0 >> 3\n\t\"Collapse Singularity\" Surge Cost: 0 >> 60\n\n[Talent: Quantum Drive] (↓)\n\tNormal ATK DMG Bonus: 16% Hyperion Energy >> 8% Hyperion Energy\n\tVoidpiercer DMG (Normal): 100 (+20% Hyperion Energy) >> 68 (+11% Hyperion Energy)\n\tVoidpiercer DMG (Enhanced): 150 (+40% Hyperion Energy) as Physical DMG >> 211 + (21% Hyperion Energy) as Quantum DMG\n\tHyperion Energy Interval: 50% Clyde's Max HP >> 100% Clyde's Max HP\n\t[New Effect] During the Overclocked state, if Hyperion Energy is less than 100% of Clyde's Max HP, his Normal and Charged Attacks are converted into Quantum DMG.\n\t[New Effect] Hyperion Energy gained from Normal Attacks can now be gained from CRIT Hits.\n\t[New Effect] Clyde's Normal and Charged Attacks generate 1 Flux.\n\n[Charged Attack: Graviton Absorption] (~)\n\tTemporal Latch Absorption Value: 5 (+40% Opponent's Current HP) >> 12 (+38% Opponent's Current HP)\n\tEntropy Code Absorption Value: 200 (+20% Opponent's Max HP) >> 218 (+8% Opponent's Max HP) multiplied by the duration of Graviton Mark\n\n[Normal Skill: Graviton Mark Protocol] (~)\n\tEclipser DMG: 120 (+40% Physical ATK) as Physical DMG >> 112 (+48% Physical ATK) as Quantum DMG\n\tTemporal Latch DMG: 5 (+20% Physical ATK) >> 12 (+18% Physical ATK)\n\tEntropy Core DMG: 30 (+60% Physical ATK) as Physical ATK >> 98 (+51% Physical ATK) as Quantum DMG\n\n[Rifted Skill: Collapse Singularity] (↓)\n\tCollapse Singularity DMG: 200 (+40% Hyperion Energy) (+100% Physical ATK) as Physical DMG >> 214 (+112% Physical ATK) (+26% Hyperion Energy) as Quantum DMG"
+            }
+        ]
+    },
+    {
+        "name": "Lica",
+        "id": 1010009,
+        "baseData": {
+            "rarity": 4,
+            "type": "Rifted Technology",
+            "faction": "Fusion (Flame)",
+            "relicType": "Projectile",
+            "version": "1.0Beta"
+        },
+        "baseStats": {
+            "atk": 180,
+            "pwr": 0,
+            "def": 30,
+            "hp": 1600
+        },
+        "typeStats": {
+            "fluxCapacity": 2,
+            "surgeCapacity": 100,
+            "echoMemoryCapacity": 0,
+            "maxEnergy": 0
+        },
+        "subStat": {
+            "type": "ATK",
+            "value": 24.2
+        },
+        "talents": {
+            "coreTalent": {
+                "name": "Adventurer's Freedom",
+                "desc": "When Lica casts Normal Skill, his Rifted Skill DMG is increased by 20%."
+            },
+            "riftedTalent": {
+                "name": "Rifted Technology",
+                "desc": "Lica's Normal and Charged Attacks generate 1 Flux."
+            }
+        },
+        "abilities": {
+            "normalAttack": {
+                "name": "Crossfire",
+                "desc": "Lica deals 40% Physical ATK as Physical DMG to the opponent.",
+                "multipliers": []
+            },
+            "chargedAttack": {
+                "name": "Bringing Justice",
+                "cost": 20,
+                "desc": "Lica deals 60% Physical ATK as Physical DMG to the opponent.",
+                "multipliers": []
+            },
+            "normalSkill": {
+                "name": "Violated",
+                "fluxCost": 1,
+                "memoryNodes": {},
+                "desc": "Lica fires five Flame-Fused Arrows towards each opponent, each dealing 44 (+26% Physical ATK) as Flame-Fused DMG.",
+                "multipliers": []
+            },
+            "riftedSkill": {
+                "name": "Threats",
+                "surgeCost": 100,
+                "energyCost": 0,
+                "desc": "Lica fires a bulk of arrows, raining down on a small AoE area for 2 Cycles, each Cycle deals two instances of DMG, dealing 13 (+8% Phyiscal ATK) as Flame-Fused DMG and apply a Threat Mark on the opponent, max 4 stacks. Each stack increases Threats DMG by 8%.",
+                "multipliers": []
+            }
+        },
+        "fragments": [
+            {
+                "name": "Encourage",
+                "desc": "Lica gains 1 additional Flux capacity."
+            },
+            {
+                "name": "Special Commission",
+                "desc": "When there are more than 2 Flame-Type characters in the team, Lica's Crit Rate is increased by 10%."
+            },
+            {
+                "name": "Overtime",
+                "desc": "\"Violated\" level is increased by 3."
+            },
+            {
+                "name": "Precise Dedications",
+                "desc": "Lica's Rifted Skill \"Threats\"'s duration is increased by 1 Cycle. If the opponent has 4 Threat Marks, the duration is further increased by an additional Cycle. This effect has a 6 Cycle Cooldown."
+            },
+            {
+                "name": "Truth Lies Beneath The Surface",
+                "desc": "\"Threats\" level is increased by 3."
+            },
+            {
+                "name": "Consistant Training",
+                "desc": "Crit Rate is increased by 10%, Crit DMG is increased by 20%. The maximum Threats Marks on an opponent is increased by 4. Additionally, when there are no instances of Flame-Type DMG affecting the opponent except Lica, Lica's Rifted Skill \"Threats\"'s DMG is increased by 400% Lica's Phsysical ATK."
+            }
+        ],
+        "log": [
+            {
+                "version": "1.0Beta [Unknown]",
+                "description": "Unreleased"
+            }
+        ]
+    },
+    {
+        "name": "Zinnki",
+        "id": 1010010,
+        "baseData": {
+            "rarity": 5,
+            "type": "Rifted Technology",
+            "faction": "Quantum",
+            "relicType": "Agile",
+            "version": "1.0Beta"
+        },
+        "baseStats": {
+            "atk": 200,
+            "pwr": 0,
+            "def": 30,
+            "hp": 1800
+        },
+        "typeStats": {
+            "fluxCapacity": 5,
+            "surgeCapacity": 60,
+            "echoMemoryCapacity": 0,
+            "maxEnergy": 0
+        },
+        "subStat": {
+            "type": "CRIT Rate",
+            "value": 12.2
+        },
+        "talents": {
+            "coreTalent": {
+                "name": "Observation",
+                "desc": "For each of the team members alive including Zinnki, Zinnki gains 16% DMG Bonus."
+            },
+            "riftedTalent": {
+                "name": "Rifted Technology",
+                "desc": "Zinnki's Normal and Charged Attacks generate 1 Flux."
+            }
+        },
+        "abilities": {
+            "normalAttack": {
+                "name": "Crystal Shards",
+                "desc": "Zinnki releases 3 Crystal Shards, each dealing 8 (+12% Physical ATK) as Physical DMG.",
+                "multipliers": []
+            },
+            "chargedAttack": {
+                "name": "Data Extraction",
+                "cost": 30,
+                "desc": "Zinnki extracts 3 Crystal Shards out of the targeted opponent and pierce them, each dealing 13 (+18% Physical ATK) as Physcial DMG.",
+                "multipliers": []
+            },
+            "normalSkill": {
+                "name": "Quantum Tunneling",
+                "fluxCost": 4,
+                "memoryNodes": {},
+                "desc": "Zinnki's paralyzes the selected team member and enters Quantum Tunneling. In this state, they will share the same HP inherited from the member whose HP is greater than the other, and 60% of the paralyzed member's Physical ATK, Magic PWR, DEF, and DEF will be transferred to Zinnki. Zinnki will passively generate 8 Surges per Cycle during this state. Casting this skill will exit this state.",
+                "multipliers": []
+            },
+            "riftedSkill": {
+                "name": "Crystal Borrow",
+                "surgeCost": 60,
+                "energyCost": 0,
+                "desc": "If Zinnki has 60 Surges or more, Zinnki absorbs all quantum shards and releases the energy to the target dealing 114 (+44% Physical ATK) as Physical DMG. If Zinnki has full Surge, the DMG is converted into Quantum DMG.",
+                "multipliers": []
+            }
+        },
+        "fragments": [
+            {
+                "name": "No Latency",
+                "desc": "Zinnki's Normal and Charged Attacks will generate an extra Crystal Shard."
+            },
+            {
+                "name": "Reactive Tunneling",
+                "desc": "Zinnki's will inherit CRIT Rate, and CRIT DMG of the paralyzed member during Quantum Tunneling."
+            },
+            {
+                "name": "Divided by Zero",
+                "desc": "\"Quantum Tunneling\" level is increased by 3."
+            },
+            {
+                "name": "Spacetime Breakthrough",
+                "desc": "Zinnki's Energy Efficiency is increased by 20%. Casting Crystal Borrow will reduces the opponent's Physical RES by 60% and Quantum RES by 40%."
+            },
+            {
+                "name": "Accumulated Accumulations",
+                "desc": "\"Crystal Borrow\" level is increased by 3."
+            },
+            {
+                "name": "Ma'Lady",
+                "desc": "During Quantum Tunneling, Zinnki gains 40% Quantum DMG Bonus and her Normal and Charged Attacks are converted into Quantum DMG."
+            }
+        ],
+        "log": [
+            {
+                "version": "1.0Beta [Unknown]",
+                "description": "Unreleased"
+            }
+        ]
+    },
+    {
+        "name": "Vivnnae",
+        "id": 1010011,
+        "baseData": {
+            "rarity": 5,
+            "type": "Rifted Disorder",
+            "faction": "Gale",
+            "relicType": "Melee",
+            "version": "1.0Beta"
+        },
+        "baseStats": {
+            "atk": 0,
+            "pwr": 190,
+            "def": 30,
+            "hp": 1900
+        },
+        "typeStats": {
+            "fluxCapacity": 0,
+            "surgeCapacity": 0,
+            "echoMemoryCapacity": 12,
+            "maxEnergy": 200
+        },
+        "subStat": {
+            "type": "Energy Regen",
+            "value": 18.6
+        },
+        "talents": {
+            "coreTalent": {
+                "name": "Vibrant Shadows",
+                "desc": "Triggering Spread reactions accumulates 2 Echo Memory for Vivnnae."
+            },
+            "riftedTalent": {
+                "name": "Rifted Disorder",
+                "desc": "Vivnnae's Normal and Charged Attacks accumulate 1 Echo Memory and 5 Energy. Dealing Disorder DMG accumulates 10 Energy."
+            }
+        },
+        "abilities": {
+            "normalAttack": {
+                "name": "Sword Master Arc",
+                "desc": "Vivnnae deals 88 (+33% Physical ATK) as Physical DMG to the opponent.",
+                "multipliers": []
+            },
+            "chargedAttack": {
+                "name": "Honored Knight",
+                "cost": 20,
+                "desc": "Vivnnae deals 122 (+58% Physical ATK) as Physical DMG to the opponent.",
+                "multipliers": []
+            },
+            "normalSkill": {
+                "name": "Feather Hopes and Dreams",
+                "fluxCost": 0,
+                "memoryNodes": {
+                    "node1": "4EM",
+                    "node2": "6EM",
+                    "node3": "10EM"
+                },
+                "desc": "Vivnnae casts a \"Feather of Hopes\" to the opponent, dealing 11 (+36% Magic PWR) as Magic DMG.\n\n[4EM] Vivnnae casts a \"Feather of Hopes\" to the opponent, dealing 63 (+87% Magic PWR) as Gale DMG, returning \"Flower of Dreams\" to her, healing herself by 104% of the DMG dealt.\n\n[6EM] Vivnnae casts a \"Feather of Hopes\" to the opponent, dealing 114 (+101% Magic PWR) as Gale DMG, returning \"Flower of Dreams\" to all team members, healing them by 104 (+242% of the DMG dealt) (+112% Magic PWR).\n\n[10EM] When Vivnnae has over 10 Echo Memory, she'll enters Meditating state. Meditating state: Vivnnae gains 40% All Disorder RES and consumes 3 Echo Memories each round, healing all team members except her by 88 (+143% Magic PWR). During this state, Vivnnae cannot casts any other skills. state ends when all Echo Memories are consumed.",
+                "multipliers": []
+            },
+            "riftedSkill": {
+                "name": "Lightest Decision",
+                "surgeCost": 0,
+                "energyCost": 200,
+                "desc": "Vivnnae casts a Feather Field for 2 Cycles. Feather Field: Increases all team members Physical ATK by 64% of Vivnnae's Magic PWR, max 600, and heals all team members by 66 (+119% Magic PWR) each Cycle.",
+                "multipliers": []
+            }
+        },
+        "fragments": [
+            {
+                "name": "Flow of Wind",
+                "desc": "Energy Efficiency is increased by 20%. When casting \"Lightest Decision\", Vivnnae gains 4 Echo Memories."
+            },
+            {
+                "name": "Guidelines of Gale",
+                "desc": "Vivnnae's gains 40% Gale DMG Bonus. If Vivnnae is in the team, Spread Reaction DMG is increased by 20%."
+            },
+            {
+                "name": "Spreading Happiness",
+                "desc": "\"Feather of Hopes and Dreams\" level is increased by 3."
+            },
+            {
+                "name": "Cyclone's Eye",
+                "desc": "During Feather Field, all opponent's Gale RES is decreased by 40%."
+            },
+            {
+                "name": "Hard Decision",
+                "desc": "\"Lightest Decision\" level is increased by 3."
+            },
+            {
+                "name": "Knight of Koniveruer",
+                "desc": "During Feather Field, all team members All Disorder RES is increased by 20%."
+            }
+        ],
+        "log": [
+            {
+                "version": "1.0Beta [Unknown]",
+                "description": "Unreleased"
+            }
+        ]
+    },
+    {
+        "name": "Yuanni",
+        "id": 1010012,
+        "baseData": {
+            "rarity": 5,
+            "type": "Rifted Disorder",
+            "faction": "Frost",
+            "relicType": "Power",
+            "version": "1.1Beta"
+        },
+        "baseStats": {
+            "atk": 180,
+            "pwr": 200,
+            "def": 30,
+            "hp": 1800
+        },
+        "typeStats": {
+            "fluxCapacity": 0,
+            "surgeCapacity": 0,
+            "echoMemoryCapacity": 20,
+            "maxEnergy": 120
+        },
+        "subStat": {
+            "type": "Frost DMG Bonus",
+            "value": 14.6
+        },
+        "talents": {
+            "coreTalent": {
+                "name": "Remanent of Stars and Moon",
+                "desc": "Yuanni manipulates \"Stars\" and \"Moon\", where \"Stars\" deals additional 20% Physical ATK and \"Moon\" deals additional 25% Magic PWR. If Yuanni has a Shield, \"Moon\"-aligned attacks are converted into Frost DMG.\n\nYuanni's attacks ignore all opponent's Shields. If the opponent has a Shield, her \"Moon\"-aligned attacks will deal additional 8% opponent's Shield and absorbs the same amount as her own Shield, capped at 75% Yuanni's Max HP.\n\nIf Yuanni has a Shield, she will apply a Shield equals to 140% of her Frost DMG dealt."
+            },
+            "riftedTalent": {
+                "name": "Rifted Disorder",
+                "desc": "Yuanni's Normal and Charged Attacks accumulate 2 Echo Memories and 5 Energy. Dealing Disorder DMG accumulates 1 Echo Memory and 10 Energy."
+            }
+        },
+        "abilities": {
+            "normalAttack": {
+                "name": "Blessed Night",
+                "desc": "Yuanni's Normal Attacks deals two instance of DMG: Starbless and Moonbless. Starbless: Deals 20% Physical ATK as \"Stars\"-aligned Physical DMG. Moonbless: Deals 20 (+15% Magic PWR) as \"Moon\"-aligned Magic DMG.",
+                "multipliers": []
+            },
+            "chargedAttack": {
+                "name": "Midnight Channeling",
+                "cost": 30,
+                "desc": "Yuanni channels her \"Stars\" and \"Moon\" energy together, dealing 14 (+8% Physical ATK) (+12% Magic PWR) as Magic DMG. If Yuanni has a Shield, the aforementioned effects are increased by 100%, and converted into Frost DMG.",
+                "multipliers": []
+            },
+            "normalSkill": {
+                "name": "Guidance of Stars",
+                "fluxCost": 0,
+                "memoryNodes": {
+                    "node1": "5EM",
+                    "node2": "10EM",
+                    "node3": "15EM",
+                    "node4": "20EM"
+                },
+                "desc": "Yuanni obtains a Shield equals to 1.6% Max HP.\n\n[5EM] Yuanni obtains a Shield equals to 3% Max HP and increases her Magic PWR by 6% for 1 Cycle.\n\n[10EM] Yuanni obtains a Shield equals to 8% Max HP and increases her Magic PWR by 12% for 2 Cycles.\n\n[15EM] Yuanni obtains a Shield equals to 16% Max HP and increases her Magic PWR by 12% for 2 Cycles. Yuanni will gains an extra action after casting this skill.\n\n[20EM] Yuanni obtains a Shield equals to 20% Max HP and increases her Magic PWR by 12% for 2 Cycles. Yuanni will gains an extra action after casting this skill. Yuanni's Shield cap is increased by 25%.",
+                "multipliers": []
+            },
+            "riftedSkill": {
+                "name": "Fulfilled Wishes",
+                "surgeCost": 0,
+                "energyCost": 120,
+                "desc": "Yuanni wishes upon the Stars, absorbing all her Shields and dealing 97 (+197% Magic PWR) (+4% Absorbed Shields) as Frost DMG, while healing herself by 24% Absorbed Shield.",
+                "multipliers": []
+            }
+        },
+        "fragments": [
+            {
+                "name": "Starlit Blessing",
+                "desc": "Yuanni converts 4% of her Shield into her HP each round."
+            },
+            {
+                "name": "Moonlit Blessing",
+                "desc": "Yuanni's \"Moon\"-aligned attacks will deal additional 12% opponent's Shield and absorbs the same amount as her own Shield, capped at 125% Yuanni's Max HP."
+            },
+            {
+                "name": "Starry Nights",
+                "desc": "\"Guidance of Stars\" level is increased by 3."
+            },
+            {
+                "name": "Shadows of Eclipse",
+                "desc": "When dealing Physical DMG, CRIT Rate is increased by 20% and CRIT DMG is increased by 70% for the next instance of DMG."
+            },
+            {
+                "name": "When the Stars Shine",
+                "desc": "\"Fulfilled Wishes\" level is increased by 3."
+            },
+            {
+                "name": "Vial of Frostmoon",
+                "desc": "All \"Moon\"-aligned attacks are converted into Frost DMG. When dealing Frost DMG to an opponent, apply the opponent with 1 stack Frostmoon for 2 Cycles, max 4 stacks.\nFrostmoon: Increases Frost DMG taken by 12%."
+            }
+        ],
+        "log": [
+            {
+                "version": "1.1Beta [Unknown]",
+                "description": "Unreleased"
+            }
+        ]
+    },
+    {
+        "name": "Maggi",
+        "id": 1010013,
+        "baseData": {
+            "rarity": 5,
+            "type": "Rifted Disorder",
+            "faction": "Tide",
+            "relicType": "Magical",
+            "version": "1.2Beta"
+        },
+        "baseStats": {
+            "atk": 0,
+            "pwr": 220,
+            "def": 30,
+            "hp": 1600
+        },
+        "typeStats": {
+            "fluxCapacity": 0,
+            "surgeCapacity": 0,
+            "echoMemoryCapacity": 6,
+            "maxEnergy": 120
+        },
+        "subStat": {
+            "type": "PWR",
+            "value": 24.2
+        },
+        "talents": {
+            "coreTalent": {
+                "name": "City of Toys",
+                "desc": "When Maggi's HP drops below 10% of her Max HP or nearby team members' HP drops below 5% of their Max HP, triggers City of Toys. City of Toys: If Maggi triggers City of Toys, she gains a Tide Star-Shield equals to 10% her Max HP and heals herself by 40% of her Magic PWR. If other team members trigger City of Toys, Maggi grants them a Tide Toy-Shield equals to 40% of her Magic PWR and heals them by 120% of her Magic PWR."
+            },
+            "riftedTalent": {
+                "name": "Rifted Disorder",
+                "desc": "Maggi's Normal and Charged Attacks accumulate 2 Echo Memories and 5 Energy. Dealing Disorder DMG accumulates 1 Echo Memory and 10 Energy."
+            }
+        },
+        "abilities": {
+            "normalAttack": {
+                "name": "Raining Colors",
+                "desc": "Maggi launches her Star Toy to the target opponent dealing 14 (+34% Magic PWR) as Magic DMG.",
+                "multipliers": []
+            },
+            "chargedAttack": {
+                "name": "Bubble Blast",
+                "cost": 30,
+                "desc": "Maggi uses her Toy Gun to blow a bubble towards the opponent dealing 22 (+44% Magic PWR) as AoE Tide DMG.",
+                "multipliers": []
+            },
+            "normalSkill": {
+                "name": "Under My Protection",
+                "fluxCost": 0,
+                "memoryNodes": {
+                    "node1": "2EM",
+                    "node2": "4EM",
+                    "node3": "6EM"
+                },
+                "desc": "[2EM] Maggi grants a Tide Shield equals to 113 (+46.124% Magic PWR) to the selected team member.\n[4EM] Maggi grants a Tide Toy-Shield equals to 164 (+78.81% Magic PWR) to the selected team member. While the Toy-Shield is active, if an opponent deals DMG to the character with the Toy-Shield, Maggi will uses her Toy Gun to launch a Tide Beam towards the same opponent deaeling 106 + (38.98% Magic PWR) as Follow-Up Tide DMG.\n[6EM] Maggi grants a Tide Toy-Shield equals to 203 (+101.922% Magic PWR) to the selected team member and grants herself a Tide Star-Shield equals to 113 (+114.93% Magic PWR). While the Toy-Shield is active, if an opponent deals DMG to the character with the Toy-Shield, Maggi will uses her Toy Gun to launch a Tide Beam towards the same opponent deaeling 114 + (46.71% Magic PWR) as Follow-Up Tide DMG. While the Star-Shield is active, Maggi's Magic PWR is increased by 36%.",
+                "multipliers": []
+            },
+            "riftedSkill": {
+                "name": "All-Waters Submerged",
+                "surgeCost": 0,
+                "energyCost": 120,
+                "desc": "Maggi blesses all team members with All-Waters Blessing, increasing their Magic PWR by 56% her Magic PWR for 4 Cycles. Additionally, if team members has a Toy-Shield, converts the Toy-Shield into Blessed-Toy-Shield. While the Blessed-Toy-Shield is active, heals the character under the Blessed-Toy-Shield by 98 (+136.26% Magic PWR). After 4 Cycles, if the Blessed-Toy-Shield is still active, it will be converted back to Toy-Shield.",
+                "multipliers": []
+            }
+        },
+        "fragments": [
+            {
+                "name": "Refined Toys",
+                "desc": "While casting \"All-Waters Submerged\", if team members has a Toy-Shield, increases the Shield Strength by 36%."
+            },
+            {
+                "name": "Maggi Must Manage",
+                "desc": "While the Toy-Shield is active, increases their Tide RES by 20%. Additionally, if Maggi's Tide Beam hits an opponent, decreases the opponent's Reaction RES by 12%, max 3 stacks."
+            },
+            {
+                "name": "\"I'll carry you through the darkness!\"",
+                "desc": "\"Under My Protection\" level is increased by 3."
+            },
+            {
+                "name": "Tinkering Toyland",
+                "desc": "Characters under Toy-Shield have their CRIT Rate increased by 16% and CRIT DMG increased by 40%."
+            },
+            {
+                "name": "Flooded by Blessings",
+                "desc": "\"All-Waters Submerged\" level is increased by 3."
+            },
+            {
+                "name": "Vial of Frostmoon",
+                "desc": "Maggi gains 0.015% Follow-Up Attack DMG Bonus for every 1 Magic PWR she has. Additionally, Maggi's Tide Beam triggered by an opponent attacking the team member with the Blessed-Toy-Shield, will launches 3 Piercing Tide Beam at the opponent's location, each dealing 224% Magic PWR as Follow-Up Tide DMG."
+            }
+        ],
+        "log": [
+            {
+                "version": "1.2Beta [Unknown]",
+                "description": "Unreleased"
+            }
+        ]
+    },
+    {
+        "name": "Hypotar",
+        "id": 1010014,
+        "baseData": {
+            "rarity": 5,
+            "type": "Rifted Technology",
+            "faction": "Destruction",
+            "relicType": "Agile",
+            "version": "1.3Beta"
+        },
+        "baseStats": {
+            "atk": 220,
+            "pwr": 0,
+            "def": 30,
+            "hp": 2000
+        },
+        "typeStats": {
+            "fluxCapacity": 5,
+            "surgeCapacity": 380,
+            "echoMemoryCapacity": 0,
+            "maxEnergy": 0
+        },
+        "subStat": {
+            "type": "Energy Effieciency",
+            "value": 4.2
+        },
+        "talents": {
+            "coreTalent": {
+                "name": "Trisealed Sacrifice",
+                "desc": "Hypotar's Energy Regen is decreased by 50%. Additionally, every 1% of Hypotar's Energy Regen less than 100% increases team members' Energy Regen by 0.4%."
+            },
+            "riftedTalent": {
+                "name": "Rifted Technology",
+                "desc": "Hypotar's Normal and Charged Attacks generate 1 Flux."
+            },
+            "others": [
+                {
+                    "name": "Curse of Undying",
+                    "desc": "Due to a certain curse, Hypotar cannot convert Flux into Surges on his own."
+                },
+                {
+                    "name": "Becon of Union",
+                    "desc": "When a team member, opponent, or other specific condtion generates Surges or Energy, Hypotar stores 0.8% of that Surge or Energy as his own Surge."
+                }
+            ]
+        },
+        "abilities": {
+            "normalAttack": {
+                "name": "Under My Control",
+                "desc": "Hypotar deals 34 (+44% Physical ATK) as Physical DMG to the opponent.",
+                "multipliers": []
+            },
+            "chargedAttack": {
+                "name": "Resistance",
+                "cost": 20,
+                "desc": "Hypotar deals 64 (+58.24% Physical ATK) as Physical DMG to the opponent.",
+                "multipliers": []
+            },
+            "normalSkill": {
+                "name": "Spear of Resilience",
+                "fluxCost": 2,
+                "memoryNodes": {},
+                "desc": "Hypotar strikes the target opponent with the Spear of Resilience, dealing 74 (+66.98% Physical ATK) as AoE Destruction DMG, while reducing the opponent's Hybird DEF by 14.5% of Hypotar's Physical ATK for 3 Turns.",
+                "multipliers": []
+            },
+            "riftedSkill": {
+                "name": "Absolute Hybernation",
+                "surgeCost": 280,
+                "energyCost": 0,
+                "desc": "Hypotar creates a Hybernation Area, releasing his remaning Surges as Hybernation Energy. During the Hybernation, Hypotar consumes 40 Surges and supply each team member with 62.5% of the consumed Surge as Surges or Energy as the member need each Cycle. During the Hybernation, Hypotar cannot gains Surges and the Hybernation will ends when there's no Surge left to consume.",
+                "multipliers": []
+            }
+        },
+        "fragments": [
+            {
+                "name": "\"Our alliance will unite as one.\"",
+                "desc": "During the Hybernation, Hypotar will heal all team members by 200% of his ATK each Cycle."
+            },
+            {
+                "name": "\"The destination I choose to live is no where near the end.\"",
+                "desc": "Hypotar's Energy Efficiency is increased by 10%. When \"Beacon of Union\" is triggered, gains Curse of Resilience stack. Each Curse of Resilience stack decreases Hypotar's Energy Regen by 1%, max 10 stacks."
+            },
+            {
+                "name": "\"The Resistance is never ment to fail.\"",
+                "desc": "\"Absolute Hybernation\" level is increased by 3."
+            },
+            {
+                "name": "\"The extinction of my kind was never meant to happen.\"",
+                "desc": "While casting \"Spear of Resilience\", if there are more than 2 Rifted Technology members in the team, increases Physical ATK by 36% and generate 1 extra Flux for each of the team member, if there are more than 2 Rifted Disorder members in the team, increases Magic PWR by 36% and generate 1 extra Echo Memory for each of the team member."
+            },
+            {
+                "name": "\"The power of execution is brutal.\"",
+                "desc": "\"Spear of Resilience\" level is increased by 3."
+            },
+            {
+                "name": "\"The wait is over, my nation.\"",
+                "desc": "During the Hybernation, Hypotar gains 36% of the consumed Surges back. Additionally, opponents will enters the cursed state, delaying their actions by 40% and reducing the DMG dealt to team members by 16%."
+            }
+        ],
+        "log": [
+            {
+                "version": "1.3Beta [Unknown]",
+                "description": "Unreleased"
+            }
+        ]
+    },
+    {
+        "name": "Pyrrion",
+        "id": 1010015,
+        "baseData": {
+            "rarity": 5,
+            "type": "Rifted Disorder",
+            "faction": "Flame",
+            "relicType": "Agile",
+            "version": "1.4Beta"
+        },
+        "baseStats": {
+            "atk": 220,
+            "pwr": 0,
+            "def": 30,
+            "hp": 1800
+        },
+        "typeStats": {
+            "fluxCapacity": 0,
+            "surgeCapacity": 0,
+            "echoMemoryCapacity": 80,
+            "maxEnergy": 0
+        },
+        "subStat": {
+            "type": "Crit DMG",
+            "value": 28.8
+        },
+        "talents": {
+            "coreTalent": {
+                "name": "A Name Forged in Flames",
+                "desc": "When dealing Flame DMG to the opponent, apply Ignition for 2 Cycles. When Pyrrion deals Flame DMG, deals additional 20% DMG to opponent affected by Ignition and resets the Ignition duration. When the opponent affected by Ignition takes four instances of Flame DMG, Ignition is transformed into Blazing Embers, increaseing the Flame DMG taken from Pyrrion by 40%."
+            },
+            "riftedTalent": {
+                "name": "Rifted Disorder",
+                "desc": "Dealing Flame DMG to opponents accumulates 5 Echo Memory. Dealing Flame DMG to opponents affected by Ignition accumulates 10 Echo Memory. When Pyrrion's Echo Memory is greater than 40%, dealing Flame DMG to opponents with Blazing Embers consumes 10% Echo Memory and obtains 1 Wrath of Ignition. Additionally, When Pyrrion's Echo Memory is greater than 30%, each Echo Memory will increase Pyrrion's DMG by 1%."
+            }
+        },
+        "abilities": {
+            "normalAttack": {
+                "name": "The Last Forge",
+                "desc": "Pyrrion deals 40% Physical ATK as Physical DMG to the opponent. If the opponent is affected by Ignition, the DMG is converted to Flame DMG.",
+                "multipliers": []
+            },
+            "chargedAttack": {
+                "name": "Ember Cyclone",
+                "cost": 20,
+                "desc": "Pyrrion deals 60% Physical ATK as Physical DMG to the opponent. If the opponent is affected by Ignition, the DMG is converted to Flame DMG.",
+                "multipliers": []
+            },
+            "normalSkill": {
+                "name": "Blazing Thrust",
+                "fluxCost": 0,
+                "memoryNodes": {
+                    "node1": "20EM"
+                },
+                "desc": "[20EM] Pyrrion thrusts his spear towards the opponent, dealing 133 (+59% Physical ATK) as Flame DMG. If the oppoenent is affected by Burning Embers, stuns the opponent for 1 Cycle and obtains 1 Wrath of Ignition.",
+                "multipliers": []
+            },
+            "riftedSkill": {
+                "name": "Wrath of Ignition",
+                "surgeCost": 0,
+                "energyCost": 0,
+                "desc": "When Pyrrion has more than 6 Wraths of Ignitions, he comsumes all Wraths of Ignition and striking the opponent with five Ignited Spears, four of which deal 31 (+24% Physical ATK) as FLame DMG. The Final Ignited Spear deals 48 (+35.8% Physical ATK) as Flame DMG. Each extra Wrath of Ignition increases the Final Ignited Spear DMG by 178.2%, max 534.6%.",
+                "multipliers": []
+            }
+        },
+        "fragments": [
+            {
+                "name": "Loyal Flame Knight",
+                "desc": "Pyrrion gains 8% additional Echo Memory from Normal and Charged Attacks."
+            },
+            {
+                "name": "Burning Soul",
+                "desc": "Pyrrion gains 20% Flame DMG Bonus. Every Flame members in the team, increases Pyrrion's Flame DMG Bonus by 5%, including himself."
+            },
+            {
+                "name": "Ignited Wrath",
+                "desc": "\"Wrath of Ignition\" level is increased by 3."
+            },
+            {
+                "name": "Scorched Resolve",
+                "desc": "Pyrrion's Echo Memory Capacity is increased by 20. When every opponent is affected by Ignition, Pyrrion gains 30% Crit Rate and 80% Crit DMG."
+            },
+            {
+                "name": "Lavaborn Inferno",
+                "desc": "\"Blazing Thrust\" level is increased by 3."
+            },
+            {
+                "name": "Only Ashes Remain",
+                "desc": "When using \"Wrath of Ignition\" at maximum stack, the Final Ignited Sphear will be converted into Inferno Manifestation, dealing additional DMG by 250% of all team member's Flame DMG Bonus."
+            }
+        ],
+        "log": [
+            {
+                "version": "1.4Beta [Unknown]",
+                "description": "Unreleased"
+            }
+        ]
+    },
+    {
+        "name": "Siren",
+        "id": 1010016,
+        "baseData": {
+            "rarity": 5,
+            "type": "Rifted Disorder",
+            "faction": "Tide",
+            "relicType": "Magical",
+            "version": "1.5Beta"
+        },
+        "baseStats": {
+            "atk": 0,
+            "pwr": 220,
+            "def": 30,
+            "hp": 1700
+        },
+        "typeStats": {
+            "fluxCapacity": 0,
+            "surgeCapacity": 0,
+            "echoMemoryCapacity": 21,
+            "maxEnergy": 80
+        },
+        "subStat": {
+            "type": "Crit Rate",
+            "value": 12.2
+        },
+        "talents": {
+            "coreTalent": {
+                "name": "Violet-Tainted Love",
+                "desc": "Siren's Attacks' Tide DMG is replaced by Violet-Tainted Tide DMG. This DMG inherit all Tide DMG effects, buffs, and debuffs. Electrified Reactions triggered by Violet-Tainted Tide DMG will be converted into Supercharged Reactions."
+            },
+            "riftedTalent": {
+                "name": "Rifted Disorder",
+                "desc": "Dealing Disorder DMG to opponents accumulates 1 Echo Memory and 5 energy. Triggering Electrified or Supercharged Reactions generates additional 3 Echo Memory and 15 energy."
+            },
+            "others": [
+                {
+                    "name": "Supercharged Reactions",
+                    "desc": "The Supercharged reactions can trigger Critical Hits, and critical values are fixed at 15% Crit Rate and 100% Crit DMG. When Siren is in the team, one of the following effects will apply based on the number of Volte-Type characters in the team:\n\tAt least 1 Volte-Type Character: Supercharged Reactions Crit Rate is increased by 15% and Crit DMG is increased by 20%.\n\tAt least 2 Volte-Type Characters: Electrified Reactions DMG is increased by 96%.\nThe aforementioned effects will not stack. However, the effects can stack with other similar effects from other characters."
+                }
+            ]
+        },
+        "abilities": {
+            "normalAttack": {
+                "name": "Splashing Melody",
+                "desc": "Siren deals 14 (+24% Magic PWR) as Violet-Tainted Tide DMG to the opponent.",
+                "multipliers": []
+            },
+            "chargedAttack": {
+                "name": "Love-Tied Blast",
+                "cost": 20,
+                "desc": "Siren deals 44 (+54.2% Magic PWR) as Violet-Tainted Tide DMG to the opponent.",
+                "multipliers": []
+            },
+            "normalSkill": {
+                "name": "Home of Plushies",
+                "fluxCost": 0,
+                "memoryNodes": {
+                    "node1": "7EM",
+                    "node2": "14EM",
+                    "node3": "21EM"
+                },
+                "desc": "[20EM] Siren deploys a Love-Tied Plushi near the target opponent for 4 Cycles. Each cycle, the Plushi deals 88 (+34% Magic PWR) as AoE Violet-Tainted Tide DMG to the target and two nearby opponents.\n[14EM] Siren deploys a Violet-Tied Plushi near the target opponent for 6 Cycles. Each cycle, the Plushi deals 101 (+66% Magic PWR) as AoE Violet-Tainted Tide DMG to the target and two nearby opponents. This DMG is considered Supercharged Reaction DMG.\n[21EM] Siren deploys a Violet-Feathered Plushi near the target opponent for 8 Cycles. Each cycle, the Plushi deals 121 (+81% Magic PWR) as AoE Violet-Tainted Tide DMG to the target and two nearby opponents and reducing their Reaction RES by 8%. This DMG is considered Supercharged Reaction DMG.",
+                "multipliers": []
+            },
+            "riftedSkill": {
+                "name": "Full Bloom Violet Raid",
+                "surgeCost": 0,
+                "energyCost": 80,
+                "desc": "Siren unleashes a Full Bloom Violet Raid, dealing 222 (+88% Magic PWR) as AoE Violet-Tainted Tide DMG to all opponents. The following additional effects will occour based on the deployed Plushi:\nLove-Tied Plushi: Increases all team members' Knowledge Unit by 40.\nViolet-Tied Plushi: Increases all team member's Reaction DMG Bonus by 20%.\nViolet-Feathered Plushi: Decreases all opponent's Reaction RES by 8%, Tide RES by 12%, and Volte RES by 12%.",
+                "multipliers": []
+            }
+        },
+        "fragments": [
+            {
+                "name": "Long-Lasting Cuties",
+                "desc": "Siren's Plushies will stay on the field for 2 additional Cycles."
+            },
+            {
+                "name": "Tide of Affection",
+                "desc": "While Siren is in the team, All Electrified Reactions triggered by team members will deal additional DMG based on 700% of Siren's Knowledge Unit, and all Supercharged Reactions triggered by Siren's Violet-Tainted Tide DMG will deal additional DMG based on 500% of Siren's Knowledge Unit. Additionally, her Supercharged Reaction DMG is increased by 80%."
+            },
+            {
+                "name": "Power Up Plushies",
+                "desc": "\"Home of Plushies\" level is increased by 3."
+            },
+            {
+                "name": "It's all Mine",
+                "desc": "Siren's Plushies AoE now deals DMG to all opponents on the field. Additionally, an extra instance of DMG is dealt while deploying Plushies, dealing 100% of Siren's Magic PWR multiplied by 400% of Siren's Knowledge Unit as AoE Violet-Tainted Tide DMG."
+            },
+            {
+                "name": "Rain of Plushies",
+                "desc": "\"Full Bloom Violet Raid\" level is increased by 3."
+            },
+            {
+                "name": "Cuteness Overload",
+                "desc": "Siren's Tide DMG is increased by 40%. Siren's Rifted Skill \"Full Bloom Violet Raid\" will consumes all deployed Plushies and additional effects will occour based on the consumed Plushies:\nLove-Tied Plushi: All team members' Knowledge Unit is increased by 120.\nViolet-Tied Plushi: Increases all team member's Reaction DMG Bonus by 40%.\nViolet-Feathered Plushi: Decreases all opponent's Reaction RES by 40%, Tide RES by 20%, and Volte RES by 20%. The lower-tiered effects will still apply when a higher-tiered Plushi is consumed."
+            }
+        ],
+        "log": [
+            {
+                "version": "1.5Beta [Unknown]",
+                "description": "Unreleased"
+            },
+            {
+                "version": "1.5Beta [Pre-Dev Changes @ 2025-10-04]",
+                "description": "Siren (↓): After extended amount of discussion and testing, Siren is too overpowered in her Reactions capabilities. We decided to restrict her Special Reactions to a specific category.\n\tPassive Talent: Violet-Tained Love (↓): Reactions triggered by Violet-Tainted Tide DMG can trigger Critical Hits based on Siren's Crit Rate and 92% of entire team Crit DMG >> Electrified Reactions triggered by Violet-Tainted Tide DMG will be converted into Supercharged Reactions.\n\t[New Effect] Passive Talent - Supercharged Reactions: The Supercharged reactions can trigger Critical Hits, and critical values are fixed at 15% Crit Rate and 100% Crit DMG. When Siren is in the team, one of the following effects will apply based on the number of Volte-Type characters in the team:\n\tAt least 1 Volte-Type Character: Electrified Reactions DMG is increased by 96%.\n\tAt least 2 Volte-Type Characters: Supercharged Reactions Crit Rate is increased by 15% and Crit DMG is increased by 20%.\nThe aforementioned effects will not stack.\n\tRifted Disorder (↓): Triggering reactions generates additional 3 Echo Memory and 15 energy >> Triggering Electrified or Supercharged Reactions generates additional 3 Echo Memory and 15 energy.\n\tF2 - Tide of Affection (~): All reactions triggered by Violet-Tainted Tide DMG will deal additional DMG based on 500% of Siren's Knowledge Unit. Additionally, her Reaction DMG Bonus is increased by 40% >> While Siren is in the team, All Electrified Reactions triggered by team members will deal additional DMG based on 700% of Siren's Knowledge Unit, and all Supercharged Reactions triggered by Siren's Violet-Tainted Tide DMG will deal additional DMG based on 500% of Siren's Knowledge Unit. Additionally, her Supercharged Reaction DMG is increased by 80%."
+            }
+        ]
+    },
+    {
+        "name": "Nytherion Luxen",
+        "id": 1010017,
+        "baseData": {
+            "rarity": 5,
+            "type": "Rifted Technology",
+            "faction": "Fusion (Volte)",
+            "relicType": "Agile",
+            "version": "1.6Beta"
+        },
+        "baseStats": {
+            "atk": 220,
+            "pwr": 0,
+            "def": 30,
+            "hp": 1800
+        },
+        "typeStats": {
+            "fluxCapacity": 3,
+            "surgeCapacity": 80,
+            "echoMemoryCapacity": 0,
+            "maxEnergy": 0
+        },
+        "subStat": {
+            "type": "Crit DMG",
+            "value": 28.8
+        },
+        "talents": {
+            "coreTalent": {
+                "name": "The Eighth Night",
+                "desc": "Luxen's Attacks' Volte DMG is replaced by Electric-Volte DMG. This DMG inherit all Volte DMG effects, buffs, and debuffs. Electrified Reactions triggered by Electric-Volte DMG will be converted into Supercharged Reactions."
+            },
+            "riftedTalent": {
+                "name": "Rifted Technology",
+                "desc": "Dealing Volte-Fused DMG accumulates 8 Surges. Triggering Electrified or Supercharged Reactions generates 13 Surges."
+            },
+            "others": [
+                {
+                    "name": "Supercharged Reactions",
+                    "desc": "The Supercharged reactions can trigger Critical Hits, and critical values are fixed at 15% Crit Rate and 100% Crit DMG. When Luxen is in the team, one of the following effects will apply based on the number of Tide-Type characters in the team:\n\tAt least 1 Tide-Type Character: Superchraged Reactions Crit Rate is increased by 15% and Crit DMG is increased by 20%.\n\tAt least 2 Tide-Type Characters: Luxen's Chraged ATK and Normal Skill DMG will be considered as Supercharged Reaction DMG.\nThe aforementioned effects will not stack. However, the effects can stack with other similar effects from other characters."
+                }
+            ]
+        },
+        "abilities": {
+            "normalAttack": {
+                "name": "Insufficient Moonlight",
+                "desc": "Luxen deals 40% Physical ATK as Physical DMG to the opponent.",
+                "multipliers": []
+            },
+            "chargedAttack": {
+                "name": "Rain under the Moonlit Sky",
+                "cost": 20,
+                "desc": "Luxen deals 60% Physical ATK as Physical DMG to the opponent. If Luxen has Flux, can consumes 1 Flux to strike the opponent with a Moonlit Spear, dealing 104 (+56% Physical ATK) as Volte-Fused DMG.",
+                "multipliers": []
+            },
+            "normalSkill": {
+                "name": "Consideration",
+                "fluxCost": 0,
+                "memoryNodes": {},
+                "desc": "Luxen enters Hunting state for 11 Cycles. Hunting state: Normal and Charged Attacks are converted into Volte-Fused DMG and his Fusion DMG Bonus is increased by 55%, which will reduce by 16% each round during his Hunting state. This effect can also reduce his Fusion DMG if he stays in the Hunting state for longer period. Luxen can cast this skill to exit Hunting state at any time. After Luxen exits Hunting state, this skill will enters cooldown for 2 Cycles multiplied by the Cycles during his Hunting State.\nAfter using the Special attack of \"Rain under the Moonlit Sky\", Luxen can instantly cast \"Consideration\" to deal an additional instance of 224 (+88% Physical ATK) as Volte-Fused DMG to the opponent. Only this DMG is considered Normal Skill DMG.",
+                "multipliers": []
+            },
+            "riftedSkill": {
+                "name": "The Nineth Night",
+                "surgeCost": 80,
+                "energyCost": 0,
+                "desc": "Luxen calls upon the Blessing of the Nineth Night, emerging a Thunder Strike from the Ground, dealing 168 (+74% Physical ATK) as Supercharged Reaction DMG. For every Supercharged Reaction triggered during a single cycle, an extra Thunder Strike will be emerge, max 3 Thunder Strikes. Each Thunder Strike will generate 1 Flux.",
+                "multipliers": []
+            }
+        },
+        "fragments": [
+            {
+                "name": "Midnight Hunter",
+                "desc": "Luxen's Energy Regen is increased by 20%. Luxen's Hunting state's Fusion DMG Bonus reduction per round is decreased to 8%."
+            },
+            {
+                "name": "Moon's Reflection",
+                "desc": "While Luxen is in Hunting state, When Luxen deals DMG to an opponent, a Thunderbolt will strike the opponent, dealing 100 (+120% Physical ATK) as Follow-up Supercharged Reaction DMG."
+            },
+            {
+                "name": "Shadownight Hunter",
+                "desc": "\"Consideration\" level is increased by 3."
+            },
+            {
+                "name": "\"I wish to keep a promise with you.\"",
+                "desc": "His's Supercharged Reaction DMG is increased by 80%. Consuming Flux heals Luxen for 8% of his Max HP and increases his Hybird DEF by 40% for 2 Cycles."
+            },
+            {
+                "name": "Evernight Blessing",
+                "desc": "\"The Nineth Night\" level is increased by 3."
+            },
+            {
+                "name": "\"I'll never lose to my enemy.\"",
+                "desc": "Luxen's Flux Capacity is increased by 1. Triggering Supercharged Reactions during Hunting state gains 1 stack of Misfortune, max 8 stacks. While casting \"The Nineth Night\", Luxen will cleanse all Misfortune stacks to increase Thunder Strike DMG by 8% per stack consumed. If Luxen cleanse more than 6 stacks of Misfortune, 1 additional Flux can be generated through this way."
+            }
+        ],
+        "log": [
+            {
+                "version": "1.6Beta [Unknown]",
+                "description": "Unreleased"
+            }
+        ]
+    },
+    {
+        "name": "Faewyn",
+        "id": 1010018,
+        "baseData": {
+            "rarity": 5,
+            "type": "Rifted Disorder",
+            "faction": "Gale",
+            "relicType": "Magical",
+            "version": "1.7Beta"
+        },
+        "baseStats": {
+            "atk": 0,
+            "pwr": 180,
+            "def": 30,
+            "hp": 1600
+        },
+        "typeStats": {
+            "fluxCapacity": 0,
+            "surgeCapacity": 0,
+            "echoMemoryCapacity": 6,
+            "maxEnergy": 80
+        },
+        "subStat": {
+            "type": "Knowledge Unit",
+            "value": 34
+        },
+        "talents": {
+            "coreTalent": {
+                "name": "Windborn Crystalflies",
+                "desc": "When Faewyn is in the team, triggering Spread reactions will mark the affected opponents with Crystalfly Mark containing the respective Disorder triggered by the same Spread reaction for 4 Cycles. When the opponent is affected by Flame, Frost, Tide, or Volte Crystalfly Mark, they will take 10% increased DMG from the corresponding Disorder DMGs. When the opponenent is affected by Pure Crystalfly mark, they will take 20% increased Gale DMG."
+            },
+            "riftedTalent": {
+                "name": "Rifted Disorder",
+                "desc": "Faewyn's Normal and Charged Attacks accumulate 1 Echo Memory and 5 Energy. Dealing Disorder DMG accumulates 10 Energy."
+            },
+            "others": [
+                {
+                    "name": "Loyal Clients",
+                    "desc": "When Faewyn is the only Glae-Type character in the team, all team members except Faewyn gains 12% Disorder DMG Bonus."
+                },
+                {
+                    "name": "Resonance: Gale",
+                    "desc": "Characters with Resonance: Gale can apply Strong Winds effect to the opponent by using certain skills."
+                },
+                {
+                    "name": "Strong Winds",
+                    "desc": "When a character or opponent is affected by Strong Winds, reduces the DMG dealt by that character or opponent by 1%, max 36%. This effects lasts 2 Cycles."
+                }
+            ]
+        },
+        "abilities": {
+            "normalAttack": {
+                "name": "Reborned Gale",
+                "desc": "Faewyn deals 40% Magic PWR as Magic DMG to the opponent.",
+                "multipliers": []
+            },
+            "chargedAttack": {
+                "name": "Reborned Storms",
+                "cost": 20,
+                "desc": "Faewyn deals 60% Magic PWR as Magic DMG to the opponent.",
+                "multipliers": []
+            },
+            "normalSkill": {
+                "name": "Butterfly Blessings",
+                "fluxCost": 0,
+                "memoryNodes": {
+                    "node1": "2EM",
+                    "node2": "4EM",
+                    "node3": "6EM"
+                },
+                "desc": "[2EM] Faewyn casts The First Blessing of Butterflies, dealing 68 (+55% Magic Power) as AoE Gale DMG.\n[4EM] Faewyn casts The Second Blessing of Butterflies, dealing 133 (+74% Magic Power) as AoE Gale DMG. If the opponents are affected by Crystalfly Mark, the Blessing will absorbs the Crystalfly Marks to unleash an additional instance of 189 (+76% Magic PWR) (+166% Knowledge Unit) as AoE Gale DMG.\n[6EM] Faewyn casts The Final Blessing of Butterflies, dealing 201 (+98% Magic Power) AoE Gale DMG. If enemies are affected by Flame, Frost, Tide, or Volte Crystalfly Marks, the Blessing absorbs those Marks to unleash an additional instance of 224 (+88% Magic Power) (+223% Knowledge Unit) AoE Disorder DMG. This extra damage corresponds to the type of Crystalfly Mark most prevalent among affected opponents, and all opponents within the AoE are then afflicted with the matching Disordered Crystalfly Mark. If Pure Crystalfly Mark is the most prevalent among affected opponents, All team member's Knowledge Unit is increased by 60. Additionally, the skill will apply 4 stacks of Strong Winds to the affected opponents.",
+                "multipliers": []
+            },
+            "riftedSkill": {
+                "name": "Colorful Storm Simulation",
+                "surgeCost": 0,
+                "energyCost": 80,
+                "desc": "Faewyn absorbs all Crystalfly Marks to form a Storm Sample Set and unleashes a Colorful Storm Simulation for 4 Cycles that reduces opponents’ Disorder RES by 24% based on the dominant Sample. If The Sample is Pure, all team members' gains 36% Gale DMG Bonus. Additionally, if the Talent \"Loyal Clients\" is active, increases Disorder DMG Bonus for all team members by 0.02% for each point of Knowledge Unit she has.",
+                "multipliers": []
+            }
+        },
+        "fragments": [
+            {
+                "name": "Instant Infusion",
+                "desc": "Casting Normal Skill higher than 4 Echo Memory will regenerates 2 Echo Memory. Additionally, during \"Colorful Storm Simulation\", the aforementioned effect will generates an extra Echo Memory."
+            },
+            {
+                "name": "Integration",
+                "desc": "When absorbing Crystalfly Marks from the opponent during \"Butterfly Blessing\" or \"Colorful Sotrm Simulation\", all team members gains the following additional effect based on the type of absorbed Crystalfly Mark for 4 Cycles:\n\tFlame: Adaptive ATK is increased by 0.06% for every point of Knowledge Unit Faewyn has.\n\tFrost: Crit DMG is increased by 0.0675% for every point of Knowledge Unit Faewyn has.\n\tTide: HP is increased by 0.8% for every point of Knowledge Unit Faewyn has.\n\tVolte: Knowldege Unit is increased by 20% of Faewyn's Knowledge Unit.\n\tGale: Apply 4 stacks of Strong Winds to the opponents affected by skills."
+            },
+            {
+                "name": "Advanced Simulation",
+                "desc": "\"Colorful Storm Simulation\" level is increased by 3."
+            },
+            {
+                "name": "Crystal Injection Module",
+                "desc": "Opponents affected by Crystalfly Marks takes 500% Faewyn Knowledge Unit as corresponding Disorder DMG each Cycle."
+            },
+            {
+                "name": "Crystalfly Blessing",
+                "desc": "\"Butterfly Blessing\" level is increased by 3."
+            },
+            {
+                "name": "Approaching Stormeye",
+                "desc": "During \"Colorful Storm Simulation\", Faewyn Normal and Charged Attack become infused with the Disorder corresponding to the \"Colorful Storm Simulation\". Additionally, Faewyn gains 40% corresponding Disorder DMG Bonus and each point of Knowledge Unit increases Faewyn's Normal and Charged Attacks DMG by 0.2%."
+            }
+        ],
+        "log": [
+            {
+                "version": "1.7Beta [Unknown]",
+                "description": "Unreleased"
+            },
+            {
+                "version": "1.8Beta [Development Stage]",
+                "description": "Faewyn (~): Faewyn's buffs in Gale teams is too overpowered in certain situation. We've made major adjustments on Faewyn's Buffs on Gale teams.\n\t[Normal Skill: Butterfly Blessings] (~): If Pure Crystalfly Mark is the most prevalent among affected opponents, All team member's Knowledge Unit is increased by 120. >> If Pure Crystalfly Mark is the most prevalent among affected opponents, All team member's Knowledge Unit is increased by 60. Additionally, the skill will apply 4 stacks of Strong Winds to the affected opponents.\n\t[Rifted Skill: Colorful Storm Simulation] (↓): Gale DMG Bonus: 40% >> 36%\n\t[Fragment 2: Integration] (~): Gale: All Gale-Type characters in the party gains an extra action >> Gale: Apply 4 stacks of Strong Winds to the opponents affected by skills"
+            }
+        ]
+    },
+    {
+        "name": "Eylos",
+        "id": 1010019,
+        "baseData": {
+            "rarity": 5,
+            "type": "Rifted Technology",
+            "faction": "Fusion (Gale)",
+            "relicType": "Power",
+            "version": "1.8Beta"
+        },
+        "baseStats": {
+            "atk": 220,
+            "pwr": 0,
+            "def": 30,
+            "hp": 1800
+        },
+        "typeStats": {
+            "fluxCapacity": 5,
+            "surgeCapacity": 80,
+            "echoMemoryCapacity": 0,
+            "maxEnergy": 0
+        },
+        "subStat": {
+            "type": "Crit DMG",
+            "value": 28.8
+        },
+        "talents": {
+            "coreTalent": {
+                "name": "Black Pearl Resonance",
+                "desc": "When there are 2 or more Gale-Type characters in the team, all opponent's Gale RES is reduced by 12%. Additionally, Eylos gains a 12% DMG Bonus."
+            },
+            "riftedTalent": {
+                "name": "Rifted Technology: Enhanced Fusion",
+                "desc": "Fluxes are converted into Enhanced Fuses, when Eylos deals Disorder DMG of his type, generates 4 Gale Disorder Particles that gradually fill up each Fuses. The properties of Disorder Particles and Fuses can be enhanced by Energy Regen and Energy Efficiency."
+            },
+            "others": [
+                {
+                    "name": "Fusion Resonance: Gale",
+                    "desc": "Characters with Fusion Resonance: Gale can apply Strong Winds effect to the opponent by using certain skills."
+                },
+                {
+                    "name": "Strong Winds",
+                    "desc": "When a character or opponent is affected by Strong Winds, reduces the DMG dealt by that character or opponent by 1%, max 36%. This effects lasts 2 Cycles."
+                }
+            ]
+        },
+        "abilities": {
+            "normalAttack": {
+                "name": "Energy Blast",
+                "desc": "Eylos deals 31 (+44% Physical ATK) as Physical DMG.",
+                "multipliers": []
+            },
+            "chargedAttack": {
+                "name": "Stormeye System",
+                "cost": 30,
+                "desc": "Eylos casts upon the Stormeye creating a small whirlpool that deals 14 (+33% Physical ATK) as AoE Gale-Fused DMG to all opponents.",
+                "multipliers": []
+            },
+            "normalSkill": {
+                "name": "Black Pearl Singularity",
+                "fluxCost": 1,
+                "memoryNodes": {},
+                "desc": "Eylos consumes all Enhanced Fuses and launches a small Black Pearl Singularity towards the opponent dealing 14 (+52% Physical ATK) as Physical DMG. Additional Enhanced Fuses enhance this DMG by 200%. Additionlly, depending on the number of consumed Enhanced Fuses, Eylos will apply 2/4/8/14/26 stacks of Strong Winds to the affected opponents.",
+                "multipliers": []
+            },
+            "riftedSkill": {
+                "name": "Condensed Pearl Preservation",
+                "surgeCost": 80,
+                "energyCost": 0,
+                "desc": "Eylos unleashes a Condensed Pearl, dealing 54 (+49% Physical ATK) (+184% Knowledge Unit) as Gale-Fused DMG. If opponents are affected by Strong Winds, Eylos absorbs all stacks. The highest number of stacks taken from a single opponent determines both the number of follow-up attacks and their intensity.\nFor every twelve stacks absorbed, Eylos immediately gains another action and can cast Condensed Pearl Preservation again to releases the Condensed Pearl Emission once, and he may choose a new target for each release. The strength of each emission increases based on how many stacks lie within its current twelve-stack range: reaching four stacks fires one Dark Wind Blade, reaching eight stacks upgrades it to two Blades, and reaching twelve stacks unleashes three Blades. Each Dark Wind Blade deals 114 (+33% Physical ATK) (+221% Knowledge Unit) as Gale-Fused DMG.",
+                "multipliers": []
+            }
+        },
+        "fragments": [
+            {
+                "name": "Abstract of Creation",
+                "desc": "Eylos DEF is increased by 20%. Additionally, Eylos takes 40% less Gale DMG from the opponents affected by Strong Winds."
+            },
+            {
+                "name": "Last Survivor of Dakashan",
+                "desc": "For every 1 point of Knowledge Unit Eylos has, he gains 0.635% Gale DMG Bonus, up to 800 Knowledge Unit."
+            },
+            {
+                "name": "Black Energy",
+                "desc": "\"Condensed Pearl Preservation\" level is increased by 3."
+            },
+            {
+                "name": "Pearlescence Overriding",
+                "desc": "During the Condensed Pearl Preservation, Eylos gains 30% CRIT Rate and 70% CRIT DMG."
+            },
+            {
+                "name": "Gravity Decomposition",
+                "desc": "\"Black Pearl Singularity\" level is increased by 3."
+            },
+            {
+                "name": "Mighty Execution",
+                "desc": "Eylos gains 200 Knowledge Unit. During Condensed Pearl Preservaition, if Eylos releases maximum Black Windblade per Condensed Pearl Emission, Condensed Pearl Execution will strike the affected opponent dealing (+20% DMG Dealt from Condensed Pearl Emission) (+2200% Knowledge Unit) as Follow-Up Gale-Fused DMG."
+            }
+        ],
+        "log": [
+            {
+                "version": "1.8Beta [Unknown]",
+                "description": "Unreleased"
+            }
+        ]
+    },
+    {
+        "name": "Rene",
+        "id": 1010020,
+        "baseData": {
+            "rarity": 4,
+            "type": "Rifted Technology",
+            "faction": "Intelligence",
+            "relicType": "Melee",
+            "version": "2.0"
+        },
+        "baseStats": {
+            "atk": 160,
+            "pwr": 0,
+            "def": 30,
+            "hp": 2000
+        },
+        "typeStats": {
+            "fluxCapacity": 5,
+            "surgeCapacity": 125,
+            "echoMemoryCapacity": 0,
+            "maxEnergy": 0
+        },
+        "subStat": {
+            "type": "ATK",
+            "value": 24.2
+        },
+        "talents": {
+            "coreTalent": {
+                "name": "Overdue Shift",
+                "desc": "Rene gains 0.01% Energy Regen for every 100 Physical ATK."
+            },
+            "riftedTalent": {
+                "name": "Rifted Technology",
+                "desc": "Rene's Normal and Charged Attacks generate 1 Flux"
+            },
+            "others": [
+                {
+                    "name": "Intelligence Network",
+                    "desc": "Certain skills of Intelligence-Type characters can hijack the opponent, applying 1 stack of Hijacked, max 20 stacks.\nHijacked: Increases the Focus build-up rate of the affected opponent by 2%."
+                }
+            ]
+        },
+        "abilities": {
+            "normalAttack": {
+                "name": "Outcasted",
+                "desc": "Rene deals 14 (+36.2% Physical ATK) as Artificial DMG.",
+                "multipliers": []
+            },
+            "chargedAttack": {
+                "name": "Weeping Sorrow",
+                "cost": 20,
+                "desc": "Rene deals 28 (+44% Physical ATK) as Artificial DMG.\n\nIf Rene has 3 stacks of Absolute, Weeping Sorrow will apply the opponent with 3 stacks of Hijacked.",
+                "multipliers": []
+            },
+            "normalSkill": {
+                "name": "Projectile of Knowledge",
+                "fluxCost": 2,
+                "memoryNodes": {},
+                "desc": "Rene launches a Projectile of Knowledge at the selected opponent, dealing 133 (+47.6% Physical ATK) as Artificial DMG. Rene gains 1 stack of Absolute when Projectile of Knowledge deals DMG to an opponent.",
+                "multipliers": []
+            },
+            "riftedSkill": {
+                "name": "Payback Modules",
+                "surgeCost": 125,
+                "energyCost": 0,
+                "desc": "Rene launches it's Payback Modules at each opponent, dealing 116 (+33.6% Physical ATK) as Artificial DMG. If Payback Modueles deal DMG to an opponent, Rene gains 2 stacks of Absolute and all team members gain 60 Knowledge Unit.",
+                "multipliers": []
+            }
+        },
+        "fragments": [
+            {
+                "name": "Modular System Overhaul",
+                "desc": "When Rene casts Rifted Skill \"Payback Modules\", all team members gains 12 Knowledge Unit for every 500 Physical ATK Rene has. Additionally, when Rene casts Charged Attack \"Weeping Sorrow\" with 3 stacks of Absolute, all team members gain an extra 12 Knowledge Unit for every 1000 Physical ATK Rene has."
+            },
+            {
+                "name": "Absolute Feedback",
+                "desc": "When Rene Rifted Skill \"Payback Modules\" hits an opponent, Rene gains 1 additional stack of Absolute. Additionally, Rene can gain Absolute stacks by hitting the opponents instead of needing to deal DMG to them."
+            },
+            {
+                "name": "Module Optimization",
+                "desc": "\"Payback Modules\" level is increased by 3."
+            },
+            {
+                "name": "Hard-earned Nightshift",
+                "desc": "When Rene Rifted Skill \"Payback Modules\" hits an opponent, Rene gains 20 Surge. This effect can occur once every 3 Cycles."
+            },
+            {
+                "name": "Knowledge Discovery",
+                "desc": "\"Projectile of Knowledge\" level is increased by 3."
+            },
+            {
+                "name": "Knight of Koniveruer",
+                "desc": "When Rene cast Rifted Skill \"Payback Modules\", all team members gains 20% CRIT DMG and 20% Artificial DMG Bonus for 3 Cycles."
+            }
+        ],
+        "log": [
+            {
+                "version": "2.0Beta [Unknown]",
+                "description": "Unreleased"
+            }
+        ]
+    },
+    {
+        "name": "Lake",
+        "id": 1010021,
+        "baseData": {
+            "rarity": 5,
+            "type": "Rifted Technology",
+            "faction": "Strength",
+            "relicType": "Power",
+            "version": "2.0"
+        },
+        "baseStats": {
+            "atk": 200,
+            "pwr": 180,
+            "def": 30,
+            "hp": 1800
+        },
+        "typeStats": {
+            "fluxCapacity": 5,
+            "surgeCapacity": 100,
+            "echoMemoryCapacity": 0,
+            "maxEnergy": 0
+        },
+        "subStat": {
+            "type": "CRIT DMG",
+            "value": 28.8
+        },
+        "talents": {
+            "coreTalent": {
+                "name": "Amethyst Protection",
+                "desc": "When Lake's is in the team, all team members' DoT DMG taken is reduced by 40%."
+            },
+            "riftedTalent": {
+                "name": "Rifted Technology",
+                "desc": "Lake's Normal and Charged Attacks generate 1 Flux."
+            },
+            "others": [
+                {
+                    "name": "Polymetric Combustion",
+                    "desc": "Lake can triigger Polymetric Combustion. When Lake is in the team, Polymetric Combustion DMG is elevated by 3%."
+                }
+            ]
+        },
+        "abilities": {
+            "normalAttack": {
+                "name": "Purity",
+                "desc": "Lake deals 33 (+63% Physical ATK) as Physical DMG to the opponent.",
+                "multipliers": []
+            },
+            "chargedAttack": {
+                "name": "Amethyst Cluster",
+                "cost": 30,
+                "desc": "Lake charges the ground and creates a Large Amethyst Cluster, dealing 46 (+66% Physical ATK) as AoE Physical DMG to selected opponents.",
+                "multipliers": []
+            },
+            "normalSkill": {
+                "name": "Crystalized",
+                "fluxCost": 3,
+                "memoryNodes": {},
+                "desc": "Lake creates an Amethyst Crystal at the selected opponent's location, dealing 188 (+81.2% DEF) as Physical DMG and granting all team member an Amethyst Shield equal to 478 (+88% DEF). Amethyst Resonance: The Amethyst Crystal will continuously deal 96 (+67% Magic PWR) as Magic DMG to the opponent. This DMG is considered DoT DMG. The Amethyst Crystal will be destroyed when all team members' Amethyst Shield are broken or after 6 Cycles, dealing 222 (+72% DEF) as Physical DMG.",
+                "multipliers": []
+            },
+            "riftedSkill": {
+                "name": "Crystal Experiment Zone",
+                "surgeCost": 110,
+                "energyCost": 0,
+                "desc": "Lake absorbs all Amethyst Energy and release a shockwave, dealing 133 (+73% DEF) as Physical DMG. The shockwave detonates all the Amethyst Crystals on the field and increases their explosion DMG by 135%. Opponents hit by this explosion will be affected by Penetration for 4 Cycles. Penetration: Takes 40% more DoT DMG and SPD is reduced by 20%. Additionally, for every 200 DEF of Lake, DoT DMG taken by the affected opponents is further increased by 4%, up to 40%.",
+                "multipliers": []
+            }
+        },
+        "fragments": [
+            {
+                "name": "Energized Amethyst",
+                "desc": "When Lake's Charged Attack \"Amethyst Cluster\" hits an Ametyst Crystal, the Crystal will explode immediately, dealing 500% of the original DMG as AoE Physical DMG. This attack will generate 3 Flux and can be triggered only once every 3 Cycles."
+            },
+            {
+                "name": "Resonance Amplifier",
+                "desc": "Amethyst Resonance DMG is increased by 60% of Lake's DEF. When Lake's Normal and Charged Attacks hit an Amethyst Crystal, the Crystal will trigger Amethyst Resonance immediately."
+            },
+            {
+                "name": "Mist Thickens",
+                "desc": "\"Crystal Experiment Zone\" level is increased by 3."
+            },
+            {
+                "name": "Decomposition",
+                "desc": "When an Amethyst Crystal breaks, heals all team members by 300% of Lake's DEF. This effect can be triggered once every 3 Cycles."
+            },
+            {
+                "name": "Fine-Tuning",
+                "desc": "\"Amethyst Cluster\" level is increased by 3."
+            },
+            {
+                "name": "Perfect-Tuning",
+                "desc": "All DoT effects' durations on the opponents affected by Penetration will be paused."
+            }
+        ],
+        "log": [
+            {
+                "version": "2.0 [Unknown]",
+                "description": "Unreleased"
+            }
+        ]
+    },
+    {
+        "name": "Arke",
+        "id": 1010022,
+        "baseData": {
+            "rarity": 5,
+            "type": "Rifted Technology",
+            "faction": "Intelligence",
+            "relicType": "Projectile",
+            "version": "2.1"
+        },
+        "baseStats": {
+            "atk": 200,
+            "pwr": 0,
+            "def": 30,
+            "hp": 1800
+        },
+        "typeStats": {
+            "fluxCapacity": 5,
+            "surgeCapacity": 120,
+            "echoMemoryCapacity": 0,
+            "maxEnergy": 0
+        },
+        "subStat": {
+            "type": "Physical ATK",
+            "value": 24.2
+        },
+        "talents": {
+            "coreTalent": {
+                "name": "Energized Energy Estimation",
+                "desc": "When team members except Arke deal DMG to the opponents, deals an extra instance of True DMG equal to 2% of the opponent's Current HP. Additionally every 7 instance of this DMG dealt will scales from the opponent's Max HP instead of Current HP."
+            },
+            "riftedTalent": {
+                "name": "Rifted Technology",
+                "desc": "Arke's Normal and Charged Attacks generate 1 Flux. If they're enhanced, generate 1 extra Flux."
+            },
+            "others": [
+                {
+                    "name": "Intelligence Network",
+                    "desc": "Certain skills of Intelligence-Type characters can hijack the opponent, applying 1 stack of Hijacked, max 20 stacks.\nHijacked: Increases the Focus build-up rate of the affected opponent by 2%."
+                },
+                {
+                    "name": "Polymetric Combustion",
+                    "desc": "Arke can triigger Polymetric Combustion. When Arke is in the team, Polymetric Combustion DMG is elevated by 3%."
+                }
+            ]
+        },
+        "abilities": {
+            "normalAttack": {
+                "name": "Crystaline Orb",
+                "desc": "Arke deals 23 (+38% Physical ATK) as Artificial DMG.",
+                "multipliers": []
+            },
+            "chargedAttack": {
+                "name": "Energy Accumulations",
+                "cost": 30,
+                "desc": "Arke deals 3 instances of 18 (+26% Physical ATK) as Artificial DMG.",
+                "multipliers": []
+            },
+            "normalSkill": {
+                "name": "Purifier X21",
+                "fluxCost": 2,
+                "memoryNodes": {},
+                "desc": "Arke fires a Purifier beam at the selected opponent, dealing 115 (+44% Physical ATK) as Artificial DMG, applying 3 stacks of Hijacked. Additionally, this attack ignores 12% of the opponent's DEF.\nEnhanced Skill: Execution X21 - Arke fires an enhanced Purifiier beam dealing 214 (+67% Physical ATK) (+144% Intelligence Unit) as True DMG while reducing the opponent's all Attribute RES by 24% for 4 Cycles and applying 6 stacks of Hijacked.",
+                "multipliers": []
+            },
+            "riftedSkill": {
+                "name": "Experiment 21",
+                "surgeCost": 120,
+                "energyCost": 0,
+                "desc": "Arke conduct the Experiment 21 and initiate a Gravity Conduction Area for 4 Cycles, advancing all team members' actions by 1 Cycle. Graviity Conduction Area: Opponents inside the area have their SPD decreased by 20%. Additionally, all team members' Normal Skill DMG will be converted into True Attribute DMG. During the presence of the Gravity Conduction Area, Arke's Normal and Charged Attacks are converted into True DMG and Arke's Normal Skill \"Purifier X21\" will be enhanced to \"Execution X21\".",
+                "multipliers": []
+            }
+        },
+        "fragments": [
+            {
+                "name": "First Factorial",
+                "desc": "When Arke or team members deal True DMG to the opponents, Arke gains 2 Surges."
+            },
+            {
+                "name": "Second Factorial",
+                "desc": "\"Purifier X21\" Flux cost is increased by 1, but all it's effects are enhanced. The effect of the increase is 100%. This does not increase the Skill DMG."
+            },
+            {
+                "name": "Third Factorial",
+                "desc": "\"Experiment 21\" level is increased by 3."
+            },
+            {
+                "name": "Fourth Factorial",
+                "desc": "During the Gravity Conduction Area, when team members deal DMG, 3 Arke Beams will be fired at the same target opponent, each dealing 6% of the original DMG (+160% Intelligence Unit) as Follow-Up True DMG."
+            },
+            {
+                "name": "Fifth Factorial",
+                "desc": "\"Purifier X21\" level is increased by 3."
+            },
+            {
+                "name": "Final Factorial",
+                "desc": "Gravity Conduction Area duration is increased by 2 Cycles. During the Gravity Conduction Area, Arke gains a Conduction Shield equals to 200% of Arke's Intelligence Unit. While the Conduction Shield is active, all team members' Attribute PEN is increased by 20%."
+            }
+        ],
+        "log": [
+            {
+                "version": "2.1 [Unknown]",
+                "description": "Unreleased"
+            }
+        ]
+    },
+    {
+        "name": "Cxrolin",
+        "id": 1010023,
+        "baseData": {
+            "rarity": 5,
+            "type": "Rifted Disorder",
+            "faction": "Flame",
+            "relicType": "Melee",
+            "version": "2.2"
+        },
+        "baseStats": {
+            "atk": 204,
+            "pwr": 221,
+            "def": 30,
+            "hp": 1872
+        },
+        "typeStats": {
+            "fluxCapacity": 0,
+            "surgeCapacity": 0,
+            "echoMemoryCapacity": 80,
+            "maxEnergy": 120
+        },
+        "subStat": {
+            "type": "CRIT DMG",
+            "value": 28.8
+        },
+        "talents": {
+            "coreTalent": {
+                "name": "Blazing Embers",
+                "desc": "When Cxrolin is in the team, dealing Flame DMG to opponents will apply Burn to the opponent, max 300 stacks. For every 5000 Flame DMG dealt to the opponent, an additional stack of Burn will be applied. If the current team has the Flame Attribute Chain active, the application rate of Burn will be doubled and maximum stack is increased by 200.\nEach stack of Burn deals 0.4% of Cxrolin's Magic PWR as Flame DMG every Turn and consumes 10 stack. This DMG is considered DoT DMG. The Blazing Embers effect does not override the Burning effect."
+            },
+            "riftedTalent": {
+                "name": "Rifted Disorder : Blaze",
+                "desc": "Everytime Cxrolin or a team member deals an instance of DMG to an opponent, gains 1 Echo Memory. Dealing Disorder DMG accumulates 10 Energy."
+            },
+            "others": [
+                {
+                    "name": "Polymetric Combustion",
+                    "desc": "Cxrolin can triigger Polymetric Combustion. When Cxrolin is in the team, Polymetric Combustion DMG is elevated by 3%."
+                }
+            ]
+        },
+        "abilities": {
+            "normalAttack": {
+                "name": "Hong Craftsmanship",
+                "desc": "Cxrolin dashes forwards and strikes the opponent, dealing [$_1, 44] (+[$_2, 0.64]% Physical ATK) as Physical DMG.\n\nEnhanced: After striking the opponent, the force tears the Angelic Interval, dealing [$_3, 138] (+[$_4, 0.34]% Magic PWR) as Flame DMG.",
+                "multipliers": [67, 0.109284, 98, 0.115729]
+            },
+            "chargedAttack": {
+                "name": "Direbound",
+                "cost": 40,
+                "desc": "Cxrolin dashes forwards and slashes a larger area, dealing [$_1, 68] (+[$_2, 0.88]% Physical ATK) as AoE Physical DMG.",
+                "multipliers": [91, 0.109284]
+            },
+            "normalSkill": {
+                "name": "Intervals",
+                "fluxCost": 0,
+                "memoryNodes": {},
+                "desc": "Cxrolin enters Projection mode, gaining an additional action. In the Projection mode, Cxrolin can casts enhanced \"Hong Craftsmanship\" or enhanced \"Intervals\". This skill increases the DMG of enhanced \"Hong Craftsmanship\" and \"Intervals\" by [$_1, 0.12]% and has a 3 Cycle cooldown.\n\nEnhanced: Cxrolin draws her sword and vertically strikes the opponent, tearing the Demonic Interval and dealing, [$_2, 168] (+[$_3, 0.44]% Magic PWR) as Flame DMG.",
+                "multipliers": [0.02, 101, 0.113984]
+            },
+            "riftedSkill": {
+                "name": "Resurrection",
+                "surgeCost": 0,
+                "energyCost": 120,
+                "desc": "When the Angelic Interval is tore, Cxrolin opens the Torn Angelic Interval for 4 Cycles. Inside the Angelic Interval, everytime Cxrolin's Echo Memory is full, consumes all Echo Memory and instantly launches firey arrows at all opponents dealing [$_1, 112] (+[$_2, 0.43]% Magic PWR) as Follow-Up Flame DMG for four consecutive times.\n\nWhen the Demonic Interval is tore, Cxrolin opens the Torn Demonic Interval for 4 Cycles. Inside the Demonic Interval, Cxrolin's max Echo Memory is halved. Everytime Cxrolin's Echo Memory is full, deals the currently targeted opponent 3 instances of [$_3, 64] (+[$_4, 0.76]% Magic PWR) as Follow-Up Flame DMG.\n\nIf the targeted opponent has Burn stacks, everytime the aforementioned effects deals DMG to the opponent, each instance can consumes 200/100/50 Burn stacks available on the targeted opponent to deal additional 100%/30%/10% DMG respectively.",
+                "multipliers": [113, 0.102941, 88, 0.108729]
+            }
+        },
+        "fragments": [
+            {
+                "name": "Surging Inferno",
+                "desc": "Maximum Burn stack that can be applied to a single opponent is increased by 200."
+            },
+            {
+                "name": "Blacksmith's Good Friend",
+                "desc": "When \"Resurrection\" deals DMG to the opponent, leaves a Ring of Fire mark at the affected opponent. The Ring of Fire records 10 instances of DMG dealt to the affected opponent. After the Cycle ends, the Ring of Fire explodes upon the opponent dealing 40% of the recorded DMG. This DMG can reach no more than 1600% of Cxrolin's Physical ATK."
+            },
+            {
+                "name": "Overlapping Intervals",
+                "desc": "\"Intervals\" level is increased by 3."
+            },
+            {
+                "name": "Hong Forge",
+                "desc": "For each Burn stack from all opponents' stacks combined, increases Cxrolin's Energy Regen by 0.018%. Additionally, when Cxrolin uses \"Hong Craftsmanship\", \"Direbound\", \"Intervals\", or \"Resurrection\", increases the next team member's Flame DMG Bonus by 36%."
+            },
+            {
+                "name": "Modern Architecture",
+                "desc": "\"Transformative Units\" level is increased by 3."
+            },
+            {
+                "name": "Memories of The Past",
+                "desc": "Casting Zuxing Normal Skill \"Transformative Units\" no longer counts as an action. Additionally, after casting Normal Skill \"Transformative Units\", Zuxing's Normal and Charged Attacks DMG is increased by 48% for the next 2 Cycles."
+            }
+        ],
+        "log": [
+            {
+                "version": "2.1 [Unknown]",
+                "description": "Unreleased"
+            }
+        ]
+    },
+    {
+        "name": "Zuxing",
+        "id": 1010024,
+        "baseData": {
+            "rarity": 5,
+            "type": "Rifted Technology",
+            "faction": "Intelligence",
+            "relicType": "Magical",
+            "version": "2.3"
+        },
+        "baseStats": {
+            "atk": 218,
+            "pwr": 0,
+            "def": 30,
+            "hp": 1972
+        },
+        "typeStats": {
+            "fluxCapacity": 5,
+            "surgeCapacity": 80,
+            "echoMemoryCapacity": 0,
+            "maxEnergy": 0
+        },
+        "subStat": {
+            "type": "CRIT DMG",
+            "value": 28.8
+        },
+        "talents": {
+            "coreTalent": {
+                "name": "Xing Unit",
+                "desc": "Each instance of Zuxing marks the opponent with Xing Marks. When there are 4 Xing Marks on the opponent, the next instance of DMG will deal 150% Intelligence Unit as True DMG, removing all the Xing Marks.\n\nDuring a single cycle, every instance of DMG dealt by Zuxing will increase her next instance of DMG by 12%. The maximum DMG bonus can be gained through this way is 180%."
+            },
+            "riftedTalent": {
+                "name": "Rifted Technology",
+                "desc": "Zuxing's Normal and Charged Attacks generate 1 Flux."
+            },
+            "others": [
+                {
+                    "name": "Intelligence Network",
+                    "desc": "Certain skills of Intelligence-Type characters can hijack the opponent, applying 1 stack of Hijacked, max 20 stacks.\nHijacked: Increases the Focus build-up rate of the affected opponent by 2%."
+                },
+                {
+                    "name": "Polymetric Combustion",
+                    "desc": "Zuxing can triigger Polymetric Combustion. When Zuxing is in the team, Polymetric Combustion DMG is elevated by 3%."
+                }
+            ]
+        },
+        "abilities": {
+            "normalAttack": {
+                "name": "Edgebound Decryption",
+                "desc": "Zuxing uses her Xing Unit to prototype an edgebound, piercing through the selected opponent, dealing [$_1, 23] (+[$_2, 0.082]% Max HP) as Artificial DMG, applying 1 stacks of Hijacked to the opponent. The edgebound prototype comes back and heal all team members by [$_3, 112] (+[$_4, 0.163]% Max HP).\n\nRiftedbound Decryption: Zuxing uses her Xing Units to prototype a riftbound, dealing 3 instances of [$_5, 11] (+[$_6, 0.62]% Intelligence Unit) as Artificial DMG. Every instance of DMG dealt by this attack will summon 1 Riftbound Xing Unit at the targeted opponent.",
+                "multipliers": [12, 0.082911, 42, 0.010291, 34, 0.118942]
+            },
+            "chargedAttack": {
+                "name": "Edgebound Completion",
+                "cost": 40,
+                "desc": "Zuxing uses her Zui Unit to prototype a completion of an edgebound, piercing through the selected opponent, dealing [$_1, 31] (+[$_2, 0.098]% Max HP) as Artificial DMG, applying 3 stacks of Hijacked to the opponent. The edgebound prototype comes back and heal all team members by [$_3, 154] (+[$_4, 0.201]% Max HP).\n\nRiftedbound Completion: Zuxing uses her Xing Units to prototype a riftbound, dealing 3 instances of [$_5, 11] (+[$_6, 0.62]% Intelligence Unit) as Artificial DMG. After completing the riftbound, the riftbound detonates, dealing [$_7, 23] (+[$_8, 0.94]% Intelligence Unit) as Artificial DMG. The first 3 instance of DMG dealt by this attack will summon 1 Riftbound Xing Unit at the targeted opponent. The final detonation will summon 2 Riftbound Xing Units at the targeted opponent.",
+                "multipliers": [14, 0.083001, 54, 0.015829, 24, 0.108942, 41, 0.118942]
+            },
+            "normalSkill": {
+                "name": "Transformative Units",
+                "fluxCost": 3,
+                "memoryNodes": {},
+                "desc": "This skill has 2 different actions based on Zuxing's current architecture:\n\nEdgebound Architecture: Zuxing converts her Units to prototype a Riftbound Architecture, removing all debuffs from her, and converting her Normal Attack \"Edgebound Decryption\", Charged Attack \"Edgebound Completion\", and Rifted Skill \"Zui Invasion\" into \"Riftbound Decryption\", \"Riftbound Completion\", and \"Xing Invasion\" respectively.\n\nRiftbound Architecture: Zuxing converts her Units to prototype an Edgebound Architecture, dealing [$_1, 87] (+[$_2, 0.12]% Max HP) to all opponents in the field as AoE Artificial DMG, reducing all opponent's DEF by 12%, and converting her Normal Attack \"Riftbound Decryption\", Charged Attack \"Riftbound Completion\", and Rifted Skill \"Xing Invasion\" into \"Edgebound Decryption\", \"Edgebound Completion\", and \"Zui Invasion\" respectively.\n\nZuxing will adapts to the different architectures:\n\nEdgebound Architecture: Converts [$_1, 0.12]% of her Intelligence Unit into Max HP. (Gains 10 HP for every 1 Intelligence Unit).\nRiftbound Architecture: Converts [$_2, 0.04]% of her Max HP into Intelligence Unit.",
+                "multipliers": [0.025, 0.015]
+            },
+            "riftedSkill": {
+                "name": "Zui Invasion",
+                "surgeCost": 120,
+                "energyCost": 0,
+                "desc": "Zuxing conducts the execution of Zui Units, each unit deals [$_1, 54] (+[$_2, 0.18]% Max HP) multiplied by the stack of Hijacked on the opponent as Artificial DMG to each opponent in the field, while healing all team members by [$_3, 206] (+[$_4, 0.16]% Max HP) multiplied by 50% of all stacks of Hijacked on all opponents on the field.\n\nXing Invasion: Zuxing orders all Riftbound Xing Units surrounding the opponent to strike the opponent at once, each dealing [$_5, 56] (+[$_6, 0.72]% Intelligence Unit) as Artificial DMG. The maximum amount of Riftbound Xing Unit can orbit each opponent is 22.",
+                "multipliers": [23, 0.008219, 92, 0.006829, 39, 0.168492]
+            }
+        },
+        "fragments": [
+            {
+                "name": "Unit Overload",
+                "desc": "When there are 4 Xing Marks on the opponent, the next instance of DMG dealt will be further increased by 50%. Additionally, that instance of DMG dealt has a 30% chance to recover 1 Xing Mark as well as 50% chance to generate 1 Flux."
+            },
+            {
+                "name": "Hong Network Intel",
+                "desc": "When focused onto an opponent, Zuxing's Artificial DMG Bonus is increased by 25% and her Riftbound Xing Units deals 25% extra DMG."
+            },
+            {
+                "name": "Global Threat Annihilation",
+                "desc": "\"Zui Invasion\" level is increased by 3."
+            },
+            {
+                "name": "Hong's Orders",
+                "desc": "Zuxing will gains different buffs based on her current architecture:\n\nEdgebound Architecture: Zuxing HP is increased by 20%. Additionally, everytime she heals a team member, she gains 1 Edgebound Fragment. For every 6 Edgebound Fragment she obtains, consumes all Edgebound Fragments and generates 1 Flux.\nRiftbound Architecture: Zuxing CRIT Rate is increased by 20%. Additionally, every 11th Riftbound Xing Unit during \"Xing Invasion\" that hit the opponent generates 1 Flux."
+            },
+            {
+                "name": "Modern Architecture",
+                "desc": "\"Transformative Units\" level is increased by 3."
+            },
+            {
+                "name": "Memories of The Past",
+                "desc": "Casting Zuxing Normal Skill \"Transformative Units\" no longer counts as an action. Additionally, after casting Normal Skill \"Transformative Units\", Zuxing's Normal and Charged Attacks DMG is increased by 48% for the next 2 Cycles."
+            }
+        ],
+        "log": [
+            {
+                "version": "2.2 [Unknown]",
+                "description": "Unreleased"
+            }
+        ]
+    },
+    {
+        "name": "Lexar",
+        "id": 1010025,
+        "baseData": {
+            "rarity": 5,
+            "type": "Rifted Technology",
+            "faction": "Destruction",
+            "relicType": "Melee",
+            "version": "2.3"
+        },
+        "baseStats": {
+            "atk": 220,
+            "pwr": 0,
+            "def": 30,
+            "hp": 1800
+        },
+        "typeStats": {
+            "fluxCapacity": 5,
+            "surgeCapacity": 120,
+            "echoMemoryCapacity": 0,
+            "maxEnergy": 0
+        },
+        "subStat": {
+            "type": "Physical ATK",
+            "value": 24.2
+        },
+        "talents": {
+            "coreTalent": {
+                "name": "Corrupted Heart",
+                "desc": "Human Form: Lexar receives a DMG Bonus based on the percentage of the opponent's current HP. Inflicting DMG in Human Form grants Execution Claws.\n\nAbyssal Form: Lexar receives a DMG Bonus based on the percentage of the opponent's lost HP. Inflicting DMG in Abyssal Form grants Everlasting Bullets.\n\nThe maximum amount of Everlasting Bullets and Execution Claws is 4."
+            },
+            "riftedTalent": {
+                "name": "Rifted Technology",
+                "desc": "Lexar's Normal and Charged Attacks generate 1 Flux."
+            },
+            "others": [
+                {
+                    "name": "Everlasting Bullets",
+                    "desc": "In the Human Form, Lexar can consume Everlasting Bullets to enchance the DMG of his attacks by 100%."
+                },
+                {
+                    "name": "Execution Claws",
+                    "desc": "In the Abyssal Form, if Lexar has at least 1 Execution Claw, and the opponent's Current HP is below 0.8% of their Max HP, Lexar consumes all stacks of Execution Claw to immediately execute the opponent. Each extra stack of Execution Claw increases this execution threshold by 0.8%."
+                }
+            ]
+        },
+        "abilities": {
+            "normalAttack": {
+                "name": "Desires",
+                "desc": "Human Form: Lexar fires a bullet at the opponent, dealing [$_1, 22] (+[$_2, 0.54]% DEF) as Destruction DMG.\n\nAbyssal Form: Lexar cleaves through the opponent, dealing [$_3, 28] (+[$_4, 0.56]% DEF) as Destruction DMG.",
+                "multipliers": [43, 0.268394, 67, 0.292381]
+            },
+            "chargedAttack": {
+                "name": "Equivalent Karma",
+                "cost": 40,
+                "desc": "Human Form: Lexar emits a roar, creating a shockwave that deals [$_1, 11] (+[$_2, 0.36]% DEF) as Destruction DMG, transforming himself into Abyssal Form.\n\nAbyssal Form: Lexar reverts to his Human Form, increasing his SPD by [$_3, 18] for 2 Cycles.",
+                "multipliers": [34, 0.102815, 2]
+            },
+            "normalSkill": {
+                "name": "Formula Disruption",
+                "fluxCost": 3,
+                "memoryNodes": {},
+                "desc": "Human Form: Lexar fires a net at the target dealing [$_1, 31] (+[$_2, 0.44]% DEF) as Destruction DMG, and supressing them for 1 Turn.\n\nAbyssal Form: Lexar slashes the target dealing [$_3, 44] (+[$_4, 0.65]% DEF) as Destruction DMG. If the opponent Current HP is below 50% of their Max HP, Lexar immediately casts Formula Disruption again and slashes a nearby opponent. This effect cannot riicochet back to the already affected opponent.",
+                "multipliers": [71, 0.281924, 77, 0.301192]
+            },
+            "riftedSkill": {
+                "name": "Genetic Evolution",
+                "surgeCost": 80,
+                "energyCost": 0,
+                "desc": "Human Form: Lexar injects himself with a Vaccine, healing himself for [$_1, 33] (+[$_2, 0.78]% DEF) and reloading his Everlasting Bullets to maximum capacity.\n\nAbyssal Form: Lexar injects himself with a Virus Serum, losing 8% of his current HP while gaining [$_3, 0.08]% CRIT Rate, and [$_4, 0.12]% DEF for 3 Cycles.",
+                "multipliers": [118, 0.168324, 0.008, 0.052]
+            }
+        },
+        "fragments": [
+            {
+                "name": "Scientist's Nightmares",
+                "desc": "In Human Form, Lexar deals additional DMG based on 4% opponent's Current HP. In Abyssal Form, Lexar deals additional DMG based on 4% opponent's Lost HP. The base DMG Bonus of this effect cannot exceed 500% of Lexar's DEF."
+            },
+            {
+                "name": "Disoriented World",
+                "desc": "Opponent hit by the net from \"Formula Distruption\" have their Destruction RES reduced by 36%."
+            },
+            {
+                "name": "Concluded",
+                "desc": "\"Desires\" level is increased by 3."
+            },
+            {
+                "name": "Association of Greed",
+                "desc": "Dealing DMG in both forms grants Executing Bullets instead of Everlasting Bullets and Execution Claws. The maximum amount of Executing Bullets can be obtained is 6. In Human Form, Lexar can consume Execution Bullets to enchance the DMG of his attacks by 125%. In the Abyssal Form, if Lexar has at least 1 Execution Bullet, and the opponent's Current HP is below 1% of their Max HP, Lexar consumes all Execution Bullets to immediately execute the opponent. Each extra stack of Execution Bullet increases this execution threshold by 1%."
+            },
+            {
+                "name": "Corrupted Genes",
+                "desc": "\"Formula Disruption\" level is increased by 3."
+            },
+            {
+                "name": "Finale of Skies",
+                "desc": "Inflicting DMG in Abyssal Form applies Torn to the opponent for 4 Cycles. Lexar deals additional DMG based on 140% of his DEF to the Torn opponents. Lexar also recover 24% of DMG dealt to Torn opponent as HP. This effect has 2 Turn cooldown."
+            }
+        ],
+        "log": [
+            {
+                "version": "2.3 [Unknown]",
+                "description": "Unreleased"
+            }
+        ]
+    }
+]

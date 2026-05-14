@@ -1,0 +1,188 @@
+@import "tailwindcss";
+@import "flowbite-react/plugin/tailwindcss";
+@source "../.flowbite-react/class-list.json";
+
+:root {
+  color-scheme: dark;
+  --scrollbar-track: #091428;
+  --scrollbar-thumb: #2c58b8;
+  --scrollbar-thumb-hover: #4a7af0;
+  --scrollbar-thumb-active: #8cb5ff;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+html {
+  scrollbar-width: thin;
+  scrollbar-color: var(--scrollbar-thumb) var(--scrollbar-track);
+}
+
+body {
+  @apply overflow-hidden bg-[#040918] text-slate-100;
+  font-family: "Trebuchet MS", "Segoe UI", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+.app-main-scroll {
+  scrollbar-gutter: stable;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--scrollbar-thumb) var(--scrollbar-track);
+}
+
+*::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+*::-webkit-scrollbar-track {
+  background: var(--scrollbar-track);
+}
+
+*::-webkit-scrollbar-thumb {
+  background: linear-gradient(
+    180deg,
+    var(--scrollbar-thumb) 0%,
+    var(--scrollbar-thumb-hover) 100%
+  );
+  border: 3px solid var(--scrollbar-track);
+  border-radius: 9999px;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(
+    180deg,
+    var(--scrollbar-thumb-hover) 0%,
+    var(--scrollbar-thumb-active) 100%
+  );
+}
+
+*::-webkit-scrollbar-thumb:active {
+  background: var(--scrollbar-thumb-active);
+}
+
+*::-webkit-scrollbar-corner {
+  background: var(--scrollbar-track);
+}
+
+@layer components {
+  .wiki-page {
+    @apply relative px-4 py-5 sm:px-6 lg:m-auto lg:h-full lg:max-w-[92rem];
+  }
+
+  .wiki-panel {
+    @apply rounded-[1.75rem] border border-white/10 bg-white/5 shadow-[0_24px_80px_-40px_rgba(44,88,184,0.6)] backdrop-blur-xl;
+  }
+
+  .wiki-panel-solid {
+    @apply rounded-[1.75rem] border border-white/10 bg-slate-950/70 shadow-[0_24px_80px_-40px_rgba(44,88,184,0.6)] backdrop-blur-xl;
+  }
+
+  .wiki-hero {
+    @apply relative overflow-hidden rounded-[2rem] border border-cyan-300/10 bg-gradient-to-br from-[#0a1530] via-[#102650] to-[#09101d] shadow-[0_28px_80px_-45px_rgba(61,130,246,0.7)];
+  }
+
+  .wiki-badge {
+    @apply inline-flex items-center rounded-full border border-cyan-300/15 bg-cyan-300/10 px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.2em] text-cyan-100;
+  }
+
+  .wiki-title {
+    @apply text-3xl font-black tracking-tight text-white sm:text-4xl;
+  }
+
+  .wiki-section-title {
+    @apply text-2xl font-bold tracking-tight text-white;
+  }
+
+  .wiki-subtle {
+    @apply text-sm leading-6 text-slate-300;
+  }
+
+  .wiki-input {
+    @apply w-full rounded-2xl border border-white/10 bg-slate-950/60 px-4 py-3 text-sm text-white outline-none transition placeholder:text-slate-500 focus:border-cyan-400 focus:ring-4 focus:ring-cyan-400/15;
+  }
+
+  .wiki-chip {
+    @apply rounded-full border border-white/10 bg-white/5 px-3 py-2 text-sm text-slate-200 transition hover:border-cyan-400/30 hover:bg-cyan-400/10 hover:text-white;
+  }
+
+  .wiki-chip-active {
+    @apply border-cyan-300/30 bg-cyan-300/15 text-white shadow-[0_0_0_1px_rgba(103,232,249,0.18)];
+  }
+
+  .wiki-card {
+    @apply h-full rounded-[1.6rem] border border-white/10 bg-gradient-to-br from-[#0c1731] via-[#0c1a3a] to-[#091223] p-5 shadow-[0_22px_50px_-38px_rgba(56,189,248,0.65)] transition duration-200 hover:-translate-y-1 hover:border-cyan-300/25 hover:shadow-[0_28px_70px_-38px_rgba(56,189,248,0.75)];
+  }
+
+  .wiki-data-grid {
+    @apply grid gap-4 sm:grid-cols-2 xl:grid-cols-3;
+  }
+
+  .wiki-detail-card {
+    @apply rounded-[1.5rem] border border-white/10 bg-slate-950/55 p-4 shadow-[0_18px_45px_-35px_rgba(56,189,248,0.6)];
+  }
+
+  .wiki-entry-stack {
+    @apply space-y-4;
+  }
+
+  .wiki-entry {
+    @apply overflow-hidden rounded-[1.6rem] border border-cyan-300/12 bg-gradient-to-br from-[#0c1630] via-[#0a1226] to-[#060b17] shadow-[0_22px_55px_-38px_rgba(56,189,248,0.52)];
+  }
+
+  .wiki-entry-header {
+    @apply flex flex-col gap-3 border-b border-white/10 bg-white/6 px-4 py-4 sm:flex-row sm:items-center sm:justify-between sm:px-5;
+  }
+
+  .wiki-entry-title {
+    @apply text-lg font-bold uppercase tracking-[0.02em] text-white sm:text-xl;
+  }
+
+  .wiki-entry-kicker {
+    @apply rounded-full border border-cyan-300/20 bg-cyan-300/10 px-3 py-1 text-xs font-semibold uppercase tracking-[0.18em] text-cyan-100;
+  }
+
+  .wiki-entry-body {
+    @apply bg-slate-950/70 px-4 py-4 text-sm leading-7 text-slate-200 sm:px-5;
+  }
+
+  .wiki-split-layout {
+    @apply flex-1 min-h-0;
+  }
+
+  .wiki-split-column {
+    @apply lg:min-h-0 lg:overflow-y-auto;
+  }
+
+  .wiki-stepper {
+    @apply inline-flex items-center overflow-hidden rounded-2xl border border-white/10 bg-slate-950/75 shadow-[0_16px_36px_-28px_rgba(56,189,248,0.6)];
+  }
+
+  .wiki-stepper-button {
+    @apply min-w-11 border-white/10 px-3 py-2 text-sm font-semibold text-cyan-100 transition hover:bg-cyan-300/10 hover:text-white disabled:cursor-not-allowed disabled:text-slate-500;
+  }
+
+  .wiki-stepper-button + .wiki-stepper-button,
+  .wiki-stepper-value + .wiki-stepper-button,
+  .wiki-stepper-button + .wiki-stepper-value {
+    @apply border-l;
+  }
+
+  .wiki-stepper-value {
+    @apply w-16 border-0 bg-transparent px-2 py-2 text-center text-sm font-semibold text-white outline-none;
+  }
+}

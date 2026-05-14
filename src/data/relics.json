@@ -1,0 +1,1643 @@
+[
+    {
+        "name": "Warrior's Sword",
+        "id": 1020001,
+        "baseData": {
+            "rarity": 1,
+            "relicType": "Melee",
+            "version": "1.0Beta"
+        },
+        "stats": {
+            "mainStat": {
+                "type": "Physical ATK",
+                "value": 14
+            },
+            "subStat": {
+                "type": "",
+                "value": 0
+            }
+        },
+        "passive": {
+            "name": "",
+            "type": "",
+            "desc": "",
+            "forge": []
+        },
+        "log": [
+            {
+                "version": "1.0Beta [Unknown]",
+                "description": "Unreleased"
+            }
+        ]
+    },
+    {
+        "name": "Fermented Feather",
+        "id": 1020002,
+        "baseData": {
+            "rarity": 1,
+            "relicType": "Power",
+            "version": "1.0Beta"
+        },
+        "stats": {
+            "mainStat": {
+                "type": "Magic PWR",
+                "value": 14
+            },
+            "subStat": {
+                "type": "",
+                "value": 0
+            }
+        },
+        "passive": {
+            "name": "",
+            "type": "",
+            "desc": "",
+            "forge": []
+        },
+        "log": [
+            {
+                "version": "1.0Beta [Unknown]",
+                "description": "Unreleased"
+            }
+        ]
+    },
+    {
+        "name": "Spear of The Great Lords",
+        "id": 1020003,
+        "baseData": {
+            "rarity": 1,
+            "relicType": "Agile",
+            "version": "1.0Beta"
+        },
+        "stats": {
+            "mainStat": {
+                "type": "Phsical ATK",
+                "value": 14
+            },
+            "subStat": {
+                "type": "",
+                "value": 0
+            }
+        },
+        "passive": {
+            "name": "",
+            "type": "",
+            "desc": "",
+            "forge": []
+        },
+        "log": [
+            {
+                "version": "1.0Beta [Unknown]",
+                "description": "Unreleased"
+            }
+        ]
+    },
+    {
+        "name": "Tome of The Sages",
+        "id": 1020004,
+        "baseData": {
+            "rarity": 1,
+            "relicType": "Magical",
+            "version": "1.0Beta"
+        },
+        "stats": {
+            "mainStat": {
+                "type": "Magic PWR",
+                "value": 14
+            },
+            "subStat": {
+                "type": "",
+                "value": 0
+            }
+        },
+        "passive": {
+            "name": "",
+            "type": "",
+            "desc": "",
+            "forge": []
+        },
+        "log": [
+            {
+                "version": "1.0Beta [Unknown]",
+                "description": "Unreleased"
+            }
+        ]
+    },
+    {
+        "name": "Archery Bow",
+        "id": 1020005,
+        "baseData": {
+            "rarity": 1,
+            "relicType": "Projectile",
+            "version": "1.0Beta"
+        },
+        "stats": {
+            "mainStat": {
+                "type": "Physcal ATK",
+                "value": 14
+            },
+            "subStat": {
+                "type": "",
+                "value": 0
+            }
+        },
+        "passive": {
+            "name": "",
+            "type": "",
+            "desc": "",
+            "forge": []
+        },
+        "log": [
+            {
+                "version": "1.0Beta [Unknown]",
+                "description": "Unreleased"
+            }
+        ]
+    },
+    {
+        "name": "Corrupted Cannon",
+        "id": 1020006,
+        "baseData": {
+            "rarity": 2,
+            "relicType": "Agile",
+            "version": "1.0Beta"
+        },
+        "stats": {
+            "mainStat": {
+                "type": "Phsical ATK",
+                "value": 22
+            },
+            "subStat": {
+                "type": "Physical ATK",
+                "value": 3.2
+            }
+        },
+        "passive": {
+            "name": "",
+            "type": "",
+            "desc": "",
+            "forge": []
+        },
+        "log": [
+            {
+                "version": "1.0Beta [Unknown]",
+                "description": "Unreleased"
+            }
+        ]
+    },
+    {
+        "name": "Feather of Forgotten World",
+        "id": 1020007,
+        "baseData": {
+            "rarity": 2,
+            "relicType": "Power",
+            "version": "1.0Beta"
+        },
+        "stats": {
+            "mainStat": {
+                "type": "Magic PWR",
+                "value": 22
+            },
+            "subStat": {
+                "type": "HP",
+                "value": 4
+            }
+        },
+        "passive": {
+            "name": "",
+            "type": "",
+            "desc": "",
+            "forge": []
+        },
+        "log": [
+            {
+                "version": "1.0Beta [Unknown]",
+                "description": "Unreleased"
+            }
+        ]
+    },
+    {
+        "name": "A Tale from Afar",
+        "id": 1020008,
+        "baseData": {
+            "rarity": 2,
+            "relicType": "Magical",
+            "version": "1.0Beta"
+        },
+        "stats": {
+            "mainStat": {
+                "type": "Magic PWR",
+                "value": 22
+            },
+            "subStat": {
+                "type": "Energy Regen",
+                "value": 2.4
+            }
+        },
+        "passive": {
+            "name": "",
+            "type": "",
+            "desc": "",
+            "forge": []
+        },
+        "log": [
+            {
+                "version": "1.0Beta [Unknown]",
+                "description": "Unreleased"
+            }
+        ]
+    },
+    {
+        "name": "Radiant Spear",
+        "id": 1020009,
+        "baseData": {
+            "rarity": 5,
+            "relicType": "Agile",
+            "version": "1.0Beta"
+        },
+        "stats": {
+            "mainStat": {
+                "type": "Physical ATK",
+                "value": 44
+            },
+            "subStat": {
+                "type": "Energy Regen",
+                "value": 8.8
+            }
+        },
+        "passive": {
+            "name": "Edge of Resurgence",
+            "type": "Edge of Resurgence",
+            "desc": "Rifted Skill deals additional DMG based on [$_1]% of the equipped character's Adaptive ATK. If used at full HP, increases Crit Rate by [$_2]% for 2 Cycles.",
+            "forge": [
+                [
+                    30,
+                    35,
+                    40,
+                    45,
+                    50
+                ],
+                [
+                    8,
+                    10,
+                    12,
+                    14,
+                    16
+                ]
+            ]
+        },
+        "log": [
+            {
+                "version": "1.0Beta [Unknown]",
+                "description": "Unreleased"
+            }
+        ]
+    },
+    {
+        "name": "Radiant Amulet",
+        "id": 1020010,
+        "baseData": {
+            "rarity": 5,
+            "relicType": "Magical",
+            "version": "1.0Beta"
+        },
+        "stats": {
+            "mainStat": {
+                "type": "Magic PWR",
+                "value": 44
+            },
+            "subStat": {
+                "type": "Energy Regen",
+                "value": 8.8
+            }
+        },
+        "passive": {
+            "name": "Edge of Resurgence",
+            "type": "Edge of Resurgence",
+            "desc": "Rifted Skill deals additional DMG based on [$_1]% of the equipped character's Adaptive ATK. If used at full HP, increases Crit Rate by [$_2]% for 2 Cycles.",
+            "forge": [
+                [
+                    30,
+                    35,
+                    40,
+                    45,
+                    50
+                ],
+                [
+                    8,
+                    10,
+                    12,
+                    14,
+                    16
+                ]
+            ]
+        },
+        "log": [
+            {
+                "version": "1.0Beta [Unknown]",
+                "description": "Unreleased"
+            }
+        ]
+    },
+    {
+        "name": "Radiant Blade",
+        "id": 1020011,
+        "baseData": {
+            "rarity": 5,
+            "relicType": "Melee",
+            "version": "1.0Beta"
+        },
+        "stats": {
+            "mainStat": {
+                "type": "Physical ATK",
+                "value": 44
+            },
+            "subStat": {
+                "type": "Energy Regen",
+                "value": 8.8
+            }
+        },
+        "passive": {
+            "name": "Edge of Resurgence",
+            "type": "Edge of Resurgence",
+            "desc": "Rifted Skill deals additional DMG based on [$_1]% of the equipped character's Adaptive ATK. If used at full HP, increases Crit Rate by [$_2]% for 2 Cycles.",
+            "forge": [
+                [
+                    30,
+                    35,
+                    40,
+                    45,
+                    50
+                ],
+                [
+                    8,
+                    10,
+                    12,
+                    14,
+                    16
+                ]
+            ]
+        },
+        "log": [
+            {
+                "version": "1.0Beta [Unknown]",
+                "description": "Unreleased"
+            }
+        ]
+    },
+    {
+        "name": "Radiant Artifact",
+        "id": 1020012,
+        "baseData": {
+            "rarity": 5,
+            "relicType": "Power",
+            "version": "1.0Beta"
+        },
+        "stats": {
+            "mainStat": {
+                "type": "Physical ATK",
+                "value": 44
+            },
+            "subStat": {
+                "type": "Energy Regen",
+                "value": 8.8
+            }
+        },
+        "passive": {
+            "name": "Edge of Resurgence",
+            "type": "Edge of Resurgence",
+            "desc": "Rifted Skill deals additional DMG based on [$_1]% of the equipped character's Adaptive ATK. If used at full HP, increases Crit Rate by [$_2]% for 2 Cycles.",
+            "forge": [
+                [
+                    30,
+                    35,
+                    40,
+                    45,
+                    50
+                ],
+                [
+                    8,
+                    10,
+                    12,
+                    14,
+                    16
+                ]
+            ]
+        },
+        "log": [
+            {
+                "version": "1.0Beta [Unknown]",
+                "description": "Unreleased"
+            }
+        ]
+    },
+    {
+        "name": "Radiant Energizer",
+        "id": 1020013,
+        "baseData": {
+            "rarity": 5,
+            "relicType": "Projectile",
+            "version": "1.0Beta"
+        },
+        "stats": {
+            "mainStat": {
+                "type": "Physical ATK",
+                "value": 44
+            },
+            "subStat": {
+                "type": "Energy Regen",
+                "value": 8.8
+            }
+        },
+        "passive": {
+            "name": "Edge of Resurgence",
+            "type": "Edge of Resurgence",
+            "desc": "Rifted Skill deals additional DMG based on [$_1]% of the equipped character's Adaptive ATK. If used at full HP, increases Crit Rate by [$_2]% for 2 Cycles.",
+            "forge": [
+                [
+                    30,
+                    35,
+                    40,
+                    45,
+                    50
+                ],
+                [
+                    8,
+                    10,
+                    12,
+                    14,
+                    16
+                ]
+            ]
+        },
+        "log": [
+            {
+                "version": "1.0Beta [Unknown]",
+                "description": "Unreleased"
+            }
+        ]
+    },
+    {
+        "name": "Sentinel's Broadblade",
+        "id": 1020014,
+        "baseData": {
+            "rarity": 5,
+            "relicType": "Melee",
+            "version": "1.0Beta"
+        },
+        "stats": {
+            "mainStat": {
+                "type": "Physical ATK",
+                "value": 44
+            },
+            "subStat": {
+                "type": "Physical ATK",
+                "value": 8.2
+            }
+        },
+        "passive": {
+            "name": "Sentinel's Blessing",
+            "type": "",
+            "desc": "Increasese Normal Skill DMG by [$_1]%. Casting Normal Skill gains 1 stack of Sentinel's Blessing. Each stack increases the equipped character's Phyiscal ATK by [$_2]% for 6 Cycles. Each stack duration is counted independently.",
+            "forge": [
+                [
+                    48,
+                    56,
+                    64,
+                    72,
+                    80
+                ],
+                [
+                    15,
+                    20,
+                    25,
+                    30,
+                    35
+                ]
+            ]
+        },
+        "log": [
+            {
+                "version": "1.0Beta [Unknown]",
+                "description": "Unreleased"
+            }
+        ]
+    },
+    {
+        "name": "Atopac Amulet",
+        "id": 1020015,
+        "baseData": {
+            "rarity": 5,
+            "relicType": "Power",
+            "version": "1.0Beta"
+        },
+        "stats": {
+            "mainStat": {
+                "type": "Physical ATK",
+                "value": 44
+            },
+            "subStat": {
+                "type": "Magic PWR",
+                "value": 8.2
+            }
+        },
+        "passive": {
+            "name": "Silent Dreams",
+            "type": "",
+            "desc": "When the equipped character deals Physical DMG, gains 1 stack of Dream Fragments, max 4 stacks. Each stack increases the equipped character's Magic PWR by [$_1]% for 2 Cycles. Gaining another stack will reset the duration.",
+            "forge": [
+                [
+                    24,
+                    28,
+                    32,
+                    36,
+                    40
+                ]
+            ]
+        },
+        "log": [
+            {
+                "version": "1.0Beta [Unknown]",
+                "description": "Unreleased"
+            }
+        ]
+    },
+    {
+        "name": "Lantern of Admiring",
+        "id": 1020016,
+        "baseData": {
+            "rarity": 5,
+            "relicType": "Magical",
+            "version": "1.0Beta"
+        },
+        "stats": {
+            "mainStat": {
+                "type": "Magic PWR",
+                "value": 38
+            },
+            "subStat": {
+                "type": "Crit Rate",
+                "value": 2.2
+            }
+        },
+        "passive": {
+            "name": "Secrets of Admiring",
+            "type": "",
+            "desc": "When the wielder uses Normal Skill, gains 1 stack of Admiring Light, max 4 stacks. Each stack increases the equipped character's Rifted Skill DMG by [$_1]%. All stacks will be consumed upon using Rifted Skill.",
+            "forge": [
+                [
+                    20,
+                    24,
+                    28,
+                    32,
+                    36
+                ]
+            ]
+        },
+        "log": [
+            {
+                "version": "1.0Beta [Unknown]",
+                "description": "Unreleased"
+            }
+        ]
+    },
+    {
+        "name": "Berserker's Axe",
+        "id": 1020017,
+        "baseData": {
+            "rarity": 5,
+            "relicType": "Melee",
+            "version": "1.0Beta"
+        },
+        "stats": {
+            "mainStat": {
+                "type": "Physical ATK",
+                "value": 38
+            },
+            "subStat": {
+                "type": "Crit DMG",
+                "value": 8.8
+            }
+        },
+        "passive": {
+            "name": "Berserker's Wrath",
+            "type": "",
+            "desc": "Crit Rate is increased by [$_1]%. When the wielder's HP increases or decreases by healing or self-DMG, gains 1 Fury Point. Each Fury Point increases the wielder's Physical ATK by [$_2]% for 2 Cycles, up to 4 stacks.",
+            "forge": [
+                [
+                    8,
+                    12,
+                    16,
+                    20,
+                    24
+                ],
+                [
+                    12,
+                    20,
+                    28,
+                    36,
+                    44
+                ]
+            ]
+        },
+        "log": [
+            {
+                "version": "1.0Beta [Unknown]",
+                "description": "Unreleased"
+            }
+        ]
+    },
+    {
+        "name": "Precision Mechanism",
+        "id": 1020018,
+        "baseData": {
+            "rarity": 5,
+            "relicType": "Projectile",
+            "version": "1.0Beta"
+        },
+        "stats": {
+            "mainStat": {
+                "type": "Physical ATK",
+                "value": 38
+            },
+            "subStat": {
+                "type": "Crit Rate",
+                "value": 2.2
+            }
+        },
+        "passive": {
+            "name": "Precise Calculations",
+            "type": "",
+            "desc": "Energy Regen is increased by [$_1]%. If the equipped character doesn't take any DMG during a single Cycle, all team members gains [$_2]% Crit Rate and [$_3]% Crit DMG for the next 3 Cycles.",
+            "forge": [
+                [
+                    20,
+                    28,
+                    34,
+                    42,
+                    50
+                ],
+                [
+                    10,
+                    12,
+                    14,
+                    16,
+                    18
+                ],
+                [
+                    20,
+                    24,
+                    28,
+                    32,
+                    36
+                ]
+            ]
+        },
+        "log": [
+            {
+                "version": "1.0Beta [Unknown]",
+                "description": "Unreleased"
+            }
+        ]
+    },
+    {
+        "name": "Frostborn Tome",
+        "id": 1020019,
+        "baseData": {
+            "rarity": 5,
+            "relicType": "Magical",
+            "version": "1.0Beta"
+        },
+        "stats": {
+            "mainStat": {
+                "type": "Magic PWR",
+                "value": 44
+            },
+            "subStat": {
+                "type": "Magic PWR",
+                "value": 8.2
+            }
+        },
+        "passive": {
+            "name": "Frostborn",
+            "type": "",
+            "desc": "The following Frostborn effects can occour based on consumed Echo Memory on use of Normal Skill:\n\t6 EM: Increases Normal Skill DMG by [$_1]%.\n\t8 EM: Increases Follow-Up DMG by [$_2]%.\nAdditionally, triggering Shattered Effect increases the equipped character's Disorder DMG by [$_3]% for 2 Cycles. ",
+            "forge": [
+                [
+                    48,
+                    56,
+                    64,
+                    72,
+                    80
+                ],
+                [
+                    120,
+                    140,
+                    160,
+                    180,
+                    200
+                ],
+                [
+                    16,
+                    20,
+                    24,
+                    28,
+                    32
+                ]
+            ]
+        },
+        "log": [
+            {
+                "version": "1.0Beta [Unknown]",
+                "description": "Unreleased"
+            }
+        ]
+    },
+    {
+        "name": "Echoing Shards",
+        "id": 1020020,
+        "baseData": {
+            "rarity": 5,
+            "relicType": "Power",
+            "version": "1.0Beta"
+        },
+        "stats": {
+            "mainStat": {
+                "type": "Physical ATK",
+                "value": 38
+            },
+            "subStat": {
+                "type": "HP",
+                "value": 12.2
+            }
+        },
+        "passive": {
+            "name": "Lifesteal",
+            "type": "",
+            "desc": "Crit Rate is increased by [$_1]%. When the equipped character's HP increases or decreases by healing or self-DMG, obtains Lifesteal effect for 2 Cycles. Lifesteal: When dealing DMG to opponents, recover [$_2]% of that DMG as HP. This effect cannot be enhanced by Healing Bonus.",
+            "forge": [
+                [
+                    12,
+                    16,
+                    20,
+                    24,
+                    28
+                ],
+                [
+                    40,
+                    48,
+                    56,
+                    64,
+                    72
+                ]
+            ]
+        },
+        "log": [
+            {
+                "version": "1.0Beta [Unknown]",
+                "description": "Unreleased"
+            }
+        ]
+    },
+    {
+        "name": "Energy-Focused Drive",
+        "id": 1020021,
+        "baseData": {
+            "rarity": 5,
+            "relicType": "Projectile",
+            "version": "1.0Beta"
+        },
+        "stats": {
+            "mainStat": {
+                "type": "Physical ATK",
+                "value": 38
+            },
+            "subStat": {
+                "type": "Crit DMG",
+                "value": 12.2
+            }
+        },
+        "passive": {
+            "name": "Portable Storage Device",
+            "type": "",
+            "desc": "Each instance of DMG dealt to the opponent will be stored as 1 Bit, max [$_1] Bits. When the equipped character uses Normal Skill, each bit stored will be consumed dealing additional DMG equal to [$_2]% of the stored DMG instance. Casting Rifted Skill will consumes all stored Bits and deals additional DMG equal to [$_2]% of the combined stored DMG instance. If the stored Bits doesn't reaches max capacity, the additional DMG dealt by this effect is further increased by 20%. The DMG dealt by this effects will not be stored as Bits. Additionally, if the wielder is affected by Hyperion Energy, CRIT Rate is increased by [$_3]%.",
+            "forge": [
+                [
+                    8,
+                    10,
+                    12,
+                    14,
+                    16
+                ],
+                [
+                    24,
+                    28,
+                    32,
+                    36,
+                    40
+                ],
+                [
+                    24,
+                    28,
+                    32,
+                    36,
+                    40
+                ]
+            ]
+        },
+        "log": [
+            {
+                "version": "1.0Beta [Unknown]",
+                "description": "Unreleased"
+            }
+        ]
+    },
+    {
+        "name": "Voided Fragments",
+        "id": 1020022,
+        "baseData": {
+            "rarity": 5,
+            "relicType": "Agile",
+            "version": "1.0Beta"
+        },
+        "stats": {
+            "mainStat": {
+                "type": "Physical ATK",
+                "value": 38
+            },
+            "subStat": {
+                "type": "Physical ATK",
+                "value": 12.2
+            }
+        },
+        "passive": {
+            "name": "Convergence",
+            "type": "",
+            "desc": "When there are only 2 active characters in the team, Physical ATK is increased by [$_1]% and Crit DMG is increased by [$_2]%. When there are only 1 active character in the team, the aforementioned effects are increased by 50%",
+            "forge": [
+                [
+                    24,
+                    36,
+                    48,
+                    60,
+                    72
+                ],
+                [
+                    12,
+                    16,
+                    20,
+                    24,
+                    28
+                ]
+            ]
+        },
+        "log": [
+            {
+                "version": "1.0Beta [Unknown]",
+                "description": "Unreleased"
+            }
+        ]
+    },
+    {
+        "name": "Skycloud Justice",
+        "id": 1020023,
+        "baseData": {
+            "rarity": 5,
+            "relicType": "Melee",
+            "version": "1.0Beta"
+        },
+        "stats": {
+            "mainStat": {
+                "type": "Physical ATK",
+                "value": 44
+            },
+            "subStat": {
+                "type": "Healing Bonus",
+                "value": 12.2
+            }
+        },
+        "passive": {
+            "name": "Justice Resonance",
+            "type": "",
+            "desc": "Energy Efficiency is increased by [$_1]%. Resonance: When the equipped character's Normal Skill is used with more than 6 Echo Memory, Magic PWR is increased by [$_2]% for 2 Cycles. During the Resonance effect, when Spread Reactions are triggered by the equipped character, all team members Physical ATK is increased by [$_3]% for the same Cycle.",
+            "forge": [
+                [
+                    16,
+                    20,
+                    24,
+                    28,
+                    32
+                ],
+                [
+                    24,
+                    32,
+                    40,
+                    48,
+                    56
+                ],
+                [
+                    12,
+                    14,
+                    16,
+                    18,
+                    20
+                ]
+            ]
+        },
+        "log": [
+            {
+                "version": "1.0Beta [Unknown]",
+                "description": "Unreleased"
+            }
+        ]
+    },
+    {
+        "name": "Moonshard Crystal",
+        "id": 1020024,
+        "baseData": {
+            "rarity": 5,
+            "relicType": "Power",
+            "version": "1.1Beta"
+        },
+        "stats": {
+            "mainStat": {
+                "type": "Magic PWR",
+                "value": 44
+            },
+            "subStat": {
+                "type": "Crit Rate",
+                "value": 2.2
+            }
+        },
+        "passive": {
+            "name": "Midnight Ambients",
+            "type": "",
+            "desc": "Normal Attack DMG is increased by [$_1]%. If the equipped character deals Physical DMG, Magic PWR is increased by [$_2]%. If the equipped character's shield increases or decreases, the aforementioned effects are increased by 100% and Crit DMG is increased by [$_3]%. The shield changing effects will ignore the incoming DMG.",
+            "forge": [
+                [
+                    24,
+                    28,
+                    32,
+                    36,
+                    40
+                ],
+                [
+                    24,
+                    26,
+                    28,
+                    30,
+                    32
+                ],
+                [
+                    20,
+                    30,
+                    40,
+                    50,
+                    60
+                ]
+            ]
+        },
+        "log": [
+            {
+                "version": "1.1Beta [Unknown]",
+                "description": "Unreleased"
+            }
+        ]
+    },
+    {
+        "name": "Above and Beyond",
+        "id": 1020025,
+        "baseData": {
+            "rarity": 5,
+            "relicType": "Magical",
+            "version": "1.2Beta"
+        },
+        "stats": {
+            "mainStat": {
+                "type": "Magic PWR",
+                "value": 46
+            },
+            "subStat": {
+                "type": "Energy Regen",
+                "value": 4.8
+            }
+        },
+        "passive": {
+            "name": "Shooting Stars",
+            "type": "",
+            "desc": "If the wielder deals Follow-Up DMG, gains Above the Stars effect. Above the Stars: Increases Follow-Up Attack DMG by [$_1]% for 3 Cycles. If the wielder has a Shield, gains Beyond the Stars effect. Beyond the Stars: Increases Magic PWR by [$_2]% for 4 Cycles. If both Above the Stars and Beyond the Stars are active, the wielder's Adaptive ATK is increased by [$_3]%.",
+            "forge": [
+                [
+                    16,
+                    24,
+                    32,
+                    40,
+                    48
+                ],
+                [
+                    12,
+                    16,
+                    20,
+                    24,
+                    28
+                ],
+                [
+                    12,
+                    16,
+                    20,
+                    24,
+                    28
+                ]
+            ]
+        },
+        "log": [
+            {
+                "version": "1.0Beta [Unknown]",
+                "description": "Unreleased"
+            }
+        ]
+    },
+    {
+        "name": "Sacrificial Fragments",
+        "id": 1020026,
+        "baseData": {
+            "rarity": 5,
+            "relicType": "Agile",
+            "version": "1.3Beta"
+        },
+        "stats": {
+            "mainStat": {
+                "type": "Physical ATK",
+                "value": 44
+            },
+            "subStat": {
+                "type": "Energy Effiiciency",
+                "value": 2.2
+            }
+        },
+        "passive": {
+            "name": "Endangered Echos",
+            "type": "",
+            "desc": "Decreases Energy Regen by [$_1]%. If the wielder has less than 50% Energy Regen, Physical ATK is increased by [$_2]%. Additionaly, If the wielder Surge or Energy increases or decreases, all team members except the wielder's Physical ATK is increased by [$_3]%.",
+            "forge": [
+                [
+                    10,
+                    14,
+                    18,
+                    32,
+                    36
+                ],
+                [
+                    24,
+                    32,
+                    40,
+                    48,
+                    56
+                ],
+                [
+                    12,
+                    20,
+                    28,
+                    36,
+                    44
+                ]
+            ]
+        },
+        "log": [
+            {
+                "version": "1.4Beta [Unknown]",
+                "description": "Unreleased"
+            }
+        ]
+    },
+    {
+        "name": "Greatdragon Polearm",
+        "id": 1020027,
+        "baseData": {
+            "rarity": 5,
+            "relicType": "Agile",
+            "version": "1.4Beta"
+        },
+        "stats": {
+            "mainStat": {
+                "type": "Physical ATK",
+                "value": 44
+            },
+            "subStat": {
+                "type": "Crit Rate",
+                "value": 2.2
+            }
+        },
+        "passive": {
+            "name": "Scorched Burns",
+            "type": "",
+            "desc": "When the equipped character inflicts 4 Flame DMG instances within 2 Cycles to the same opponent, apply Burn to that opponent. Opponents with Burn takes [$_1]% increased Flame DMG and generates [$_2] Echo Memory. Maintainig Burn on the opponents will increase the aforementioned effects by [$_3]%, max [$_4]%. Burn effect will be removed when the opponent no longer takes Flame DMG.",
+            "forge": [
+                [
+                    24,
+                    40,
+                    56,
+                    72,
+                    88
+                ],
+                [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                ],
+                [
+                    20,
+                    24,
+                    28,
+                    32,
+                    36
+                ],
+                [
+                    100,
+                    120,
+                    140,
+                    160,
+                    180
+                ]
+            ]
+        },
+        "log": [
+            {
+                "version": "1.4Beta [Unknown]",
+                "description": "Unreleased"
+            }
+        ]
+    },
+    {
+        "name": "Violet-Feathered Booklet",
+        "id": 1020028,
+        "baseData": {
+            "rarity": 5,
+            "relicType": "Magical",
+            "version": "1.5Beta"
+        },
+        "stats": {
+            "mainStat": {
+                "type": "Magic PWR",
+                "value": 44
+            },
+            "subStat": {
+                "type": "Knowledge Unit",
+                "value": 17
+            }
+        },
+        "passive": {
+            "name": "Colorful Pages",
+            "type": "",
+            "desc": "Red-Feathered Page: When team members trigger Electrified Reactions, increases Knowledge Unit by [$_1] for 2 Cycles. When team members trigger Triggering Supercharged Reactions increases Knowledge Unit by [$_2] for 4 Cycles.\nBlue-Feathered Page: When the equipped character's Normal Skill deals Tide or Volte DMG, increases Knowledge Unit by [$_3] for 2 Cycles.\nWhen both Red-Feathered Page and Blue-Feathered Page are in effect, all team members' Electrified DMG is increased by [$_4]%, and their Supercharged DMG is increased by [$_5]%. This effect cannot stack.",
+            "forge": [
+                [
+                    30,
+                    37,
+                    44,
+                    51,
+                    58
+                ],
+                [
+                    60,
+                    75,
+                    90,
+                    105,
+                    120
+                ],
+                [
+                    60,
+                    75,
+                    90,
+                    105,
+                    120
+                ],
+                [
+                    120,
+                    150,
+                    180,
+                    210,
+                    240
+                ],
+                [
+                    40,
+                    50,
+                    60,
+                    70,
+                    80
+                ]
+            ]
+        },
+        "log": [
+            {
+                "version": "1.5Beta [Unknown]",
+                "description": "Unreleased"
+            }
+        ]
+    },
+    {
+        "name": "Call of The Nights",
+        "id": 1020029,
+        "baseData": {
+            "rarity": 5,
+            "relicType": "Agile",
+            "version": "1.6Beta"
+        },
+        "stats": {
+            "mainStat": {
+                "type": "Physical ATK",
+                "value": 44
+            },
+            "subStat": {
+                "type": "Crit Rate",
+                "value": 2.2
+            }
+        },
+        "passive": {
+            "name": "Midnight Tombs",
+            "type": "",
+            "desc": "For 1 Cycle after using a Rifted Skill, the equipped character's Supercharged DMG dealt to opponents is increased by [$_1]%. Additionally, after triggering Supercharged reactions, the equipped charcter Crit DMG is increased by [$_2]% for 2 Cycles. During this effect, the equipped character will also gains [$_3]% Energy Efficiency.",
+            "forge": [
+                [
+                    36,
+                    48,
+                    60,
+                    72,
+                    84
+                ],
+                [
+                    28,
+                    35,
+                    42,
+                    49,
+                    56
+                ],
+                [
+                    20,
+                    24,
+                    28,
+                    32,
+                    36
+                ]
+            ]
+        },
+        "log": [
+            {
+                "version": "1.6Beta [Unknown]",
+                "description": "Unreleased"
+            }
+        ]
+    },
+    {
+        "name": "Tales of The Seven Worlds",
+        "id": 1020030,
+        "baseData": {
+            "rarity": 5,
+            "relicType": "Magical",
+            "version": "1.7Beta"
+        },
+        "stats": {
+            "mainStat": {
+                "type": "Magic PWR",
+                "value": 38
+            },
+            "subStat": {
+                "type": "Knowledge Unit",
+                "value": 22
+            }
+        },
+        "passive": {
+            "name": "Connection Between Worlds",
+            "type": "",
+            "desc": "When the wielder triggers Spread reactions, Knowledge Unit is increased by [$_1] for 2 Cycles. If the wielder's Disorder Type is different from other members' Disorder Types in the team, the aforementioned effect is increased by 50%. Additionally, when the wielder casts Rifted Skill, their Normal Skill DMG is increased by [$_2]% for 4 Cycles.",
+            "forge": [
+                [
+                    60,
+                    75,
+                    90,
+                    105,
+                    120
+                ],
+                [
+                    48,
+                    56,
+                    64,
+                    72,
+                    80
+                ]
+            ]
+        },
+        "log": [
+            {
+                "version": "1.7Beta [Unknown]",
+                "description": "Unreleased"
+            }
+        ]
+    },
+    {
+        "name": "Dakashan Black Pearl",
+        "id": 1020031,
+        "baseData": {
+            "rarity": 5,
+            "relicType": "Power",
+            "version": "1.8Beta"
+        },
+        "stats": {
+            "mainStat": {
+                "type": "Physical ATK",
+                "value": 38
+            },
+            "subStat": {
+                "type": "CRIT Rate",
+                "value": 4.8
+            }
+        },
+        "passive": {
+            "name": "Black Pearl Annihilation",
+            "type": "",
+            "desc": "Dealing Normal Skill DMG inflicts the affected opponents with [$_1] stacks of Strong Winds. When opponents are affected by Strong Winds the equipped character gains Pearlescence effect. Pearlescence: Knowledge Unit is increased by [$_2] for 4 Cycles. When nearby team member except the equipped character inflict Strong Winds to the opponents, gains the Iridescence effect. Iridescence: Knowledge Unit is increased by [$_2] for 3 Cycles. When both Pearlescence and Iridescence effects are active at the same time, the equipped character's CRIT DMG is increased by [$_3]%.",
+            "forge": [
+                [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6
+                ],
+                [
+                    60,
+                    75,
+                    90,
+                    105,
+                    120
+                ],
+                [
+                    20,
+                    40,
+                    60,
+                    80,
+                    100
+                ]
+            ]
+        },
+        "log": [
+            {
+                "version": "1.0Beta [Unknown]",
+                "description": "Unreleased"
+            }
+        ]
+    },
+    {
+        "name": "Goblet of Presentation",
+        "id": 1020032,
+        "baseData": {
+            "rarity": 5,
+            "relicType": "Power",
+            "version": "2.0"
+        },
+        "stats": {
+            "mainStat": {
+                "type": "Physical ATK",
+                "value": 28
+            },
+            "subStat": {
+                "type": "CRIT DMG",
+                "value": 16.8
+            }
+        },
+        "passive": {
+            "name": "Fine-Tuned Frequency",
+            "type": "",
+            "desc": "DEF is increased by [$_1]%. When a team member deals DoT DMG, increases the DoT DMG of the equipping character by [$_2]% for 2 Cycles. After the equipping character deals DoT DMG consecutively for 2 Turns, increases all team member DoT DMG by [$_3]%. This effect ends immediately after the equipping character stop dealing DoT DMG.",
+            "forge": [
+                [
+                    24,
+                    36,
+                    48,
+                    60,
+                    72
+                ],
+                [
+                    40,
+                    50,
+                    60,
+                    70,
+                    80
+                ],
+                [
+                    48,
+                    56,
+                    64,
+                    52,
+                    60
+                ]
+            ]
+        },
+        "log": [
+            {
+                "version": "1.0Beta [Unknown]",
+                "description": "Unreleased"
+            }
+        ]
+    },
+    {
+        "name": "Concentrated Energy",
+        "id": 1020033,
+        "baseData": {
+            "rarity": 5,
+            "relicType": "Projectile",
+            "version": "2.1"
+        },
+        "stats": {
+            "mainStat": {
+                "type": "Physical ATK",
+                "value": 33
+            },
+            "subStat": {
+                "type": "Intelligence Unit",
+                "value": 48
+            }
+        },
+        "passive": {
+            "name": "Unstable Concentration",
+            "type": "",
+            "desc": "Dealing True DMG gains Saturated effect, increasing the Attribute DMG Bonus by [$_1]%. Additionally, when the team members except the equipped character deals True DMG, the equipped character gains [$_2] Surges or Energy. This effect can trigger once every 2 Cycles.",
+            "forge": [
+                [
+                    12,
+                    20,
+                    28,
+                    36,
+                    44
+                ],
+                [
+                    24,
+                    36,
+                    48,
+                    60,
+                    72
+                ]
+            ]
+        },
+        "log": [
+            {
+                "version": "1.0Beta [Unknown]",
+                "description": "Unreleased"
+            }
+        ]
+    },
+    {
+        "name": "Firelight",
+        "id": 1020034,
+        "baseData": {
+            "rarity": 5,
+            "relicType": "Melee",
+            "version": "2.1"
+        },
+        "stats": {
+            "mainStat": {
+                "type": "Physical ATK",
+                "value": 28
+            },
+            "subStat": {
+                "type": "CRIT DMG",
+                "value": 16.8
+            }
+        },
+        "passive": {
+            "name": "Last Rite",
+            "type": "",
+            "desc": "Triggering Polymetric Combustion increases the equipping character's Rifted Skill DMG by [$_1]%. Casting Normal Attack grants the equipping character \"Secret Rite\" effect for 4 Cycles. Secret Rite: Increases the equipping character's Follow-Up Attack DMG by [$_2]%. Casting Normal Attack grants the equipping character \"True Rite\" effect for 4 Cycles. True Rite: Increases the team members except the equipping character's Normal Attack DMG by [$_3]%. The \"Secret Rite\" effect and \"True Rite\" effect cannot coexist at the same time, one will be removed if the other one is applied.",
+            "forge": [
+                [
+                    24,
+                    36,
+                    48,
+                    60,
+                    72
+                ],
+                [
+                    24,
+                    36,
+                    48,
+                    60,
+                    72
+                ],
+                [
+                    24,
+                    36,
+                    48,
+                    60,
+                    72
+                ]
+            ]
+        },
+        "log": [
+            {
+                "version": "1.0Beta [Unknown]",
+                "description": "Unreleased"
+            }
+        ]
+    },
+    {
+        "name": "Moments of Hong",
+        "id": 1020035,
+        "baseData": {
+            "rarity": 5,
+            "relicType": "Magical",
+            "version": "2.2"
+        },
+        "stats": {
+            "mainStat": {
+                "type": "Physical ATK",
+                "value": 52
+            },
+            "subStat": {
+                "type": "CRIT Rate",
+                "value": 2.2
+            }
+        },
+        "passive": {
+            "name": "Memories of Past",
+            "type": "",
+            "desc": "After dealing 3 instances of DMG in a single action, gains a stack of Rememberance, max 4 stacks. Rememberance: Increases the Polymetric Combustion DMG of the current Cycle by [$_1]%. After using Normal Skill, grants the equipping character Forgotten effect. Forgotten: Applying Hijacked to the opponent increases the equipping character Knowledge Unit by [$_2], and CRIT DMG by [$_3]%.",
+            "forge": [
+                [
+                    12,
+                    24,
+                    36,
+                    48,
+                    60
+                ],
+                [
+                    60,
+                    75,
+                    90,
+                    105,
+                    120
+                ],
+                [
+                    20,
+                    40,
+                    60,
+                    80,
+                    100
+                ]
+            ]
+        },
+        "log": [
+            {
+                "version": "1.0Beta [Unknown]",
+                "description": "Unreleased"
+            }
+        ]
+    },
+    {
+        "name": "Blade of Corruption",
+        "id": 1020036,
+        "baseData": {
+            "rarity": 5,
+            "relicType": "Melee",
+            "version": "2.3"
+        },
+        "stats": {
+            "mainStat": {
+                "type": "Physical ATK",
+                "value": 44
+            },
+            "subStat": {
+                "type": "CRIT Rate",
+                "value": 4.4
+            }
+        },
+        "passive": {
+            "name": "Silent Executions",
+            "type": "",
+            "desc": "Casting Charged Attack recovers 10 Charges. Dealing DMG to the opponent above 50% of their Max HP, increases DEF by [$_1]% for 2 Cycles. Dealing DMG to opponent below 50% of their Max HP, deals additional DMG based on [$_2]% of the equipping character's DEF.",
+            "forge": [
+                [
+                    24,
+                    36,
+                    48,
+                    60,
+                    72
+                ],
+                [
+                    40,
+                    50,
+                    60,
+                    70,
+                    80
+                ]
+            ]
+        },
+        "log": [
+            {
+                "version": "1.0Beta [Unknown]",
+                "description": "Unreleased"
+            }
+        ]
+    }
+]
