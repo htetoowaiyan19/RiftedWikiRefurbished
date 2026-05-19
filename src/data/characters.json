@@ -2657,5 +2657,115 @@
                 "description": "Unreleased"
             }
         ]
+    },
+    {
+        "name": "Sannie",
+        "id": 1010026,
+        "baseData": {
+            "rarity": 5,
+            "type": "Rifted Disorder",
+            "faction": "Frost",
+            "relicType": "Projectile",
+            "version": "2.4"
+        },
+        "baseStats": {
+            "atk": 78,
+            "pwr": 156,
+            "def": 30,
+            "hp": 1998
+        },
+        "typeStats": {
+            "fluxCapacity": 0,
+            "surgeCapacity": 0,
+            "echoMemoryCapacity": 6,
+            "maxEnergy": 100
+        },
+        "subStat": {
+            "type": "HP",
+            "value": 12.2
+        },
+        "talents": {
+            "coreTalent": {
+                "name": "Collective Withdraw",
+                "desc": "For every 1 Stock, all team members gain 8% Healing Bonus. When Sannie's is at Peak Investment, Polymetric Combustion DMG is inscreased by 30%."
+            },
+            "riftedTalent": {
+                "name": "Rifted Disorder : Stock",
+                "desc": "Sannie's Echo Memory is considered as Stock. Dealing Disorder DMG accumulates 12 Energy."
+            },
+            "others": [
+                {
+                    "name": "Peak Investment",
+                    "desc": "When a team member HP increases or decreases, the value of the change in their HP will be considered as an Investment. If the Investment is equal to or Higher than 10% of Sannie's Max HP, Sannie gains 1 Stock. The requied Investment increases for each Stock by 8% of Sannie's Max HP. When the Investment is equal to or higher than 50% of Sannie's Max HP, it will considered as Peak Investment. Investment Value for each stock are 2, 4, 8, 16, 32, and 64 respectively."
+                },
+                {
+                    "name": "Market Share",
+                    "desc": "When Sannie is at Peak Investment, all team members' contribution to Polymetric Combustion is increased by 12%."
+                },
+                {
+                    "name": "Polymetric Combustion",
+                    "desc": "Sannie can triigger Polymetric Combustion. When Sannie is in the team, Polymetric Combustion DMG is elevated by 3%."
+                }
+            ]
+        },
+        "abilities": {
+            "normalAttack": {
+                "name": "A Scoop of Coins",
+                "desc": "Sannie throws 6 Frost Coins at the target, each dealing [$_1, 13] (+[$_2, 0.34]% Magic PWR) as Frost DMG.",
+                "multipliers": [21, 0.118921]
+            },
+            "chargedAttack": {
+                "name": "Heavy Blow!",
+                "cost": 30,
+                "desc": "Sannie grabs a Giant Frost Coin and crushes the target, dealing [$_1, 22] (+[$_2, 0.54]% Magic PWR) as Frost DMG.",
+                "multipliers": [41, 0.120018]
+            },
+            "normalSkill": {
+                "name": "Coin Toss",
+                "fluxCost": 0,
+                "memoryNodes": {},
+                "desc": "If at least one team member's HP is above 50% of their Max HP, Sannie tosses a Coin at the targed opponent dealing [$_1, 231] (+[$_2, 0.48]% Max HP) (+[$_3, 1.88]% Current Highest Investment Value) as Frost DMG and set the opponent on High Demand. High Demand: The Focus Build-Up Rate of of the affected opponent is increased by [$_4, 0.08]%. When the Coin hit the opponent, if team member(s) has more than 50% HP, the Coin will increase its power based on the number of such team members, and consume their HP by 8% of thier Max HP. If the team members who meet these requirements are 1, 2, or 3, the Coin will deal 120%, 140%, 160% of their original DMG. If the coin is still active on the opponent on Sannie's next Turn, and at least 1 member meets the aforementioned requirement, the Coin will bounce to the nearby opponent dealing DMG and applying High Demand on them instead.",
+                "multipliers": [148, 0.106829, 0.180423]
+            },
+            "riftedSkill": {
+                "name": "Stock Market",
+                "surgeCost": 0,
+                "energyCost": 100,
+                "desc": "Sannie enters Trading Mode. Trading Mode: A Stock Market will be displayed and Sannie can casts this skill again at a specific timeline in the Stock Market to trigger additional effects. Casting this skill while the Stock Market is at the lowest point, Sannie enters \"Bear Market\". Casting this skill while the Stock Market is at the middle point, Sannie enters \"Stable Market\". Casting this skill while the Stock Market is at the highest point, Sannie enters \"Bull Market\". All markets last for 3 Cycles.\n\nBear Market: When a team member triggers Polymetric Combustion, Sannie consumes a Stock with the highest Investment to increase that Polymetric Combustion DMG [$_1, 0.24]% of Sannie's Max HP multiplied by the consumed Investment Value. The market ends early if there are no more Stocks left to consume.\n\nStable Market: Sannie consumes all Stocks and converts them into Stable Stocks. When a team member's HP increases or decreases, Sannie gains 1 Stable Stock for each percentage point of their Max HP by which their HP changes. During this market, for every 1 Stable Stock, Sannie increases the DMG dealt by team members by [$_2, 0.0006]%. The Maximum Stable Stock can be gained this way is 200. The Stable Stock to DMG Increase conversation ratio will be increased by [$_3, 0.0002]% if all team members contributes to Polymetric Combustion.\n\nBull Market: Sannie gains 2 extra Stocks with the Investment Value of 128, and 256 then automatically activate those Stocks. During the Bull Market, \"Coin Toss\" deals DMG to an opponent, a cooridinated DMG will be dealt to the same opponent based on [$_4, 5.14]% Total Investment Value and the DMG is considered Polymetric Coordination DMG.",
+                "multipliers": [0.04, 0.0002, 0.00015, 1.12]
+            }
+        },
+        "fragments": [
+            {
+                "name": "Successful Investment",
+                "desc": "Additional buffs will be applied when Sannie casts \"Stock Market\".\nBear Market: The Polymetric Combustion DMG Bonus is increased further by 15% of Sannie's Max HP.\nStable Market: When entering Stable Market, Sannie instantly gains 100 Stable Stocks and the Maximum amount of Stable Stock can be gained is increased by 100.\nBull Market: During the Bull Market, Sannie's \"Coin Toss\" consumes 2% less Max HP from team members.\n\nWhen Sannie is in the team Polymetric Combustion, and Polymetric Coordination DMG is elevated by 1.5%."
+            },
+            {
+                "name": "Market Manipulation",
+                "desc": "Max HP is increased by 20%. The value of the HP change required to gain each Stock is decreased by 2% of Sannie's Max HP. This includes the base HP change required to gain the first Stock and the increaase for each Stock.\n\nWhen Sannie is in the team, Polymetric Combustion, and Polymetric Coordination DMG is elevated by 7%."
+            },
+            {
+                "name": "One Happy Bank Manager",
+                "desc": "\"Stock Market\" level is increased by 3.\n\nWhen Sannie is in the team, Polymetric Combustion, and Polymetric Coordination DMG is elevated by 1.5%."
+            },
+            {
+                "name": "Inflation",
+                "desc": "Every time a Coin Toss hits an opponent, Sannie gains 8 Energy. Additionally, if the opponent with High Demend is focused, its DEF is reduced by 18%.\n\nWhen Sannie is in the team, Polymetric Combustion, and Polymetric Coordination DMG is elevated by 1.5%."
+            },
+            {
+                "name": "Two Happy Clients",
+                "desc": "\"Coin Toss\" level is increased by 3.\n\nWhen Sannie is in the team, Polymetric Combustion, and Polymetric Coordination DMG is elevated by 1.5%."
+            },
+            {
+                "name": "Paycheck",
+                "desc": "Frost DMG Bonus is increased by 36%. Additionally, when the Coin from \"Coin Toss\" is active or for 3 Cycles after using \"Stock Market\", Sannie Normal and Charged Attacks deals additional DMG based on 15% Sannie's Max HP. During this time, if Sannie is in \"Bull Market\", the aforementioned additional DMG will be considered Polymetric Coordination DMG. If Sannie is in other Markets, all team member's All Attribute DMG Bonus is increased by 0.8% for every 1,000 instance of her Max HP, up to a maximum of 36%.\n\nWhen Sannie is in the team, Polymetric Combustion, and Polymetric Coordination DMG is elevated by 7%."
+            }
+        ],
+        "log": [
+            {
+                "version": "2.4 [Unknown]",
+                "description": "Unreleased"
+            }
+        ]
     }
 ]

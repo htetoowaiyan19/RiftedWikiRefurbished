@@ -1639,5 +1639,65 @@
                 "description": "Unreleased"
             }
         ]
+    },
+    {
+        "name": "Assembler",
+        "id": 1020037,
+        "baseData": {
+            "rarity": 5,
+            "relicType": "Projectile",
+            "version": "2.4"
+        },
+        "stats": {
+            "mainStat": {
+                "type": "Magic PWR",
+                "value": 28
+            },
+            "subStat": {
+                "type": "CRIT DMG",
+                "value": 16.8
+            }
+        },
+        "passive": {
+            "name": "Blessing of Creation",
+            "type": "",
+            "desc": "When team member(s) HP increases or decreases, the equipping character's Normal Skill DMG is increased by [$_1]% for 2 Cycles, up to [$_2]%. For every 1,000 instance of the equipping character's HP, all team members' Polymetric Combustion and Polymetric Coordination DMG is increased by [$_3]%. Additionally, if Polymetric Combustion or Polymetric Coordination is triggered, the equipping character gains [$_4] Energy. This effect can occour once every 2 Cycles.",
+            "forge": [
+                [
+                    12,
+                    14,
+                    16,
+                    18,
+                    20
+                ],
+                [
+                    36,
+                    42,
+                    48,
+                    54,
+                    60
+                ],
+                [
+                    0.8,
+                    0.9,
+                    1.0,
+                    1.1,
+                    1.2
+                ],
+                [
+                    12,
+                    20,
+                    28,
+                    36,
+                    44
+                ]
+            ]
+        },
+        "log": [
+            {
+                "version": "2.4 [Unknown]",
+                "description": "Unreleased"
+            }
+        ]
     }
 ]
