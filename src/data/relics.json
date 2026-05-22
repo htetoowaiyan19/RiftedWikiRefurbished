@@ -248,6 +248,286 @@
         ]
     },
     {
+        "name": "Torn Bloosom",
+        "id": 9,
+        "baseData": {
+            "rarity": 2,
+            "relicType": "Power",
+            "version": "1.0Beta"
+        },
+        "stats": {
+            "mainStat": {
+                "type": "Magic PWR",
+                "value": 22
+            },
+            "subStat": {
+                "type": "CRIT Rate",
+                "value": 1.2
+            }
+        },
+        "passive": {
+            "name": "",
+            "type": "",
+            "desc": "",
+            "forge": []
+        },
+        "log": [
+            {
+                "version": "1.0Beta [Unknown]",
+                "description": "Unreleased"
+            }
+        ]
+    },
+    {
+        "name": "Weeping Lance",
+        "id": 10,
+        "baseData": {
+            "rarity": 2,
+            "relicType": "Agile",
+            "version": "1.0Beta"
+        },
+        "stats": {
+            "mainStat": {
+                "type": "Physical ATK",
+                "value": 22
+            },
+            "subStat": {
+                "type": "Energy Regen",
+                "value": 2.4
+            }
+        },
+        "passive": {
+            "name": "",
+            "type": "",
+            "desc": "",
+            "forge": []
+        },
+        "log": [
+            {
+                "version": "1.0Beta [Unknown]",
+                "description": "Unreleased"
+            }
+        ]
+    },
+    {
+        "name": "Depletion",
+        "id": 11,
+        "baseData": {
+            "rarity": 2,
+            "relicType": "Melee",
+            "version": "1.0Beta"
+        },
+        "stats": {
+            "mainStat": {
+                "type": "Physical ATK",
+                "value": 22
+            },
+            "subStat": {
+                "type": "DEF",
+                "value": 3.2
+            }
+        },
+        "passive": {
+            "name": "",
+            "type": "",
+            "desc": "",
+            "forge": []
+        },
+        "log": [
+            {
+                "version": "1.0Beta [Unknown]",
+                "description": "Unreleased"
+            }
+        ]
+    },
+    {
+        "name": "Bow of Origin",
+        "id": 12,
+        "baseData": {
+            "rarity": 2,
+            "relicType": "Projectile",
+            "version": "1.0Beta"
+        },
+        "stats": {
+            "mainStat": {
+                "type": "Magic PWR",
+                "value": 22
+            },
+            "subStat": {
+                "type": "DEF",
+                "value": 3.2
+            }
+        },
+        "passive": {
+            "name": "",
+            "type": "",
+            "desc": "",
+            "forge": []
+        },
+        "log": [
+            {
+                "version": "1.0Beta [Unknown]",
+                "description": "Unreleased"
+            }
+        ]
+    },
+    {
+        "name": "Annihilation Device",
+        "id": 13,
+        "baseData": {
+            "rarity": 3,
+            "relicType": "Projectile",
+            "version": "1.0Beta"
+        },
+        "stats": {
+            "mainStat": {
+                "type": "Physical ATK",
+                "value": 28
+            },
+            "subStat": {
+                "type": "Physical ATK",
+                "value": 4.8
+            }
+        },
+        "passive": {
+            "name": "Malfunction",
+            "type": "",
+            "desc": "Every 4 Cycles, releases an Energy Shockwave that deals [$_1]% of the equipping character's Physical ATK as AoE Physical DMG.",
+            "forge": [
+                [
+                    100,
+                    120,
+                    140,
+                    160,
+                    180
+                ]
+            ]
+        },
+        "log": [
+            {
+                "version": "1.0Beta [Unknown]",
+                "description": "Unreleased"
+            }
+        ]
+    },
+    {
+        "name": "Lantern of The Far North",
+        "id": 14,
+        "baseData": {
+            "rarity": 3,
+            "relicType": "Magical",
+            "version": "1.0Beta"
+        },
+        "stats": {
+            "mainStat": {
+                "type": "Magic PWR",
+                "value": 29
+            },
+            "subStat": {
+                "type": "Energy Regen",
+                "value": 2.8
+            }
+        },
+        "passive": {
+            "name": "Nothern Secrets",
+            "type": "",
+            "desc": "For every 1% of the elite opponents or boss opponents' HP reduced by team members, heals all team members by [$_1]% of that portion of the opponent's HP.",
+            "forge": [
+                [
+                    30,
+                    40,
+                    50,
+                    60,
+                    70
+                ]
+            ]
+        },
+        "log": [
+            {
+                "version": "1.0Beta [Unknown]",
+                "description": "Unreleased"
+            }
+        ]
+    },
+    {
+        "name": "Koleido Tuning",
+        "id": 15,
+        "baseData": {
+            "rarity": 3,
+            "relicType": "Melee",
+            "version": "1.0Beta"
+        },
+        "stats": {
+            "mainStat": {
+                "type": "Physical ATK",
+                "value": 28
+            },
+            "subStat": {
+                "type": "CRIT DMG",
+                "value": 6.0
+            }
+        },
+        "passive": {
+            "name": "Tuning Efficiency",
+            "type": "",
+            "desc": "After the equipping character casts Normal Skill, Normal Attack DMG is increased by [$_1]% for current Cycle. Effects of the same type cannot be stacked.",
+            "forge": [
+                [
+                    16,
+                    24,
+                    32,
+                    40,
+                    48
+                ]
+            ]
+        },
+        "log": [
+            {
+                "version": "1.0Beta [Unknown]",
+                "description": "Unreleased"
+            }
+        ]
+    },
+    {
+        "name": "Sitthr's Spear",
+        "id": 16,
+        "baseData": {
+            "rarity": 3,
+            "relicType": "Agile",
+            "version": "1.0Beta"
+        },
+        "stats": {
+            "mainStat": {
+                "type": "Physical ATK",
+                "value": 28
+            },
+            "subStat": {
+                "type": "DEF",
+                "value": 4.8
+            }
+        },
+        "passive": {
+            "name": "Powerful Mindset",
+            "type": "",
+            "desc": "DEF is increased by [$_1]% for 2 Turns after 2 Turns since the equipping character casted Rifted Skill.",
+            "forge": [
+                [
+                    12,
+                    20,
+                    28,
+                    36,
+                    44
+                ]
+            ]
+        },
+        "log": [
+            {
+                "version": "1.0Beta [Unknown]",
+                "description": "Unreleased"
+            }
+        ]
+    },
+    {
         "name": "Radiant Spear",
         "id": 1020009,
         "baseData": {
