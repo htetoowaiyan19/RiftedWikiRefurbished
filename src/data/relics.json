@@ -528,6 +528,201 @@
         ]
     },
     {
+        "name": "Disordered Calibration",
+        "id": 17,
+        "baseData": {
+            "rarity": 3,
+            "relicType": "Power",
+            "version": "1.0Beta"
+        },
+        "stats": {
+            "mainStat": {
+                "type": "Magic PWR",
+                "value": 28
+            },
+            "subStat": {
+                "type": "HP",
+                "value": 4.8
+            }
+        },
+        "passive": {
+            "name": "Filtered Energy",
+            "type": "",
+            "desc": "For 3 Cycles after the equipping character casts Normal Skill, Magic PWR is increased by [$_1]%. This effect has 4 Cycles cooldown.",
+            "forge": [
+                [
+                    20,
+                    25,
+                    30,
+                    35,
+                    40
+                ]
+            ]
+        },
+        "log": [
+            {
+                "version": "1.0Beta [Unknown]",
+                "description": "Unreleased"
+            }
+        ]
+    },
+    {
+        "name": "The Vengence",
+        "id": 18,
+        "baseData": {
+            "rarity": 3,
+            "relicType": "Magical",
+            "version": "1.0Beta"
+        },
+        "stats": {
+            "mainStat": {
+                "type": "Magic PWR",
+                "value": 28
+            },
+            "subStat": {
+                "type": "Knowledge Unit",
+                "value": 21
+            }
+        },
+        "passive": {
+            "name": "Formiddable Foe",
+            "type": "",
+            "desc": "After causing Spread reaction, Physical ATK is increased by [$_1]% for 2 Cycles.",
+            "forge": [
+                [
+                    20,
+                    25,
+                    30,
+                    35,
+                    40
+                ]
+            ]
+        },
+        "log": [
+            {
+                "version": "1.0Beta [Unknown]",
+                "description": "Unreleased"
+            }
+        ]
+    },
+    {
+        "name": "Creative Assembly",
+        "id": 19,
+        "baseData": {
+            "rarity": 3,
+            "relicType": "Power",
+            "version": "1.0Beta"
+        },
+        "stats": {
+            "mainStat": {
+                "type": "Physical ATK",
+                "value": 28
+            },
+            "subStat": {
+                "type": "DEF",
+                "value": 4.8
+            }
+        },
+        "passive": {
+            "name": "Step-By-Step",
+            "type": "",
+            "desc": "If the equipping character's HP is above 70% their Max HP, CRIT Rate is increased by [$_1]%.",
+            "forge": [
+                [
+                    8,
+                    12,
+                    16,
+                    20,
+                    24
+                ]
+            ]
+        },
+        "log": [
+            {
+                "version": "1.0Beta [Unknown]",
+                "description": "Unreleased"
+            }
+        ]
+    },
+    {
+        "name": "Enchanted Book",
+        "id": 20,
+        "baseData": {
+            "rarity": 3,
+            "relicType": "Magical",
+            "version": "1.0Beta"
+        },
+        "stats": {
+            "mainStat": {
+                "type": "Magic PWR",
+                "value": 28
+            },
+            "subStat": {
+                "type": "HP",
+                "value": 5.2
+            }
+        },
+        "passive": {
+            "name": "Enchanted Wishes",
+            "type": "",
+            "desc": "After the equipping character casts Normal Attack, Charged Attack, Normal Skill, or Rifted Skill, the next character's Adaptive ATK is increased by [$_1]% for their turn.",
+            "forge": [
+                [
+                    16,
+                    24,
+                    32,
+                    40,
+                    48
+                ]
+            ]
+        },
+        "log": [
+            {
+                "version": "1.0Beta [Unknown]",
+                "description": "Unreleased"
+            }
+        ]
+    },
+    {
+        "name": "Abundent Stars",
+        "id": 21,
+        "baseData": {
+            "rarity": 3,
+            "relicType": "Projectile",
+            "version": "1.0Beta"
+        },
+        "stats": {
+            "mainStat": {
+                "type": "Magic PWR",
+                "value": 28
+            },
+            "subStat": {
+                "type": "Magic PWR",
+                "value": 4.8
+            }
+        },
+        "passive": {
+            "name": "Hopes and Dreams",
+            "type": "",
+            "desc": "After the equipping character's HP drops below 30% their Max HP, gains a Shield equals to [$_1]% of their Magic PWR. This effect can trigger once every 3 Cycles.",
+            "forge": [
+                [
+                    80,
+                    100,
+                    120,
+                    140,
+                    160
+                ]
+            ]
+        },
+        "log": [
+            {
+                "version": "1.0Beta [Unknown]",
+                "description": "Unreleased"
+            }
+        ]
+    },
+    {
         "name": "Radiant Spear",
         "id": 1020009,
         "baseData": {
