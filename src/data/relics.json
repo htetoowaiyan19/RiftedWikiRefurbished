@@ -1,5 +1,37 @@
 [
     {
+        "name": "Stick of Infinity",
+        "id": 1020000,
+        "status": "hidden",
+        "baseData": {
+            "rarity": 5,
+            "relicType": "Melee",
+            "version": "1.0Beta"
+        },
+        "stats": {
+            "mainStat": {
+                "type": "Physical ATK",
+                "value": 38
+            },
+            "subStat": {
+                "type": "HP",
+                "value": 12.2
+            }
+        },
+        "passive": {
+            "name": "Absolute Peace",
+            "type": "",
+            "desc": "Increases the equipping character's Max HP by [$_1, 1000]. If the equipping character is Dummy, the aforementioned effect is further enhanced by [$_2, 50.00]%.",
+            "forge": [1000, 15.00]
+        },
+        "log": [
+            {
+                "version": "1.0Beta [Unknown]",
+                "description": "Unreleased"
+            }
+        ]
+    },
+    {
         "name": "Warrior's Sword",
         "id": 1020001,
         "baseData": {

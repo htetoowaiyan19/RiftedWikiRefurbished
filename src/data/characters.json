@@ -590,6 +590,314 @@
         ]
     },
     {
+        "name": "Haman",
+        "id": 1010006,
+        "baseData": {
+            "rarity": 5,
+            "type": "Rifted Technology",
+            "faction": "Destruction",
+            "relicType": "Projectile",
+            "version": "1.0Alpha"
+        },
+        "baseStats": {
+            "atk": 193,
+            "pwr": 0,
+            "def": 30,
+            "hp": 1891
+        },
+        "typeStats": {
+            "fluxCapacity": 3,
+            "surgeCapacity": 90,
+            "echoMemoryCapacity": 0,
+            "maxEnergy": 0
+        },
+        "subStat": {
+            "type": "DEF",
+            "value": 24.2
+        },
+        "talents": {
+            "coreTalent": {
+                "name": "Combact System 32A",
+                "desc": "After Haman casts Precision Strike, his next Precision Shot DMG is increased by 48% and gains 1 point of Combat Ratio. After Haman casts Precision Shot, his next Precision Strike DMG is increased by 24% and gains 1 Point of Combat Ratio. The afforementioned effects cannot exist at the same time. Combat Ratio: Combat Ratio can be gained through alternating Precision Shot and Precision Strike. All points will be removed if Haman stops alternating between Precision Shot and Precision Strike. If Haman has 3 points of Combat Ratio, his Crit Rate is increased by 15%."
+            },
+            "riftedTalent": {
+                "name": "Rifted Technology",
+                "desc": "Haman's Normal and Charged Attacks generate 1 Flux."
+            }
+        },
+        "abilities": {
+            "normalAttack": {
+                "name": "Precision Shot",
+                "desc": "Haman shot a Precision Arrow at the targeted opponent, [$_1, 44] (+[$_2, 0.51]% DEF) as Destruction DMG.",
+                "multipliers": [98, 0.128]
+            },
+            "chargedAttack": {
+                "name": "Atominizor",
+                "cost": 20,
+                "desc": "Haman shots an Anomic Arrow at the targeted opponent, dealing [$_1, 54] (+[$_2, 0.72]% DEF) as Destruction DMG.",
+                "multipliers": [71, 0.132]
+            },
+            "normalSkill": {
+                "name": "Precision Strike",
+                "fluxCost": 1,
+                "memoryNodes": {},
+                "desc": "Haman dashes forward and slashes the targeted opponent, dealing [$_1, 114] (+[$_2, 1.22]% DEF) as Destruction DMG.",
+                "multipliers": [133, 0.146]
+            },
+            "riftedSkill": {
+                "name": "Combat System Analysis",
+                "surgeCost": 90,
+                "energyCost": 0,
+                "desc": "Haman analyzes all opponents on the field, instantly gaining 3 points of Combat Ratio, and applying Analytical Mark to them for 3 Cycles. Analytical Mark: \"Precision Shot\" and \"Precision Strike\" ignore the affected opponent's DEF by [$_1, 0.16]% of Haman's DEF. Casting this skill does not remove the gained Combat Ratio points.",
+                "multipliers": [0.04]
+            }
+        },
+        "fragments": [
+            {
+                "name": "Combat Conclusion",
+                "desc": "DEF is increased by 24%. Additionally, for each point of Combat Ratio, Normal Attack DMG is increased by 12%, and Normal Skill DMG is increased by 6%."
+            },
+            {
+                "name": "Transmutation",
+                "desc": "Casting \"Precision Shot\" has 30% chance to generate 1 extra Flux."
+            },
+            {
+                "name": "Combat Cycle",
+                "desc": "\"Precision Shot\" and \"Precision Strike\" levels are increased by 3."
+            },
+            {
+                "name": "Information Bridge",
+                "desc": "When opponents are affected by Analytical Mark, their DEF is reduced by 30% of Haman's DEF."
+            },
+            {
+                "name": "Completion of Combat System",
+                "desc": "\"Combat System Analysis\" level is increased by 3."
+            },
+            {
+                "name": "Final Result",
+                "desc": "When Analytical Mark is on the opponent for 2 Cycles, it refreshes its duration and converts into Completion Mark. Completion Mark: The affected opponent's All Attribute RES is decreased by 12%."
+            }
+        ],
+        "log": [
+            {
+                "version": "1.0Alpha [2025-04-18]",
+                "description": "Release"
+            },
+            {
+                "version": "1.2Alpha [2025-04-25]",
+                "description": "Rider (↑): Rider can be defeated very easily while he is in Fury state. So, we decided to slightly reduce the percentage of HP consumed and increased his Base HP.\n\tBase HP: 1,800 >> 2,000\n\n[Rifted Skill: Call of The Dragon's Fury] (↑)\n\tFury state HP Comsumption: 20% Current HP >> 15% Current HP"
+            },
+            {
+                "version": "1.3Alpha [2025-04-30]",
+                "description": "Rider (↑): Rider HP recovery after Fury state is based on his HP lost from Fury state. Since previous adjustment reduced his hp lost, his HP gain is also reduced. So we decided his hp gain to scale off from all damages he received.\n\n[Rifted Skill: Call of The Dragon's Fury] (↑)\n\tHP Recovery: 80% HP Lost from Self Sacrifice >> 70% HP Lost from all DMG"
+            },
+            {
+                "version": "1.4Alpha [2025-05-18]",
+                "description": "Rider (↑): Implementation of Charged Attack and Stat changes.\n[New Attack] Charged Attack (Energy:20): Outsmart - Rider deals 60% Physical ATK as Physical DMG to the opponent.\n\tPhysical ATK: 0 >> 200\n\tDEF: 0 >> 30\n\tDEF: 0 >> 30"
+            },
+            {
+                "version": "1.0Beta [Unknown]",
+                "description": "Rider (↑): Rider survivability is too low when facing opponent with burst DMG, he can be defeated very early. We added a limit on Rider's Fury state to prevent very low HP drops.\n\tFlux Capacity: 0 >> 5\n\t\"Spear Strike\" Flux Cost: 0 >> 3\n\t\"Call of The Dragon's Fury\" Surge Cost: 0 >> 80\n\n[Talent: Penetrable Boundary] (↑)\n\t[New Effect] Rider's Normal and Charged Attacks generate 1 Flux.\n\n[Rifted Skill: Call of The Dragon's Fury] (~)\n\tHP Recovery: 15% Current HP >> 6 (+12% Current HP) (+28% Physical ATK) HP\n\t[New Effect] The Fury state will end early if Rider has less than 30% HP. Fury state ending early will not trigger the HP Regen effect.\n\t[New Effect] While in Fury state, Rider Normal and Charged Attacks generate 1 extra Flux."
+            }
+        ]
+    },
+    {
+        "name": "Zinnki",
+        "id": 1010014,
+        "baseData": {
+            "rarity": 5,
+            "type": "Rifted Technology",
+            "faction": "Quantum",
+            "relicType": "Agile",
+            "version": "1.0Beta"
+        },
+        "baseStats": {
+            "atk": 200,
+            "pwr": 0,
+            "def": 30,
+            "hp": 1800
+        },
+        "typeStats": {
+            "fluxCapacity": 5,
+            "surgeCapacity": 60,
+            "echoMemoryCapacity": 0,
+            "maxEnergy": 0
+        },
+        "subStat": {
+            "type": "CRIT Rate",
+            "value": 12.2
+        },
+        "talents": {
+            "coreTalent": {
+                "name": "Observation",
+                "desc": "For each of the team members alive including Zinnki, Zinnki gains 16% DMG Bonus."
+            },
+            "riftedTalent": {
+                "name": "Rifted Technology",
+                "desc": "Zinnki's Normal and Charged Attacks generate 1 Flux."
+            }
+        },
+        "abilities": {
+            "normalAttack": {
+                "name": "Crystal Shards",
+                "desc": "Zinnki releases 3 Crystal Shards, each dealing 8 (+12% Physical ATK) as Physical DMG.",
+                "multipliers": []
+            },
+            "chargedAttack": {
+                "name": "Data Extraction",
+                "cost": 30,
+                "desc": "Zinnki extracts 3 Crystal Shards out of the targeted opponent and pierce them, each dealing 13 (+18% Physical ATK) as Physcial DMG.",
+                "multipliers": []
+            },
+            "normalSkill": {
+                "name": "Quantum Tunneling",
+                "fluxCost": 4,
+                "memoryNodes": {},
+                "desc": "Zinnki's paralyzes the selected team member and enters Quantum Tunneling. In this state, they will share the same HP inherited from the member whose HP is greater than the other, and 60% of the paralyzed member's Physical ATK, Magic PWR, DEF, and DEF will be transferred to Zinnki. Zinnki will passively generate 8 Surges per Cycle during this state. Casting this skill will exit this state.",
+                "multipliers": []
+            },
+            "riftedSkill": {
+                "name": "Crystal Borrow",
+                "surgeCost": 60,
+                "energyCost": 0,
+                "desc": "If Zinnki has 60 Surges or more, Zinnki absorbs all quantum shards and releases the energy to the target dealing 114 (+44% Physical ATK) as Physical DMG. If Zinnki has full Surge, the DMG is converted into Quantum DMG.",
+                "multipliers": []
+            }
+        },
+        "fragments": [
+            {
+                "name": "No Latency",
+                "desc": "Zinnki's Normal and Charged Attacks will generate an extra Crystal Shard."
+            },
+            {
+                "name": "Reactive Tunneling",
+                "desc": "Zinnki's will inherit CRIT Rate, and CRIT DMG of the paralyzed member during Quantum Tunneling."
+            },
+            {
+                "name": "Divided by Zero",
+                "desc": "\"Quantum Tunneling\" level is increased by 3."
+            },
+            {
+                "name": "Spacetime Breakthrough",
+                "desc": "Zinnki's Energy Efficiency is increased by 20%. Casting Crystal Borrow will reduces the opponent's Physical RES by 60% and Quantum RES by 40%."
+            },
+            {
+                "name": "Accumulated Accumulations",
+                "desc": "\"Crystal Borrow\" level is increased by 3."
+            },
+            {
+                "name": "Ma'Lady",
+                "desc": "During Quantum Tunneling, Zinnki gains 40% Quantum DMG Bonus and her Normal and Charged Attacks are converted into Quantum DMG."
+            }
+        ],
+        "log": [
+            {
+                "version": "1.0Beta [Unknown]",
+                "description": "Unreleased"
+            }
+        ]
+    },
+    {
+        "name": "Vivnnae",
+        "id": 1010015,
+        "baseData": {
+            "rarity": 5,
+            "type": "Rifted Disorder",
+            "faction": "Gale",
+            "relicType": "Melee",
+            "version": "1.0Beta"
+        },
+        "baseStats": {
+            "atk": 0,
+            "pwr": 190,
+            "def": 30,
+            "hp": 1900
+        },
+        "typeStats": {
+            "fluxCapacity": 0,
+            "surgeCapacity": 0,
+            "echoMemoryCapacity": 12,
+            "maxEnergy": 200
+        },
+        "subStat": {
+            "type": "Energy Regen",
+            "value": 18.6
+        },
+        "talents": {
+            "coreTalent": {
+                "name": "Vibrant Shadows",
+                "desc": "Triggering Spread reactions accumulates 2 Echo Memory for Vivnnae."
+            },
+            "riftedTalent": {
+                "name": "Rifted Disorder",
+                "desc": "Vivnnae's Normal and Charged Attacks accumulate 1 Echo Memory and 5 Energy. Dealing Disorder DMG accumulates 10 Energy."
+            }
+        },
+        "abilities": {
+            "normalAttack": {
+                "name": "Sword Master Arc",
+                "desc": "Vivnnae deals 88 (+33% Physical ATK) as Physical DMG to the opponent.",
+                "multipliers": []
+            },
+            "chargedAttack": {
+                "name": "Honored Knight",
+                "cost": 20,
+                "desc": "Vivnnae deals 122 (+58% Physical ATK) as Physical DMG to the opponent.",
+                "multipliers": []
+            },
+            "normalSkill": {
+                "name": "Feather Hopes and Dreams",
+                "fluxCost": 0,
+                "memoryNodes": {
+                    "node1": "4EM",
+                    "node2": "6EM",
+                    "node3": "10EM"
+                },
+                "desc": "Vivnnae casts a \"Feather of Hopes\" to the opponent, dealing 11 (+36% Magic PWR) as Magic DMG.\n\n[4EM] Vivnnae casts a \"Feather of Hopes\" to the opponent, dealing 63 (+87% Magic PWR) as Gale DMG, returning \"Flower of Dreams\" to her, healing herself by 104% of the DMG dealt.\n\n[6EM] Vivnnae casts a \"Feather of Hopes\" to the opponent, dealing 114 (+101% Magic PWR) as Gale DMG, returning \"Flower of Dreams\" to all team members, healing them by 104 (+242% of the DMG dealt) (+112% Magic PWR).\n\n[10EM] When Vivnnae has over 10 Echo Memory, she'll enters Meditating state. Meditating state: Vivnnae gains 40% All Disorder RES and consumes 3 Echo Memories each round, healing all team members except her by 88 (+143% Magic PWR). During this state, Vivnnae cannot casts any other skills. state ends when all Echo Memories are consumed.",
+                "multipliers": []
+            },
+            "riftedSkill": {
+                "name": "Lightest Decision",
+                "surgeCost": 0,
+                "energyCost": 200,
+                "desc": "Vivnnae casts a Feather Field for 2 Cycles. Feather Field: Increases all team members Physical ATK by 64% of Vivnnae's Magic PWR, max 600, and heals all team members by 66 (+119% Magic PWR) each Cycle.",
+                "multipliers": []
+            }
+        },
+        "fragments": [
+            {
+                "name": "Flow of Wind",
+                "desc": "Energy Efficiency is increased by 20%. When casting \"Lightest Decision\", Vivnnae gains 4 Echo Memories."
+            },
+            {
+                "name": "Guidelines of Gale",
+                "desc": "Vivnnae's gains 40% Gale DMG Bonus. If Vivnnae is in the team, Spread Reaction DMG is increased by 20%."
+            },
+            {
+                "name": "Spreading Happiness",
+                "desc": "\"Feather of Hopes and Dreams\" level is increased by 3."
+            },
+            {
+                "name": "Cyclone's Eye",
+                "desc": "During Feather Field, all opponent's Gale RES is decreased by 40%."
+            },
+            {
+                "name": "Hard Decision",
+                "desc": "\"Lightest Decision\" level is increased by 3."
+            },
+            {
+                "name": "Knight of Koniveruer",
+                "desc": "During Feather Field, all team members All Disorder RES is increased by 20%."
+            }
+        ],
+        "log": [
+            {
+                "version": "1.0Beta [Unknown]",
+                "description": "Unreleased"
+            }
+        ]
+    },
+    {
         "name": "Renova",
         "id": 1010009,
         "baseData": {
@@ -1113,202 +1421,6 @@
             {
                 "name": "Consistant Training",
                 "desc": "Crit Rate is increased by 10%, Crit DMG is increased by 20%. The maximum Threats Marks on an opponent is increased by 4. Additionally, when there are no instances of Flame-Type DMG affecting the opponent except Lica, Lica's Rifted Skill \"Threats\"'s DMG is increased by 400% Lica's Phsysical ATK."
-            }
-        ],
-        "log": [
-            {
-                "version": "1.0Beta [Unknown]",
-                "description": "Unreleased"
-            }
-        ]
-    },
-    {
-        "name": "Zinnki",
-        "id": 1010014,
-        "baseData": {
-            "rarity": 5,
-            "type": "Rifted Technology",
-            "faction": "Quantum",
-            "relicType": "Agile",
-            "version": "1.0Beta"
-        },
-        "baseStats": {
-            "atk": 200,
-            "pwr": 0,
-            "def": 30,
-            "hp": 1800
-        },
-        "typeStats": {
-            "fluxCapacity": 5,
-            "surgeCapacity": 60,
-            "echoMemoryCapacity": 0,
-            "maxEnergy": 0
-        },
-        "subStat": {
-            "type": "CRIT Rate",
-            "value": 12.2
-        },
-        "talents": {
-            "coreTalent": {
-                "name": "Observation",
-                "desc": "For each of the team members alive including Zinnki, Zinnki gains 16% DMG Bonus."
-            },
-            "riftedTalent": {
-                "name": "Rifted Technology",
-                "desc": "Zinnki's Normal and Charged Attacks generate 1 Flux."
-            }
-        },
-        "abilities": {
-            "normalAttack": {
-                "name": "Crystal Shards",
-                "desc": "Zinnki releases 3 Crystal Shards, each dealing 8 (+12% Physical ATK) as Physical DMG.",
-                "multipliers": []
-            },
-            "chargedAttack": {
-                "name": "Data Extraction",
-                "cost": 30,
-                "desc": "Zinnki extracts 3 Crystal Shards out of the targeted opponent and pierce them, each dealing 13 (+18% Physical ATK) as Physcial DMG.",
-                "multipliers": []
-            },
-            "normalSkill": {
-                "name": "Quantum Tunneling",
-                "fluxCost": 4,
-                "memoryNodes": {},
-                "desc": "Zinnki's paralyzes the selected team member and enters Quantum Tunneling. In this state, they will share the same HP inherited from the member whose HP is greater than the other, and 60% of the paralyzed member's Physical ATK, Magic PWR, DEF, and DEF will be transferred to Zinnki. Zinnki will passively generate 8 Surges per Cycle during this state. Casting this skill will exit this state.",
-                "multipliers": []
-            },
-            "riftedSkill": {
-                "name": "Crystal Borrow",
-                "surgeCost": 60,
-                "energyCost": 0,
-                "desc": "If Zinnki has 60 Surges or more, Zinnki absorbs all quantum shards and releases the energy to the target dealing 114 (+44% Physical ATK) as Physical DMG. If Zinnki has full Surge, the DMG is converted into Quantum DMG.",
-                "multipliers": []
-            }
-        },
-        "fragments": [
-            {
-                "name": "No Latency",
-                "desc": "Zinnki's Normal and Charged Attacks will generate an extra Crystal Shard."
-            },
-            {
-                "name": "Reactive Tunneling",
-                "desc": "Zinnki's will inherit CRIT Rate, and CRIT DMG of the paralyzed member during Quantum Tunneling."
-            },
-            {
-                "name": "Divided by Zero",
-                "desc": "\"Quantum Tunneling\" level is increased by 3."
-            },
-            {
-                "name": "Spacetime Breakthrough",
-                "desc": "Zinnki's Energy Efficiency is increased by 20%. Casting Crystal Borrow will reduces the opponent's Physical RES by 60% and Quantum RES by 40%."
-            },
-            {
-                "name": "Accumulated Accumulations",
-                "desc": "\"Crystal Borrow\" level is increased by 3."
-            },
-            {
-                "name": "Ma'Lady",
-                "desc": "During Quantum Tunneling, Zinnki gains 40% Quantum DMG Bonus and her Normal and Charged Attacks are converted into Quantum DMG."
-            }
-        ],
-        "log": [
-            {
-                "version": "1.0Beta [Unknown]",
-                "description": "Unreleased"
-            }
-        ]
-    },
-    {
-        "name": "Vivnnae",
-        "id": 1010015,
-        "baseData": {
-            "rarity": 5,
-            "type": "Rifted Disorder",
-            "faction": "Gale",
-            "relicType": "Melee",
-            "version": "1.0Beta"
-        },
-        "baseStats": {
-            "atk": 0,
-            "pwr": 190,
-            "def": 30,
-            "hp": 1900
-        },
-        "typeStats": {
-            "fluxCapacity": 0,
-            "surgeCapacity": 0,
-            "echoMemoryCapacity": 12,
-            "maxEnergy": 200
-        },
-        "subStat": {
-            "type": "Energy Regen",
-            "value": 18.6
-        },
-        "talents": {
-            "coreTalent": {
-                "name": "Vibrant Shadows",
-                "desc": "Triggering Spread reactions accumulates 2 Echo Memory for Vivnnae."
-            },
-            "riftedTalent": {
-                "name": "Rifted Disorder",
-                "desc": "Vivnnae's Normal and Charged Attacks accumulate 1 Echo Memory and 5 Energy. Dealing Disorder DMG accumulates 10 Energy."
-            }
-        },
-        "abilities": {
-            "normalAttack": {
-                "name": "Sword Master Arc",
-                "desc": "Vivnnae deals 88 (+33% Physical ATK) as Physical DMG to the opponent.",
-                "multipliers": []
-            },
-            "chargedAttack": {
-                "name": "Honored Knight",
-                "cost": 20,
-                "desc": "Vivnnae deals 122 (+58% Physical ATK) as Physical DMG to the opponent.",
-                "multipliers": []
-            },
-            "normalSkill": {
-                "name": "Feather Hopes and Dreams",
-                "fluxCost": 0,
-                "memoryNodes": {
-                    "node1": "4EM",
-                    "node2": "6EM",
-                    "node3": "10EM"
-                },
-                "desc": "Vivnnae casts a \"Feather of Hopes\" to the opponent, dealing 11 (+36% Magic PWR) as Magic DMG.\n\n[4EM] Vivnnae casts a \"Feather of Hopes\" to the opponent, dealing 63 (+87% Magic PWR) as Gale DMG, returning \"Flower of Dreams\" to her, healing herself by 104% of the DMG dealt.\n\n[6EM] Vivnnae casts a \"Feather of Hopes\" to the opponent, dealing 114 (+101% Magic PWR) as Gale DMG, returning \"Flower of Dreams\" to all team members, healing them by 104 (+242% of the DMG dealt) (+112% Magic PWR).\n\n[10EM] When Vivnnae has over 10 Echo Memory, she'll enters Meditating state. Meditating state: Vivnnae gains 40% All Disorder RES and consumes 3 Echo Memories each round, healing all team members except her by 88 (+143% Magic PWR). During this state, Vivnnae cannot casts any other skills. state ends when all Echo Memories are consumed.",
-                "multipliers": []
-            },
-            "riftedSkill": {
-                "name": "Lightest Decision",
-                "surgeCost": 0,
-                "energyCost": 200,
-                "desc": "Vivnnae casts a Feather Field for 2 Cycles. Feather Field: Increases all team members Physical ATK by 64% of Vivnnae's Magic PWR, max 600, and heals all team members by 66 (+119% Magic PWR) each Cycle.",
-                "multipliers": []
-            }
-        },
-        "fragments": [
-            {
-                "name": "Flow of Wind",
-                "desc": "Energy Efficiency is increased by 20%. When casting \"Lightest Decision\", Vivnnae gains 4 Echo Memories."
-            },
-            {
-                "name": "Guidelines of Gale",
-                "desc": "Vivnnae's gains 40% Gale DMG Bonus. If Vivnnae is in the team, Spread Reaction DMG is increased by 20%."
-            },
-            {
-                "name": "Spreading Happiness",
-                "desc": "\"Feather of Hopes and Dreams\" level is increased by 3."
-            },
-            {
-                "name": "Cyclone's Eye",
-                "desc": "During Feather Field, all opponent's Gale RES is decreased by 40%."
-            },
-            {
-                "name": "Hard Decision",
-                "desc": "\"Lightest Decision\" level is increased by 3."
-            },
-            {
-                "name": "Knight of Koniveruer",
-                "desc": "During Feather Field, all team members All Disorder RES is increased by 20%."
             }
         ],
         "log": [
