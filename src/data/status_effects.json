@@ -16,12 +16,12 @@
         "name": "DEF Reduction",
         "id": 1050003,
         "icon": "def_reduction.svg",
-        "desc": "Reduces DEF by [$_1]."
+        "desc": "Reduces DEF by [$_1]%."
     },
     {
         "name": "Charging",
         "id": 1050004,
         "icon": "lance_charging.svg",
-        "desc": "Increases Lance's Physical ATK by [$_1]."
+        "desc": "Increases Lance's Physical ATK by [$_3] ([$_1] x [$_2])."
     }
 ]
