@@ -703,7 +703,7 @@
     },
     {
         "name": "Zinnki",
-        "id": 1010014,
+        "id": 7,
         "baseData": {
             "rarity": 5,
             "type": "Rifted Technology",
@@ -799,7 +799,7 @@
     },
     {
         "name": "Vivnnae",
-        "id": 1010015,
+        "id": 8,
         "baseData": {
             "rarity": 5,
             "type": "Rifted Disorder",
@@ -888,6 +888,112 @@
             {
                 "name": "Knight of Koniveruer",
                 "desc": "During Feather Field, all team members All Disorder RES is increased by 20%."
+            }
+        ],
+        "log": [
+            {
+                "version": "1.0Beta [Unknown]",
+                "description": "Unreleased"
+            }
+        ]
+    },
+    {
+        "name": "Carina",
+        "id": 9,
+        "baseData": {
+            "rarity": 5,
+            "type": "Rifted Disorder",
+            "faction": "Tide",
+            "relicType": "Magical",
+            "version": "1.0Beta"
+        },
+        "baseStats": {
+            "atk": 0,
+            "pwr": 188,
+            "def": 30,
+            "hp": 2178
+        },
+        "typeStats": {
+            "fluxCapacity": 0,
+            "surgeCapacity": 0,
+            "echoMemoryCapacity": 13,
+            "maxEnergy": 180
+        },
+        "subStat": {
+            "type": "HP",
+            "value": 12.2
+        },
+        "talents": {
+            "coreTalent": {
+                "name": "Hydrophobic Thorns",
+                "desc": "When Carina takes more than 3 instances of DMG, she gains a Hydrophobic Thorns effect for current Cycle. Hydrophobic Thorns: Gains 36% DEF, 20% Tide RES, and reflects back 15% of the DMG dealt to Carina back to the DMG dealer as Tide DMG."
+            },
+            "riftedTalent": {
+                "name": "Rifted Disorder",
+                "desc": "Carina's Normal and Charged Attacks accumulate 1 Echo Memory and 5 Energy. Dealing Disorder DMG accumulates 10 Energy."
+            },
+            "others": [
+                {
+                    "name": "Taunt",
+                    "desc": "Opponents affected by Taunt can only target Carina. Additionally, Carina takes 15% less DMG form Taunted Opponents."
+                }
+            ]
+        },
+        "abilities": {
+            "normalAttack": {
+                "name": "Soothing Tides",
+                "desc": "Carina focuses Hydro Energy to the targeted opponent dealing [$_1, 43] (+[$_2, 0.33]% Magic PWR) as Tide DMG.",
+                "multipliers": [22, 0.128]
+            },
+            "chargedAttack": {
+                "name": "Hydrophobic Arts",
+                "cost": 26,
+                "desc": "Carina channels Hydro Energy and compress it to form a large thorn, striking down the targeted opponents dealing [$_1, 44] (+[$_2, 0.42]% Magic PWR) as AoE Tide DMG.",
+                "multipliers": [46, 0.136]
+            },
+            "normalSkill": {
+                "name": "Enchanted Waters",
+                "fluxCost": 0,
+                "memoryNodes": {
+                    "node1": "5EM",
+                    "node2": "10EM",
+                    "node3": "13EM"
+                },
+                "desc": "[5EM] Carina channels through the targeted opponent with Enchanted Hydro Energy, dealing [$_1, 53] (+[$_2, 0.31]% Magic PWR) (+[$_3, 0.09]% Max HP) as Tide DMG, applying Taunt to the affected opponent for 2 Turns.\n\n[10EM] Carina channels through the targeted opponent with Enchanted Hydro Energy, dealing [$_4, 61] (+[$_5, 0.36]% Magic PWR) (+[$_6, 0.12]% Max HP) as Tide DMG, applying Taunt to the affected opponent for 2 Turns.\n\n[13EM] Carina channels through the targeted opponent with Enchanted Hydro Energy, dealing [$_7, 66] (+[$_8, 0.39]% Magic PWR) (+[$_3, 0.14]% Max HP) as Tide DMG, applying Taunt to the affected opponent for 4 Turns.",
+                "multipliers": [44, 0.128, 0.0028, 44, 0.128, 0.0028, 51, 0.156, 0.0068]
+            },
+            "riftedSkill": {
+                "name": "Goddess of The Seas",
+                "surgeCost": 0,
+                "energyCost": 180,
+                "desc": "Carina spreads Curses of The Seas to the opponents, activating Hydrophobic Thorns, gaining Curse of The Seas for 1 Cycle, and applying all opponents with Taunt for 2 Turns. Curse of The Seas: Hydrophobic Thorns reflects back additional DMG equal to [$_1, 0.08]% Max HP.",
+                "multipliers": [0.0088]
+            }
+        },
+        "fragments": [
+            {
+                "name": "Erosion",
+                "desc": "\"Enchanted Waters\" deals additional instance of DMG equal to 20% Max HP to opponents that are lower level than Carina."
+            },
+            {
+                "name": "Intertwined Remanants",
+                "desc": "When Carina takes DMG, she gains DEF equals to 8% of that DMG for 2 Cycles. Maximum of 1200 DEF can be gained this way."
+            },
+            {
+                "name": "Blessing of The Seas",
+                "desc": "\"Goddess of The Seas\" level is increased by 3."
+            },
+            {
+                "name": "Enchanted Tales",
+                "desc": "When Hydrophobic Thorns deals DMG to an opponent, there is a 30% chance to recover 30 Energy. This effect can occour once every 2 Cycles."
+            },
+            {
+                "name": "Esclation",
+                "desc": "\"Enchanted Waters\" level is increased by 3."
+            },
+            {
+                "name": "Koniveruer's Protection",
+                "desc": "When Hydrophobic Thorns deals DMG, they deal 120% of their original DMG. Additionally, 10% of that DMG instance will be recorded inside Hydro Buffer. When the Hydro Buffer reaches 50,000 points, the next Hydrophobic Thorns will triggers an extra Charged Attack \"Hydrophobic\" as a Coordinated Attack."
             }
         ],
         "log": [
