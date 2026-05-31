@@ -255,10 +255,10 @@
             "version": "1.0Alpha"
         },
         "baseStats": {
-            "atk": 180,
-            "pwr": 180,
+            "atk": 167,
+            "pwr": 192,
             "def": 30,
-            "hp": 1700
+            "hp": 1781
         },
         "typeStats": {
             "fluxCapacity": 3,
@@ -283,27 +283,27 @@
         "abilities": {
             "normalAttack": {
                 "name": "Dart",
-                "desc": "Bob deals [$_1, 0.4]% Physical ATK as Physical DMG to the opponent.",
+                "desc": "Bob deals [$_1, 0.43]% Physical ATK as Physical DMG to the opponent.",
                 "multipliers": [
-                    0.110284
+                    0.112
                 ]
             },
             "chargedAttack": {
                 "name": "Darter",
                 "cost": 20,
-                "desc": "Bob deals [$_1, 0.6]% Physical ATK as Physical DMG to the opponent.",
+                "desc": "Bob deals [$_1, 0.71]% Physical ATK as Physical DMG to the opponent.",
                 "multipliers": [
-                    0.147295
+                    0.148
                 ]
             },
             "normalSkill": {
                 "name": "Large Dart",
                 "fluxCost": 1,
                 "memoryNodes": {},
-                "desc": "Bob throws a Large Dart towards the opponent dealing [$_1, 200] (+[$_2, 0.3]% Physical ATK) as Physical DMG.",
+                "desc": "Bob throws a Large Dart towards the opponent dealing [$_1, 192] (+[$_2, 0.38]% Physical ATK) as Physical DMG.",
                 "multipliers": [
-                    33,
-                    0.159921
+                    36,
+                    0.159
                 ]
             },
             "riftedSkill": {
