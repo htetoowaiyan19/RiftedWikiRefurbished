@@ -4,13 +4,13 @@
         "name": "Physical ATK Bonus",
         "id": 1050001,
         "icon": "atk_bonus.svg",
-        "desc": "Increases Physical ATK by [$_1]."
+        "desc": "Increases Physical ATK by [$_1]%."
     },
     {
         "name": "Magic PWR Bonus",
         "id": 1050002,
         "icon": "pwr_bonus.svg",
-        "desc": "Increases Magic PWR by [$_1]."
+        "desc": "Increases Magic PWR by [$_1]%."
     },
     {
         "name": "DEF Reduction",
@@ -22,7 +22,7 @@
         "name": "Charging",
         "id": 1050004,
         "icon": "lance_charging.svg",
-        "desc": "Increases Lance's Physical ATK by [$_3] ([$_1] x [$_2])."
+        "desc": "Increases Lance's Physical ATK by [$_3]% ([$_1] x [$_2])."
     },
     {
         "name": "Poison",
