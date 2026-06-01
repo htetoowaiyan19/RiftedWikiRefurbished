@@ -135,10 +135,10 @@
             "version": "1.0Alpha"
         },
         "baseStats": {
-            "atk": 200,
+            "atk": 218,
             "pwr": 0,
             "def": 30,
-            "hp": 2100
+            "hp": 2106
         },
         "typeStats": {
             "fluxCapacity": 3,
@@ -191,11 +191,12 @@
                 "name": "Lion's Claw",
                 "surgeCost": 60,
                 "energyCost": 0,
-                "desc": "Lance summons Lion's Claw and slashes the opponent dealing [$_1, 214] (+[$_2, 0.43]% Physical ATK) (+[$_3, 0.22]% Opponent Lost HP) as True DMG.",
+                "desc": "Lance summons Lion's Claw and slashes the opponent dealing [$_1, 214] (+[$_2, 0.43]% Physical ATK) (+[$_3, 0.22]% Opponent Lost HP) as True DMG. This skill can deal no more than [$_4, 0.11]% of opponent's Max HP.",
                 "multipliers": [
                     91,
                     0.239102,
-                    0.017291
+                    0.017291,
+                    0.015
                 ]
             }
         },
@@ -241,6 +242,10 @@
             {
                 "version": "1.0Beta [Unknown]",
                 "description": "Lance (↑): Lance become weaker against newer characters and his simple skill set. We slightly increased his Normal and Rifted Skill DMG scaling.\n\tDEF: 50 >> 30\n\tFlux Capacity: 0 >> 3\n\t\"Slash\" Flux Cost: 0 >> 2\n\t\"Lion's Claw\" Surge Cost: 0 >> 60\n\n[Talent: Charging] (↑)\n[New Effect] Lance's Normal and Charged Attacks generate 1 Flux.\n\n[Charged Attack: Piercing] (↓)\n\tCharge Cost: 20 >> 30\n\n[Normal Skill: Slash] (↑)\n\tSlash DMG: 100 (+60% Physical ATK) >> 122 (+67% Physical ATK)\n\n[Rifted Skill: Lion's Claw] (↑)\n\tLion's Claw DMG: 200 (+60% Physical ATK) (+10% Opponent Lost HP) >> 214 (+43% Physical ATK) (+22% Opponent Lost HP)"
+            },
+            {
+                "version": "1.0 [Release]",
+                "description": "Lance (~): We adjusted Lance's base stats and add a cap on his Rifted Skill in order to prevent strong damage spikes.\n\n[Rifted Skill: Lion's Claw] (↓)\n[New Effect] Lion's Claw can no longer deal more than a certain amount of DMG based on opponent's Max HP."
             }
         ]
     },
