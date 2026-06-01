@@ -28,6 +28,6 @@
         "name": "Poison",
         "id": 1050005,
         "icon": "poison.svg",
-        "desc": "Deals [$_1] Magic DMG every [$_2]."
+        "desc": "Deals [$_1] Magic DMG every Turn."
     }
 ]
