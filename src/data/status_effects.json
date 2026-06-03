@@ -40,6 +40,6 @@
         "name": "Hunting Mode",
         "id": 1050007,
         "icon": "hunter_hunting.svg",
-        "desc": "After a nearby team member deals DMG to an opponent, there is a [$_1]% chance for Hunter to summon a hologram to strike a random opponent on the field, dealing [$_2] as Follow-Up Physical DMG."
+        "desc": "After a nearby team member deals DMG to an opponent, there is a chance for Hunter to summon a hologram to strike a random opponent on the field, dealing Follow-Up Physical DMG."
     }
 ]
