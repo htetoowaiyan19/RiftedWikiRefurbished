@@ -28,7 +28,7 @@
         "talents": {
             "coreTalent": {
                 "name": "Hunting Assist",
-                "desc": "For 1/2/3 characters in the team, \"Assassination\" DMG is increased by 10%/15%/30% respectively."
+                "desc": "For 1/2/3/4 characters in the team, \"Assassination\" DMG is increased by 10%/15%/20%/45% respectively."
             },
             "riftedTalent": {
                 "name": "Rifted Technology",
