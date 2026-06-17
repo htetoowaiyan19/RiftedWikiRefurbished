@@ -2908,7 +2908,7 @@
             "type": "Rifted Technology",
             "faction": "Destruction",
             "relicType": "Melee",
-            "version": "2.3"
+            "version": "2.4"
         },
         "baseStats": {
             "atk": 220,
@@ -3014,7 +3014,7 @@
             "type": "Rifted Disorder",
             "faction": "Frost",
             "relicType": "Projectile",
-            "version": "2.4"
+            "version": "2.5"
         },
         "baseStats": {
             "atk": 78,
@@ -3052,7 +3052,11 @@
                 },
                 {
                     "name": "Polymetric Combustion",
-                    "desc": "Sannie can triigger Polymetric Combustion. When Sannie is in the team, Polymetric Combustion DMG is elevated by 3%."
+                    "desc": "Sannie can trigger Polymetric Combustion. When Sannie is in the team, Polymetric Combustion DMG is elevated by 3%."
+                },
+                {
+                    "name": "Polymetric Coordination",
+                    "desc": "Sannie can trigger Polymetric Coordination. When Sannie is in the team, Polymetric Coordination DMG is elevated by 3%."
                 }
             ]
         },
@@ -3112,6 +3116,112 @@
         "log": [
             {
                 "version": "2.4 [Unknown]",
+                "description": "Unreleased"
+            }
+        ]
+    },
+    {
+        "name": "Quingxi",
+        "id": 1010031,
+        "baseData": {
+            "rarity": 5,
+            "type": "Rifted Technology",
+            "faction": "Intelligence",
+            "relicType": "Power",
+            "version": "2.6"
+        },
+        "baseStats": {
+            "atk": 224,
+            "pwr": 0,
+            "def": 30,
+            "hp": 1813
+        },
+        "typeStats": {
+            "fluxCapacity": 5,
+            "surgeCapacity": 75,
+            "echoMemoryCapacity": 0,
+            "maxEnergy": 0
+        },
+        "subStat": {
+            "type": "CRIT DMG",
+            "value": 28.8
+        },
+        "talents": {
+            "coreTalent": {
+                "name": "Abstract of Calculation",
+                "desc": "When Quingxi is in the team, the opponent's Focuses are divided into 10 equal segments, where each segment is a Calculated Variable. When the opponent are focused, they take 36% increased Polymetric Coordination DMG."
+            },
+            "riftedTalent": {
+                "name": "Rifted Technology",
+                "desc": "Quingxi's Normal and Charged Attacks generate 1 Flux."
+            },
+            "others": [
+                {
+                    "name": "Intelligence Network",
+                    "desc": "Certain skills of Intelligence-Type characters can hijack the opponent, applying 1 stack of Hijacked, max 20 stacks.\nHijacked: Increases the Focus build-up rate of the affected opponent by 2%."
+                },
+                {
+                    "name": "Polymetric Coordination",
+                    "desc": "Quingxi can trigger Polymetric Coordination. When Sannie is in the team, Polymetric Coordination DMG is elevated by 3%."
+                }
+            ]
+        },
+        "abilities": {
+            "normalAttack": {
+                "name": "Calculated Analysis",
+                "desc": "Quingxi analyzes the target, dealing [$_1, 34] (+[$_2, 0.13]% Physical ATK) (+[$_3, 0.78]% Intelligence Unit) as Artificial DMG.\n\nWhenever a team member except Quingxi triggers Polymetric Coordination, Quingxi gains 1 Matrix Combo (max 3). If Matrix Combos are available, Quingxi instead casts the a Combo Skill, consuming 1 Matrix Combo per cast. Multiple Combo Skills may be cast within the same Turn.\n\nCombo 1 – Calculation Matrix: Deals 2 instances of Artificial DMG to the target, equal to [$_4, 44] (+[$_5, 0.29]% Physical ATK) (+[$_6, 0.97]% Intelligence Unit) and [$_7, 34] (+[$_8, 0.24]% Physical ATK) (+[$_9, 0.88]% Intelligence Unit) respectively.\n\nCombo 2 – Structural Analysis: Analyzes the target's structure, dealing 3 instances of [$_10, 43] (+[$_11, 0.21]% Physical ATK) (+[$_12, 0.87]% Intelligence Unit) as Artificial DMG.\n\nCombo 3 – Exponential Calculation: Deals [$_13, 0.05]% Intelligence Unit as Artificial DMG. This damage is calculated using a 3-layer Exponent Stack, where all Exponent starts at 1. The first Exponent is increased by [$_14, 0.1]% for each of the first 4 Completed Calculated Variables on the target. If the target is Focused, the second Exponent is also increased by [$_14, 0.1]%. If at least one Exponent is increased, this attack instead deals Polymetric Coordination DMG.",
+                "multipliers": [23, 0.081, 0.223, 34, 0.098, 0.309, 32, 0.091, 0.298, 31, 0.090, 0.297, 0.015, 0.1]
+            },
+            "chargedAttack": {
+                "name": "Matrix Evaluation",
+                "cost": 50,
+                "desc": "Quingxi calculates the Matrix Structure of 3 opponents. Calculating a 3x3 Structure Matrix containing 9 numbers from 0 to 9. Each number is generated randomly, where the number of Calculated Variables on selected opponent can increases the chance of getting a higher Matrix Number. Then, Quingxi deals [$_1, 64] (+[$_2, 0.11]% Physical ATK) (+[$_3, 0.42]% Intelligence Unit) multiplied by the sum of all numbers inside the Structure Matrix. The chance of getting higher Matrix Number is increased by [$_4, 0.06]%.",
+                "multipliers": [37, 0.076, 0.081, 0.06]
+            },
+            "normalSkill": {
+                "name": "Data Calculation",
+                "fluxCost": 1,
+                "memoryNodes": {},
+                "desc": "Tap: Quingxi consumes 1 Flux and quickly snaps all opponent's Data Structures, dealing [$_1, 140] (+[$_2, 0.48]% Physical ATK) (+[$_3, 1.12]% Intelligence Unit) as Artificial DMG. Upon casting this skill, there is a [$_4, 0.4]% chance for each opponent to increase their Calculated Variables by 1.\n\nHold: Quingxi consumes 3 Flux, to strategically calculates all opponents' Data Structure, increasing their Calculated Varibles by 2, and dealing [$_5, 152] (+[$_6, 0.52]% Physical ATK) (+[$_7, 1.33]% Intelligence Unit) as Artificial DMG.",
+                "multipliers": [111, 0.076, 0.081, 0.05, 121, 0.081, 0.088]
+            },
+            "riftedSkill": {
+                "name": "Structure Disassembling",
+                "surgeCost": 75,
+                "energyCost": 0,
+                "desc": "Quingxi disassembles the selected opponent's Data Structure by slicing Data Modules 3 times, each dealing [$_1, 108] (+[$_2, 0.34]% Physical ATK) (+[$_3, 0.86]% Intelligence Unit) as Artificial DMG, and initiate the detonation, dealing [$_4, 281] (+[$_5, 0.63]% Physical ATK) (+[$_6, 2.01]% Intelligence Unit) as Artificial DMG.",
+                "multipliers": [104, 0.081, 0.129, 187, 0.082, 0.133]
+            }
+        },
+        "fragments": [
+            {
+                "name": "Completion Matrix",
+                "desc": "For each Calculated Variable on the opponent, it takes 4% increased DMG from Quingxi. When focused, it takes 40% max increased DMG from Quingxi."
+            },
+            {
+                "name": "Calculated Assembly",
+                "desc": "\"Matrix Evaluation\" cost 10 Charge less. When focused onto an opponent, \"Matrix Evaluation\"'s Matrix is always evaluated at the highest numbers."
+            },
+            {
+                "name": "Professor's Faith",
+                "desc": "\"Calculated Analysis\" and \"Matrix Evaluation\" level is increased by 3."
+            },
+            {
+                "name": "Dominance of Coordination",
+                "desc": "When a team member triggers Polymetric Coordination, the affected opponent's Matrix Structure will be exposed. When Quingxi casts \"Matrix Evaluation\" to the opponent with exposed Matrix Structure, the DMG will be considered Polymetric Coordination DMG."
+            },
+            {
+                "name": "Present of Data",
+                "desc": "\"Data Calculation\" level is increased by 3."
+            },
+            {
+                "name": "Past of Data",
+                "desc": "When the opponent is focused by Calculated Variables, each Calculated Variable existed deals 200% Intelligence Unit as Artificial DMG to the focused opponent."
+            }
+        ],
+        "log": [
+            {
+                "version": "2.2 [Unknown]",
                 "description": "Unreleased"
             }
         ]

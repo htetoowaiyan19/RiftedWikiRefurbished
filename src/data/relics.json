@@ -424,7 +424,7 @@
         "passive": {
             "name": "Malfunction",
             "type": "",
-            "desc": "Every 4 Cycles, releases an Energy Shockwave that deals [$_1]% of the equipping character's Physical ATK as AoE Physical DMG.",
+            "desc": "Every 2 Cycles, releases an Energy Shockwave that deals [$_1]% of the equipping character's Physical ATK as AoE Physical DMG.",
             "forge": [
                 [
                     100,
@@ -453,7 +453,7 @@
         "stats": {
             "mainStat": {
                 "type": "Magic PWR",
-                "value": 29
+                "value": 28
             },
             "subStat": {
                 "type": "Energy Regen",
@@ -463,7 +463,7 @@
         "passive": {
             "name": "Nothern Secrets",
             "type": "",
-            "desc": "For every 1% of the elite opponents or boss opponents' HP reduced by team members, heals all team members by [$_1]% of that portion of the opponent's HP.",
+            "desc": "For every 1% of the opponent HP reduced by team members, heals all team members by [$_1]% of that portion of the opponent's HP. This effect can occour only once every Cycle.",
             "forge": [
                 [
                     30,
@@ -687,7 +687,7 @@
         "stats": {
             "mainStat": {
                 "type": "Magic PWR",
-                "value": 28
+                "value": 24
             },
             "subStat": {
                 "type": "HP",
