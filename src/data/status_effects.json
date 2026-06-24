@@ -41,5 +41,11 @@
         "id": 1050007,
         "icon": "hunter_hunting.svg",
         "desc": "After a nearby team member deals DMG to an opponent, there is a chance for Hunter to summon a hologram to strike a random opponent on the field, dealing Follow-Up Physical DMG."
+    },
+    {
+        "name": "Sentinel Blessing",
+        "id": 1050008,
+        "icon": "sentinel_blessing.svg",
+        "desc": "Increases Physical ATK by [$_1]%"
     }
 ]
