@@ -612,14 +612,14 @@
                 "value": 28
             },
             "subStat": {
-                "type": "Knowledge Unit",
-                "value": 21
+                "type": "SPD",
+                "value": 11
             }
         },
         "passive": {
             "name": "Formiddable Foe",
             "type": "",
-            "desc": "After causing Spread reaction, Physical ATK is increased by [$_1]% for 2 Cycles.",
+            "desc": "After causing Spread reaction, Physical ATK is increased by [$_1]% for 2 Cycles. Effects of the same type cannot be stacked.",
             "forge": [
                 [
                     20,

@@ -34,7 +34,7 @@ const RelicDetail = () => {
 
     const subStatValue =
       relic.stats.subStat.value > 0
-        ? relic.stats.subStat.type === "Intelligence Unit" || relic.stats.subStat.type === "Knowledge Unit"
+        ? relic.stats.subStat.type === "Intelligence Unit" || relic.stats.subStat.type === "Knowledge Unit" || relic.stats.subStat.type === "SPD"
           ? Math.round(relic.stats.subStat.value * (1 + RELIC_STAT_SCALE.sub * (level - 1)))
           : `${(relic.stats.subStat.value * (1 + RELIC_STAT_SCALE.sub * (level - 1))).toFixed(2)}%`
         : 0;
