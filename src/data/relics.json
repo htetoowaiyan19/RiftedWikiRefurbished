@@ -755,6 +755,481 @@
         ]
     },
     {
+        "name": "Azure Claymore",
+        "id": 22,
+        "baseData": {
+            "rarity": 4,
+            "relicType": "Power",
+            "version": "1.0Beta"
+        },
+        "stats": {
+            "mainStat": {
+                "type": "Physical ATK",
+                "value": 38
+            },
+            "subStat": {
+                "type": "Physical ATK",
+                "value": 5.2
+            }
+        },
+        "passive": {
+            "name": "Endurance",
+            "type": "",
+            "desc": "Charged Attack consumes [$_1]% less Charge. When the equipping character casts Charged Attack, gains Endurance for 4 Turns. Endurance: The equipping character gains [$_2]% Heavy DMG Bonus. Endurance can be obtained once every 8 Turns.",
+            "forge": [
+                [
+                    4,
+                    8,
+                    12,
+                    16,
+                    20
+                ],
+                [
+                    24,
+                    28,
+                    32,
+                    36,
+                    40
+                ]
+            ]
+        },
+        "log": [
+            {
+                "version": "1.0Beta [Unknown]",
+                "description": "Unreleased"
+            }
+        ]
+    },
+    {
+        "name": "Azure Heavyblade",
+        "id": 23,
+        "baseData": {
+            "rarity": 4,
+            "relicType": "Melee",
+            "version": "1.0Beta"
+        },
+        "stats": {
+            "mainStat": {
+                "type": "Magic PWR",
+                "value": 36
+            },
+            "subStat": {
+                "type": "Energy Regen",
+                "value": 3.4
+            }
+        },
+        "passive": {
+            "name": "Azure Energy",
+            "type": "",
+            "desc": "After the equipping Character triggers Shattered, gains [$_1] Surges or Energy. This effect can trigger once every 4 Turns.",
+            "forge": [
+                [
+                    10,
+                    12,
+                    14,
+                    16,
+                    18
+                ]
+            ]
+        },
+        "log": [
+            {
+                "version": "1.0Beta [Unknown]",
+                "description": "Unreleased"
+            }
+        ]
+    },
+    {
+        "name": "Calamity of Sectors",
+        "id": 24,
+        "baseData": {
+            "rarity": 4,
+            "relicType": "Melee",
+            "version": "1.0Beta"
+        },
+        "stats": {
+            "mainStat": {
+                "type": "Physical ATK",
+                "value": 38
+            },
+            "subStat": {
+                "type": "Physical ATK",
+                "value": 5.2
+            }
+        },
+        "passive": {
+            "name": "Sectored Memories",
+            "type": "",
+            "desc": "The equipping character's Normal Skill and Rifted Skill DMG is increased by [$_1]%.",
+            "forge": [
+                [
+                    16,
+                    24,
+                    32,
+                    40,
+                    48
+                ]
+            ]
+        },
+        "log": [
+            {
+                "version": "1.0Beta [Unknown]",
+                "description": "Unreleased"
+            }
+        ]
+    },
+    {
+        "name": "Royale Polearm",
+        "id": 26,
+        "baseData": {
+            "rarity": 4,
+            "relicType": "Agile",
+            "version": "1.0Beta"
+        },
+        "stats": {
+            "mainStat": {
+                "type": "Physical ATK",
+                "value": 34
+            },
+            "subStat": {
+                "type": "Energy Regen",
+                "value": 4.4
+            }
+        },
+        "passive": {
+            "name": "Royality",
+            "type": "Royality",
+            "desc": "When the active character triggers a critical hit, the equipping character gains [$_1] Surges or Energy. This effect can trigger once every Cycle.",
+            "forge": [
+                [
+                    8,
+                    10,
+                    12,
+                    14,
+                    16
+                ]
+            ]
+        },
+        "log": [
+            {
+                "version": "1.0Beta [Unknown]",
+                "description": "Unreleased"
+            }
+        ]
+    },
+    {
+        "name": "Royale Lance",
+        "id": 27,
+        "baseData": {
+            "rarity": 4,
+            "relicType": "Melee",
+            "version": "1.0Beta"
+        },
+        "stats": {
+            "mainStat": {
+                "type": "Physical ATK",
+                "value": 34
+            },
+            "subStat": {
+                "type": "Energy Regen",
+                "value": 4.4
+            }
+        },
+        "passive": {
+            "name": "Royality",
+            "type": "Royality",
+            "desc": "When the active character triggers a critical hit, the equipping character gains [$_1] Surges or Energy. This effect can trigger once every Cycle.",
+            "forge": [
+                [
+                    8,
+                    10,
+                    12,
+                    14,
+                    16
+                ]
+            ]
+        },
+        "log": [
+            {
+                "version": "1.0Beta [Unknown]",
+                "description": "Unreleased"
+            }
+        ]
+    },
+    {
+        "name": "Royale Amulet",
+        "id": 28,
+        "baseData": {
+            "rarity": 4,
+            "relicType": "Power",
+            "version": "1.0Beta"
+        },
+        "stats": {
+            "mainStat": {
+                "type": "Magic PWR",
+                "value": 34
+            },
+            "subStat": {
+                "type": "Energy Regen",
+                "value": 4.4
+            }
+        },
+        "passive": {
+            "name": "Royality",
+            "type": "Royality",
+            "desc": "When the active character triggers a critical hit, the equipping character gains [$_1] Surges or Energy. This effect can trigger once every Cycle.",
+            "forge": [
+                [
+                    8,
+                    10,
+                    12,
+                    14,
+                    16
+                ]
+            ]
+        },
+        "log": [
+            {
+                "version": "1.0Beta [Unknown]",
+                "description": "Unreleased"
+            }
+        ]
+    },
+    {
+        "name": "Royale Tome",
+        "id": 29,
+        "baseData": {
+            "rarity": 4,
+            "relicType": "Magical",
+            "version": "1.0Beta"
+        },
+        "stats": {
+            "mainStat": {
+                "type": "Magic PWR",
+                "value": 34
+            },
+            "subStat": {
+                "type": "Energy Regen",
+                "value": 4.4
+            }
+        },
+        "passive": {
+            "name": "Royality",
+            "type": "Royality",
+            "desc": "When the active character triggers a critical hit, the equipping character gains [$_1] Surges or Energy. This effect can trigger once every Cycle.",
+            "forge": [
+                [
+                    8,
+                    10,
+                    12,
+                    14,
+                    16
+                ]
+            ]
+        },
+        "log": [
+            {
+                "version": "1.0Beta [Unknown]",
+                "description": "Unreleased"
+            }
+        ]
+    },
+    {
+        "name": "Lunar Revolution",
+        "id": 30,
+        "baseData": {
+            "rarity": 4,
+            "relicType": "Projectile",
+            "version": "1.0Beta"
+        },
+        "stats": {
+            "mainStat": {
+                "type": "Physical ATK",
+                "value": 36
+            },
+            "subStat": {
+                "type": "SPD",
+                "value": 14
+            }
+        },
+        "passive": {
+            "name": "Moonlit Clouds",
+            "type": "Moonlit Clouds",
+            "desc": "When the equipping character casts Normal Skill, there is a [$_1]% chance to recover Flux or Echo Memory used. This effect can trigger once every 3 Cycles.",
+            "forge": [
+                [
+                    30,
+                    40,
+                    50,
+                    60,
+                    70
+                ]
+            ]
+        },
+        "log": [
+            {
+                "version": "1.0Beta [Unknown]",
+                "description": "Unreleased"
+            }
+        ]
+    },
+    {
+        "name": "Lunar Edgeblade",
+        "id": 31,
+        "baseData": {
+            "rarity": 4,
+            "relicType": "Agile",
+            "version": "1.0Beta"
+        },
+        "stats": {
+            "mainStat": {
+                "type": "Physical ATK",
+                "value": 36
+            },
+            "subStat": {
+                "type": "SPD",
+                "value": 14
+            }
+        },
+        "passive": {
+            "name": "Moonlit Clouds",
+            "type": "Moonlit Clouds",
+            "desc": "When the equipping character casts Normal Skill, there is a [$_1]% chance to recover Flux or Echo Memory used. This effect can trigger once every 3 Cycles.",
+            "forge": [
+                [
+                    30,
+                    40,
+                    50,
+                    60,
+                    70
+                ]
+            ]
+        },
+        "log": [
+            {
+                "version": "1.0Beta [Unknown]",
+                "description": "Unreleased"
+            }
+        ]
+    },
+    {
+        "name": "Lunar Swiftblade",
+        "id": 32,
+        "baseData": {
+            "rarity": 4,
+            "relicType": "Melee",
+            "version": "1.0Beta"
+        },
+        "stats": {
+            "mainStat": {
+                "type": "Magic PWR",
+                "value": 36
+            },
+            "subStat": {
+                "type": "SPD",
+                "value": 14
+            }
+        },
+        "passive": {
+            "name": "Moonlit Clouds",
+            "type": "Moonlit Clouds",
+            "desc": "When the equipping character casts Normal Skill, there is a [$_1]% chance to recover Flux or Echo Memory used. This effect can trigger once every 3 Cycles.",
+            "forge": [
+                [
+                    30,
+                    40,
+                    50,
+                    60,
+                    70
+                ]
+            ]
+        },
+        "log": [
+            {
+                "version": "1.0Beta [Unknown]",
+                "description": "Unreleased"
+            }
+        ]
+    },
+    {
+        "name": "Lunar Fragments",
+        "id": 33,
+        "baseData": {
+            "rarity": 4,
+            "relicType": "Power",
+            "version": "1.0Beta"
+        },
+        "stats": {
+            "mainStat": {
+                "type": "Physical ATK",
+                "value": 36
+            },
+            "subStat": {
+                "type": "SPD",
+                "value": 14
+            }
+        },
+        "passive": {
+            "name": "Moonlit Clouds",
+            "type": "Moonlit Clouds",
+            "desc": "When the equipping character casts Normal Skill, there is a [$_1]% chance to recover Flux or Echo Memory used. This effect can trigger once every 3 Cycles.",
+            "forge": [
+                [
+                    30,
+                    40,
+                    50,
+                    60,
+                    70
+                ]
+            ]
+        },
+        "log": [
+            {
+                "version": "1.0Beta [Unknown]",
+                "description": "Unreleased"
+            }
+        ]
+    },
+    {
+        "name": "Lunar Ambients",
+        "id": 34,
+        "baseData": {
+            "rarity": 4,
+            "relicType": "Magical",
+            "version": "1.0Beta"
+        },
+        "stats": {
+            "mainStat": {
+                "type": "Magic PWR",
+                "value": 36
+            },
+            "subStat": {
+                "type": "SPD",
+                "value": 14
+            }
+        },
+        "passive": {
+            "name": "Moonlit Clouds",
+            "type": "Moonlit Clouds",
+            "desc": "When the equipping character casts Normal Skill, there is a [$_1]% chance to recover Flux or Echo Memory used. This effect can trigger once every 3 Cycles.",
+            "forge": [
+                [
+                    30,
+                    40,
+                    50,
+                    60,
+                    70
+                ]
+            ]
+        },
+        "log": [
+            {
+                "version": "1.0Beta [Unknown]",
+                "description": "Unreleased"
+            }
+        ]
+    },
+    {
         "name": "Radiant Spear",
         "id": 1020009,
         "baseData": {
